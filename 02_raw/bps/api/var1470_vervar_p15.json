@@ -1,0 +1,85 @@
+{
+    "status": "OK",
+    "data-availability": "available",
+    "data": [
+        {
+            "page": 15,
+            "pages": 25,
+            "per_page": 10,
+            "count": 10,
+            "total": 248
+        },
+        [
+            {
+                "kode_ver_id": 141,
+                "vervar": "Guiana",
+                "item_ver_id": 5765,
+                "group_ver_id": 377,
+                "name_group_ver_id": "Paspor yang dipegang"
+            },
+            {
+                "kode_ver_id": 142,
+                "vervar": "Other America",
+                "item_ver_id": 5773,
+                "group_ver_id": 377,
+                "name_group_ver_id": "Paspor yang dipegang"
+            },
+            {
+                "kode_ver_id": 143,
+                "vervar": "UNO",
+                "item_ver_id": 5793,
+                "group_ver_id": 377,
+                "name_group_ver_id": "Paspor yang dipegang"
+            },
+            {
+                "kode_ver_id": 144,
+                "vervar": "Kuba",
+                "item_ver_id": 5784,
+                "group_ver_id": 377,
+                "name_group_ver_id": "Paspor yang dipegang"
+            },
+            {
+                "kode_ver_id": 145,
+                "vervar": "Dominika",
+                "item_ver_id": 5933,
+                "group_ver_id": 377,
+                "name_group_ver_id": "Paspor yang dipegang"
+            },
+            {
+                "kode_ver_id": 146,
+                "vervar": "Trinidad &amp; Tobago",
+                "item_ver_id": 5792,
+                "group_ver_id": 377,
+                "name_group_ver_id": "Paspor yang dipegang"
+            },
+            {
+                "kode_ver_id": 147,
+                "vervar": "St. Kitts &amp; Nevis",
+                "item_ver_id": 5789,
+                "group_ver_id": 377,
+                "name_group_ver_id": "Paspor yang dipegang"
+            },
+            {
+                "kode_ver_id": 148,
+                "vervar": "Jamaika",
+                "item_ver_id": 5783,
+                "group_ver_id": 377,
+                "name_group_ver_id": "Paspor yang dipegang"
+            },
+            {
+                "kode_ver_id": 149,
+                "vervar": "Barbados",
+                "item_ver_id": 5776,
+                "group_ver_id": 377,
+                "name_group_ver_id": "Paspor yang dipegang"
+            },
+            {
+                "kode_ver_id": 150,
+                "vervar": "Grenadines (Grenada)",
+                "item_ver_id": 5780,
+                "group_ver_id": 377,
+                "name_group_ver_id": "Paspor yang dipegang"
+            }
+        ]
+    ]
+}

@@ -1,0 +1,4 @@
+file,url,retrieved_at_utc,sha256,http_status,rows
+dsd_DF_TIS_references_all.xml,https://sdmx.oecd.org/public/rest/dataflow/OECD.SDD.TPS/DSD_BOP@DF_TIS/1.0?references=all,2026-10-15T15:06:40Z,30ec0d4ce6fc944da36c17247cc57d19bd31e461afdb77af6c40e32c573ccecb,200,
+tis_idn_annual_and_quarterly_request.csv,"https://sdmx.oecd.org/public/rest/data/OECD.SDD.TPS,DSD_BOP@DF_TIS,1.0/.IDN.SD+SDA+SDB+SDB1+SDB2+SDB3...A+Q..?startPeriod=2005&format=csvfilewithlabels",2026-10-15T15:06:42Z,aca64fc2b971b9e4e95dad2fd9e42017288967176e180385087ca3f6c76520c7,200,13639
+tis_idn_quarterly_probe.csv.http404.txt,"https://sdmx.oecd.org/public/rest/data/OECD.SDD.TPS,DSD_BOP@DF_TIS,1.0/.IDN.SD+SDA+SDB+SDB1+SDB2+SDB3...Q..?startPeriod=2005&format=csvfilewithlabels",2026-10-15T15:06:43Z,23714ac852cb0afe23052aac153af6c68819c67559d3163f4f7a44511144031e,404,0

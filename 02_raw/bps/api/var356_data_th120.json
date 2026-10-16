@@ -1,0 +1,231 @@
+{
+    "status": "OK",
+    "data-availability": "available",
+    "last_update": "2026-05-25 12:47:11",
+    "subject": [
+        {
+            "val": 561,
+            "label": "Pariwisata"
+        }
+    ],
+    "var": [
+        {
+            "val": 356,
+            "label": "Rata-Rata Lama Tinggal Wisatawan Mancanegara Menurut Kebangsaan",
+            "unit": "Hari",
+            "subj": "Pariwisata",
+            "def": "",
+            "decimal": 2,
+            "note": "Sumber:  Direktorat Jenderal Imigrasi, Kementerian Imigrasi dan Pemasyarakatan, dan Mobile Positioning Data (MPD)"
+        }
+    ],
+    "turvar": [
+        {
+            "val": "0",
+            "label": "Tidak ada"
+        }
+    ],
+    "labelvervar": "Negara Tempat Tinggal",
+    "vervar": [
+        {
+            "val": 1,
+            "label": "Brunei Darussalam"
+        },
+        {
+            "val": 2,
+            "label": "Malaysia"
+        },
+        {
+            "val": 3,
+            "label": "Filipina"
+        },
+        {
+            "val": 4,
+            "label": "Singapura"
+        },
+        {
+            "val": 5,
+            "label": "Thailand"
+        },
+        {
+            "val": 7,
+            "label": "India"
+        },
+        {
+            "val": 8,
+            "label": "Jepang"
+        },
+        {
+            "val": 9,
+            "label": "Korea Selatan"
+        },
+        {
+            "val": 10,
+            "label": "Pakistan"
+        },
+        {
+            "val": 11,
+            "label": "Bangladesh"
+        },
+        {
+            "val": 12,
+            "label": "Srilanka"
+        },
+        {
+            "val": 14,
+            "label": "Republik Rakyat Tiongkok"
+        },
+        {
+            "val": 15,
+            "label": "Arab Saudi"
+        },
+        {
+            "val": 16,
+            "label": "Austria"
+        },
+        {
+            "val": 17,
+            "label": "Belgia"
+        },
+        {
+            "val": 18,
+            "label": "Denmark"
+        },
+        {
+            "val": 19,
+            "label": "Perancis"
+        },
+        {
+            "val": 20,
+            "label": "Jerman"
+        },
+        {
+            "val": 21,
+            "label": "Italia"
+        },
+        {
+            "val": 22,
+            "label": "Belanda"
+        },
+        {
+            "val": 23,
+            "label": "Spanyol"
+        },
+        {
+            "val": 24,
+            "label": "Portugal "
+        },
+        {
+            "val": 25,
+            "label": "Swedia"
+        },
+        {
+            "val": 26,
+            "label": "Swiss"
+        },
+        {
+            "val": 27,
+            "label": "Inggris"
+        },
+        {
+            "val": 28,
+            "label": "Finlandia"
+        },
+        {
+            "val": 29,
+            "label": "Norwegia"
+        },
+        {
+            "val": 31,
+            "label": "Rusia"
+        },
+        {
+            "val": 32,
+            "label": "Amerika Serikat"
+        },
+        {
+            "val": 33,
+            "label": "Kanada"
+        },
+        {
+            "val": 34,
+            "label": "Amerika Tengah"
+        },
+        {
+            "val": 35,
+            "label": "Amerika Selatan"
+        },
+        {
+            "val": 36,
+            "label": "Australia"
+        },
+        {
+            "val": 37,
+            "label": "Selandia Baru"
+        },
+        {
+            "val": 38,
+            "label": "Mesir"
+        },
+        {
+            "val": 39,
+            "label": "Negara lainnya"
+        },
+        {
+            "val": 40,
+            "label": "Rata- Rata"
+        }
+    ],
+    "tahun": [
+        {
+            "val": 120,
+            "label": "2020"
+        }
+    ],
+    "turtahun": [
+        {
+            "val": 0,
+            "label": "Tahun"
+        }
+    ],
+    "datacontent": {
+        "3935601200": 4.4,
+        "3435601200": 13.17,
+        "2235601200": 14.96,
+        "3335601200": 17.05,
+        "2735601200": 14.17,
+        "2935601200": 15.76,
+        "3535601200": 17.23,
+        "3735601200": 11.21,
+        "2635601200": 21.33,
+        "3235601200": 12.49,
+        "335601200": 8.62,
+        "835601200": 10.49,
+        "935601200": 16.72,
+        "1035601200": 28.4,
+        "535601200": 13.3,
+        "2035601200": 20,
+        "1535601200": 14.12,
+        "1935601200": 20.05,
+        "3635601200": 10.03,
+        "2435601200": 10.41,
+        "1135601200": 7.75,
+        "2335601200": 20.19,
+        "3835601200": 19.04,
+        "135601200": 8.05,
+        "2535601200": 15.32,
+        "4035601200": 7.79,
+        "1635601200": 18.05,
+        "235601200": 2.96,
+        "735601200": 9.98,
+        "435601200": 3.82,
+        "3135601200": 24.89,
+        "1235601200": 14.47,
+        "1435601200": 27.03,
+        "1735601200": 20.24,
+        "1835601200": 16.31,
+        "2135601200": 21.33,
+        "2835601200": 17.42
+    },
+    "related": []
+}

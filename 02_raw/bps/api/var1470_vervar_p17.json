@@ -1,0 +1,85 @@
+{
+    "status": "OK",
+    "data-availability": "available",
+    "data": [
+        {
+            "page": 17,
+            "pages": 25,
+            "per_page": 10,
+            "count": 10,
+            "total": 248
+        },
+        [
+            {
+                "kode_ver_id": 161,
+                "vervar": "St. Christopher",
+                "item_ver_id": 5788,
+                "group_ver_id": 377,
+                "name_group_ver_id": "Paspor yang dipegang"
+            },
+            {
+                "kode_ver_id": 162,
+                "vervar": "Guadelope",
+                "item_ver_id": 5781,
+                "group_ver_id": 377,
+                "name_group_ver_id": "Paspor yang dipegang"
+            },
+            {
+                "kode_ver_id": 163,
+                "vervar": "TOTAL AMERICA",
+                "item_ver_id": 5794,
+                "group_ver_id": 377,
+                "name_group_ver_id": "Paspor yang dipegang"
+            },
+            {
+                "kode_ver_id": 164,
+                "vervar": "Australia",
+                "item_ver_id": 5795,
+                "group_ver_id": 377,
+                "name_group_ver_id": "Paspor yang dipegang"
+            },
+            {
+                "kode_ver_id": 165,
+                "vervar": "Papua New Guinea",
+                "item_ver_id": 5807,
+                "group_ver_id": 377,
+                "name_group_ver_id": "Paspor yang dipegang"
+            },
+            {
+                "kode_ver_id": 166,
+                "vervar": "New Zealand",
+                "item_ver_id": 5796,
+                "group_ver_id": 377,
+                "name_group_ver_id": "Paspor yang dipegang"
+            },
+            {
+                "kode_ver_id": 167,
+                "vervar": "Other Oceania",
+                "item_ver_id": 5797,
+                "group_ver_id": 377,
+                "name_group_ver_id": "Paspor yang dipegang"
+            },
+            {
+                "kode_ver_id": 168,
+                "vervar": "Fiji Islands",
+                "item_ver_id": 5799,
+                "group_ver_id": 377,
+                "name_group_ver_id": "Paspor yang dipegang"
+            },
+            {
+                "kode_ver_id": 169,
+                "vervar": "Vanuatu",
+                "item_ver_id": 5813,
+                "group_ver_id": 377,
+                "name_group_ver_id": "Paspor yang dipegang"
+            },
+            {
+                "kode_ver_id": 170,
+                "vervar": "Tonga",
+                "item_ver_id": 5811,
+                "group_ver_id": 377,
+                "name_group_ver_id": "Paspor yang dipegang"
+            }
+        ]
+    ]
+}

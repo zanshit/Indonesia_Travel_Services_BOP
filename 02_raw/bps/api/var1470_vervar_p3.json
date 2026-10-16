@@ -1,0 +1,85 @@
+{
+    "status": "OK",
+    "data-availability": "available",
+    "data": [
+        {
+            "page": 3,
+            "pages": 25,
+            "per_page": 10,
+            "count": 10,
+            "total": 248
+        },
+        [
+            {
+                "kode_ver_id": 21,
+                "vervar": "Pakistan",
+                "item_ver_id": 5650,
+                "group_ver_id": 377,
+                "name_group_ver_id": "Paspor yang dipegang"
+            },
+            {
+                "kode_ver_id": 22,
+                "vervar": "Uzbekistan",
+                "item_ver_id": 5671,
+                "group_ver_id": 377,
+                "name_group_ver_id": "Paspor yang dipegang"
+            },
+            {
+                "kode_ver_id": 23,
+                "vervar": "Bangladesh",
+                "item_ver_id": 5651,
+                "group_ver_id": 377,
+                "name_group_ver_id": "Paspor yang dipegang"
+            },
+            {
+                "kode_ver_id": 24,
+                "vervar": "Nepal",
+                "item_ver_id": 5664,
+                "group_ver_id": 377,
+                "name_group_ver_id": "Paspor yang dipegang"
+            },
+            {
+                "kode_ver_id": 25,
+                "vervar": "Taiwan",
+                "item_ver_id": 11319,
+                "group_ver_id": 377,
+                "name_group_ver_id": "Paspor yang dipegang"
+            },
+            {
+                "kode_ver_id": 26,
+                "vervar": "Srilanka",
+                "item_ver_id": 5652,
+                "group_ver_id": 377,
+                "name_group_ver_id": "Paspor yang dipegang"
+            },
+            {
+                "kode_ver_id": 27,
+                "vervar": "Other Asia",
+                "item_ver_id": 5655,
+                "group_ver_id": 377,
+                "name_group_ver_id": "Paspor yang dipegang"
+            },
+            {
+                "kode_ver_id": 28,
+                "vervar": "Maladewa",
+                "item_ver_id": 5663,
+                "group_ver_id": 377,
+                "name_group_ver_id": "Paspor yang dipegang"
+            },
+            {
+                "kode_ver_id": 29,
+                "vervar": "Kirgistan",
+                "item_ver_id": 5659,
+                "group_ver_id": 377,
+                "name_group_ver_id": "Paspor yang dipegang"
+            },
+            {
+                "kode_ver_id": 30,
+                "vervar": "Tajikhistan",
+                "item_ver_id": 5666,
+                "group_ver_id": 377,
+                "name_group_ver_id": "Paspor yang dipegang"
+            }
+        ]
+    ]
+}

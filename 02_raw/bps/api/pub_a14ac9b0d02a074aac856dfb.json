@@ -1,0 +1,33 @@
+{
+    "status": "OK",
+    "request": {
+        "domain": "http:\/\/www.archive.bps.go.id",
+        "model": "publication",
+        "lang": "ind",
+        "id": "a14ac9b0d02a074aac856dfb",
+        "time_access": "2026-10-15 22:11:14"
+    },
+    "data-availability": "available",
+    "data": {
+        "pub_id": "a14ac9b0d02a074aac856dfb",
+        "title": "Statistik Wisatawan Nasional 2023",
+        "id_subject_csa": [
+            561
+        ],
+        "subject_csa": null,
+        "kat_no": "8401021",
+        "pub_no": "06300.24006",
+        "issn": "-",
+        "abstract": "Publikasi ini memuat hasil pendataan penduduk Indonesia yang melakukan perjalanan ke luar negeri (wisatawan nasional), meliputi jumlah perjalanan, karakteristik perjalanan, karakteristik sosial ekonomi, dan karakteristik pengeluaran.<br>",
+        "sch_date": null,
+        "rl_date": "2024-06-18",
+        "updt_date": null,
+        "periode": "Tahunan",
+        "bahasa": "Indonesia dan Inggris",
+        "revisi": 0,
+        "cover": "https:\/\/webapi.bps.go.id\/cover.php?f=llB9AczIaHfJotwJYeETR3BOS0hEVFdFQWxhNHVuZDAzWGE5VHp3VzB5S2tiYllMU1dzT3NsSU9yNjZMbVN6c2NZQ0FpRVJSMUY4a1A4NkdPT21zU0hQd0VYS2xzMVRGVUV6NGVhbUpnU0I5V2N4K2RkZmJldlVIZ1NleDVwWjNGZjY3QWRGdm1CUXhjNnhn",
+        "pdf": "https:\/\/webapi.bps.go.id\/download.php?f=6c6jqT8VpikTIqW1XX3UqXVIbGJrTVY4aFhKYTNMb2R1cmNYQ2h5TUhZL2pnbUx3TnBQMU9pNlIvY285TlNYdlJucTVUaUE4Nk84YVRvd3EwaGdLeExSRm8zT21JN3JKZkwweFM3UG01UzlmNVl2b1BoOVJHbWR1TWZVejh2WjVEaVJsRzRRbEdjRHFLcXE4cGVuRzR6NXNwTkIybmhLa1grek45WTk4OEpzSUpSZHNoVGx6cUdqOGhjcmx1M1p5b0ViN0VVL2RDOWRDeVo0dW5QOUVGalBIdVI4Smt0WVV0cHhTNlE0a1NxMFpUY0ViZmR5TXpHeW5oL1JIQWpZaG9FeE81RUphSXY4RUVzc0w=",
+        "size": "8.84 MB",
+        "related": []
+    }
+}

@@ -1,0 +1,85 @@
+{
+    "status": "OK",
+    "data-availability": "available",
+    "data": [
+        {
+            "page": 9,
+            "pages": 25,
+            "per_page": 10,
+            "count": 10,
+            "total": 248
+        },
+        [
+            {
+                "kode_ver_id": 81,
+                "vervar": "Estonia",
+                "item_ver_id": 5731,
+                "group_ver_id": 377,
+                "name_group_ver_id": "Paspor yang dipegang"
+            },
+            {
+                "kode_ver_id": 82,
+                "vervar": "Bulgaria",
+                "item_ver_id": 5726,
+                "group_ver_id": 377,
+                "name_group_ver_id": "Paspor yang dipegang"
+            },
+            {
+                "kode_ver_id": 83,
+                "vervar": "Yunani (Greece)",
+                "item_ver_id": 5746,
+                "group_ver_id": 377,
+                "name_group_ver_id": "Paspor yang dipegang"
+            },
+            {
+                "kode_ver_id": 84,
+                "vervar": "Latvia",
+                "item_ver_id": 5734,
+                "group_ver_id": 377,
+                "name_group_ver_id": "Paspor yang dipegang"
+            },
+            {
+                "kode_ver_id": 85,
+                "vervar": "Croasia",
+                "item_ver_id": 5728,
+                "group_ver_id": 377,
+                "name_group_ver_id": "Paspor yang dipegang"
+            },
+            {
+                "kode_ver_id": 86,
+                "vervar": "Other West Europe",
+                "item_ver_id": 5705,
+                "group_ver_id": 377,
+                "name_group_ver_id": "Paspor yang dipegang"
+            },
+            {
+                "kode_ver_id": 87,
+                "vervar": "Iceland (Islandia)",
+                "item_ver_id": 5708,
+                "group_ver_id": 377,
+                "name_group_ver_id": "Paspor yang dipegang"
+            },
+            {
+                "kode_ver_id": 88,
+                "vervar": "Malta",
+                "item_ver_id": 5712,
+                "group_ver_id": 377,
+                "name_group_ver_id": "Paspor yang dipegang"
+            },
+            {
+                "kode_ver_id": 89,
+                "vervar": "Luxemburg",
+                "item_ver_id": 5711,
+                "group_ver_id": 377,
+                "name_group_ver_id": "Paspor yang dipegang"
+            },
+            {
+                "kode_ver_id": 90,
+                "vervar": "Liechtenstein",
+                "item_ver_id": 5710,
+                "group_ver_id": 377,
+                "name_group_ver_id": "Paspor yang dipegang"
+            }
+        ]
+    ]
+}

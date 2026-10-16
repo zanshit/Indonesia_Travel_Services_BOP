@@ -1,0 +1,33 @@
+{
+    "status": "OK",
+    "request": {
+        "domain": "http:\/\/www.archive.bps.go.id",
+        "model": "publication",
+        "lang": "ind",
+        "id": "84829679c5aea6f0d85c61f5",
+        "time_access": "2026-10-15 22:10:49"
+    },
+    "data-availability": "available",
+    "data": {
+        "pub_id": "84829679c5aea6f0d85c61f5",
+        "title": "Statistik Kunjungan Wisatawan Mancanegara 2011",
+        "id_subject_csa": [
+            561
+        ],
+        "subject_csa": null,
+        "kat_no": "8401011",
+        "pub_no": "06330.1201",
+        "issn": "2085-9309",
+        "abstract": "Data yang disajikan dalam publikasi ini mencakup jumlah kunjungan wisatawan mancanegara, pangsa pasar utama, pola kunjungan, moda angkutan, dan karakteristik demografi. Publikasi ini juga menyajikan data mengenai rata-rata pengeluaran dan lama tinggal wisatawan mancanegara selama di Indonesia yang diperoleh dari Passenger Exit Survey, yang diselenggarakan oleh Kementerian Pariwisata dan Ekonomi Kreatif.",
+        "sch_date": "2012-07-30",
+        "rl_date": "2012-07-30",
+        "updt_date": null,
+        "periode": "Tahunan",
+        "bahasa": "Indonesia",
+        "revisi": 0,
+        "cover": "https:\/\/webapi.bps.go.id\/cover.php?f=xvWGlZpLBuoEUp0bsEuukWV4T0dhQ1VaNlJ3dlZraW9IYnJXM0ZBV1dST2QzR2RJb0lFUVJDOFRLbUJDdEYxVW4zK1VkUXpZV2krRE5Xa2FDbGVqdDFnMXVqd0o5RnB5eXBuSWRvSisxTWNhWndmaWlSTjMzSnlxTjNDajg5a29uR1IrQmlzeUFQSG9Lcmho",
+        "pdf": "https:\/\/webapi.bps.go.id\/download.php?f=+AiEovRtpKkM4T+Te+H2v3YwOFpsVGZaSStkNzdLc3JyWDVrTmhIbGpjYTJ3Rm1nVEkxckFxL1JYcUxKZlkvS3pDOWtsWDNKeGQ0MDBvcEFGT0tjWlV0RlIvb3J6OFBPZzFNRjM1dk8yRGZGN3gvS1FXRFVUaGVVMlJna1RSc1Z5bUlJUWVmQm9JcytpakhOalUzTWdONklBb1B4M3lCRElSM2xiZ2FtN2t6dWM0cXhNSmlMUExHM1BzUmJoQWxHT2hwcFZkVUtKdVd0MG91SmxrTUVmdW84dFRwWnMyUHpiSWFVajdnTXVCNTQ4YnhCejZPZnQzSXU4NHdPaVNFc0tZWDF2M1Zscm5xVFFqcGVMdFc4M2hnZ21DaHRNU25GdHU1UmJRPT0=",
+        "size": "4 MB",
+        "related": []
+    }
+}

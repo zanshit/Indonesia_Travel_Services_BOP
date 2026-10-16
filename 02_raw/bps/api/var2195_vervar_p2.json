@@ -1,0 +1,85 @@
+{
+    "status": "OK",
+    "data-availability": "available",
+    "data": [
+        {
+            "page": 2,
+            "pages": 4,
+            "per_page": 10,
+            "count": 10,
+            "total": 36
+        },
+        [
+            {
+                "kode_ver_id": 11,
+                "vervar": "Minangkabau",
+                "item_ver_id": 8773,
+                "group_ver_id": 525,
+                "name_group_ver_id": "Pintu Masuk Kedatangan Wisnas"
+            },
+            {
+                "kode_ver_id": 12,
+                "vervar": "Sultan Syarif Kasim II",
+                "item_ver_id": 8774,
+                "group_ver_id": 525,
+                "name_group_ver_id": "Pintu Masuk Kedatangan Wisnas"
+            },
+            {
+                "kode_ver_id": 13,
+                "vervar": "Sultan Iskandar Muda",
+                "item_ver_id": 8775,
+                "group_ver_id": 525,
+                "name_group_ver_id": "Pintu Masuk Kedatangan Wisnas"
+            },
+            {
+                "kode_ver_id": 14,
+                "vervar": "Ahmad Yani",
+                "item_ver_id": 8776,
+                "group_ver_id": 525,
+                "name_group_ver_id": "Pintu Masuk Kedatangan Wisnas"
+            },
+            {
+                "kode_ver_id": 15,
+                "vervar": "Supadio",
+                "item_ver_id": 8777,
+                "group_ver_id": 525,
+                "name_group_ver_id": "Pintu Masuk Kedatangan Wisnas"
+            },
+            {
+                "kode_ver_id": 16,
+                "vervar": "Hasanuddin",
+                "item_ver_id": 8778,
+                "group_ver_id": 525,
+                "name_group_ver_id": "Pintu Masuk Kedatangan Wisnas"
+            },
+            {
+                "kode_ver_id": 17,
+                "vervar": "Sultan Badaruddin II",
+                "item_ver_id": 8779,
+                "group_ver_id": 525,
+                "name_group_ver_id": "Pintu Masuk Kedatangan Wisnas"
+            },
+            {
+                "kode_ver_id": 18,
+                "vervar": "Lainnya",
+                "item_ver_id": 8780,
+                "group_ver_id": 525,
+                "name_group_ver_id": "Pintu Masuk Kedatangan Wisnas"
+            },
+            {
+                "kode_ver_id": 19,
+                "vervar": "B. Pintu Laut",
+                "item_ver_id": 8781,
+                "group_ver_id": 525,
+                "name_group_ver_id": "Pintu Masuk Kedatangan Wisnas"
+            },
+            {
+                "kode_ver_id": 20,
+                "vervar": "Batam",
+                "item_ver_id": 8782,
+                "group_ver_id": 525,
+                "name_group_ver_id": "Pintu Masuk Kedatangan Wisnas"
+            }
+        ]
+    ]
+}

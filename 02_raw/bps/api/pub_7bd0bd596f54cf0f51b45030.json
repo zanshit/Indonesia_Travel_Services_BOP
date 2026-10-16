@@ -1,0 +1,33 @@
+{
+    "status": "OK",
+    "request": {
+        "domain": "http:\/\/www.archive.bps.go.id",
+        "model": "publication",
+        "lang": "ind",
+        "id": "7bd0bd596f54cf0f51b45030",
+        "time_access": "2026-10-15 22:10:41"
+    },
+    "data-availability": "available",
+    "data": {
+        "pub_id": "7bd0bd596f54cf0f51b45030",
+        "title": "Statistik Pengeluaran Wisatawan Mancanegara 2024",
+        "id_subject_csa": [
+            561
+        ],
+        "subject_csa": null,
+        "kat_no": "8401018",
+        "pub_no": "06300.25006",
+        "issn": "-",
+        "abstract": "Publikasi Statistik Pengeluaran Wisatawan Mancanegara 2024 adalah publikasi tahunan yang diterbitkan Badan Pusat Statistik (BPS) dan merupakan kelanjutan dari tahun sebelumnya. Data yang disajikan dalam publikasi ini merupakan hasil pendataan Passenger Exit Survey (PES) 2024 yang mencatat profil wisatawan mancanegara yang berkunjung ke Indonesia mencakup profil demografi, pola perjalanan, dan pola pengeluaran wisatawan mancanegara. PES 2024 dilaksanakan di pintu keberangkatan internasional bandar udara\/pelabuhan\/ pos lintas batas di lima belas provinsi di Indonesia. Adapun metode pendataan yang dilakukan dalam survei ini adalah Computer Assisted Personal Interviewing (CAPI).",
+        "sch_date": null,
+        "rl_date": "2025-03-24",
+        "updt_date": null,
+        "periode": "Tahunan",
+        "bahasa": "Indonesia dan Inggris",
+        "revisi": 0,
+        "cover": "https:\/\/webapi.bps.go.id\/cover.php?f=vIuI5myIXQAQyt0R90S6dEw3S1lLR3Z1czFMajd1RFdBb21ERWRmejBMaGRvbUIxVkhZTkI0UDdvVnY4TmNPek9VZXRWdzR0QTNuK1FyNjZyZnVGdnh0MVQ0ejdndkdPQVAvUGJaV1Y1b0YwemovMGJHTDJJVmtuMTFUeE41bkNtZTEyR3l6RWh2elF0bXVz",
+        "pdf": "https:\/\/webapi.bps.go.id\/download.php?f=\/brduwku1DSgOYdICEs25HN5Um1sSHNKQUZKUVByUW43TEdGSmpLcU1pWjQrWkVyODM1ZW1SWHJ1YWM3elJ0VmpMSXQ0K3AxaXdMY0ZDUElzdDVGZVUwWUFRYnl5ZUxlVFc4Nnh5c3NZY3lsRkk1dHd0N3M2Z0hhRmRWNEp5QzZQQ0h4bVpsNmFCMEZNTEE1T1ZDSGhqR3oySDFPUWU2NWNzUEFpQ0dIRmtvT0tUa3N3RnB0eG9iSWZ0dUIwVi9HaTJoRGc1cWtwRnRLeS9DZER2SytoV0FYanhKYkNVYzI5OUVOWE4vV05Bakk2TTR5dDkwSWlKZU9BL3NFSSszZERRYnQvQVFnSzJuTmpUQ2VKKzNaSG9RRlZxdGVVd24yY3dVSjh3PT0=",
+        "size": "23.97 MB",
+        "related": []
+    }
+}

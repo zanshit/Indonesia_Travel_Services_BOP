@@ -1,0 +1,33 @@
+{
+    "status": "OK",
+    "request": {
+        "domain": "http:\/\/www.archive.bps.go.id",
+        "model": "publication",
+        "lang": "ind",
+        "id": "4fb8642851550952baead819",
+        "time_access": "2026-10-15 22:10:03"
+    },
+    "data-availability": "available",
+    "data": {
+        "pub_id": "4fb8642851550952baead819",
+        "title": "Statistik Kunjungan Wisatawan Mancanegara 2025",
+        "id_subject_csa": [
+            561
+        ],
+        "subject_csa": null,
+        "kat_no": "8401011",
+        "pub_no": "06300.26004",
+        "issn": "2085-9309",
+        "abstract": "Publikasi Statistik Kunjungan Wisatawan Mancanegara 2025 merupakan publikasi rutin tahunan yang disusun dan disajikan oleh Badan Pusat Statistik (BPS). Sumber Data publikasi ini diperoleh dari Direktorat Jenderal Imigrasi, Kementerian Imigrasi dan Pemasyarakatan dan Mobile Positioning Data (MPD).&amp;nbsp;Data yang disajikan meliputi jumlah kunjungan wisatawan mancanegara menurut pintu masuk, karakteristik kebangsaan, serta pola kunjungan.&amp;nbsp;",
+        "sch_date": "2026-04-30",
+        "rl_date": "2026-04-30",
+        "updt_date": null,
+        "periode": "Tahunan",
+        "bahasa": "Indonesia dan Inggris",
+        "revisi": 0,
+        "cover": "https:\/\/webapi.bps.go.id\/cover.php?f=9OdjK+T76Y\/zUvtwtszzC0VxSFBFM1NpQ01ubm1PVlBpdDVrYklKV2taTkkwVEo1VW9kK3lkTXRZTzErMDVmdmFWWHdDSmhuT0tFeHp4YmtreTFaU1dzZDJhZ0lQQm1TYlhjRDl0VnpIalpucUpHVDJwV01SUTY2bE4zK3hURTFwa05OTElsN09vbU1SWHhV",
+        "pdf": "https:\/\/webapi.bps.go.id\/download.php?f=lKVpyojRN92lDEbT3won0EVYM0xLL1ZaK0Z3bS9MM3BmT3dPVm45Y3VMVWVaeG5qUkFTUzFobmFnVXo5WDBoTEs5TitRRWtocUtzVVNOeFF0elZNOXlqeW83cGU3OFVOWk00K21BS0FxMmFFZWJraUJLdk9nQ01xSkNiTkRqMDBiSjRkOTNHSVdITWsycmVwTnZnUlFxcmJTcm9sdStJNXBRS0lhNEJDbndKQldBU2J5RzFEZ1NmaGp5Q21FSW42c01lVXBNSHI4WnE4VnBNT3FMa3BPb21yM2VteHlZcXlrMWlFUzhxbFJra2hTenJwWGpSbFppVjlVbDJhZkczNFJwSlkxSisweFdxNStGcUZvZ2IzeXozZkUvdmtWdjNxZXkvSThRPT0=",
+        "size": "18.52 MB",
+        "related": []
+    }
+}

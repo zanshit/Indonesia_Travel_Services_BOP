@@ -1,0 +1,85 @@
+{
+    "status": "OK",
+    "data-availability": "available",
+    "data": [
+        {
+            "page": 4,
+            "pages": 25,
+            "per_page": 10,
+            "count": 10,
+            "total": 248
+        },
+        [
+            {
+                "kode_ver_id": 31,
+                "vervar": "Bhutan",
+                "item_ver_id": 5657,
+                "group_ver_id": 377,
+                "name_group_ver_id": "Paspor yang dipegang"
+            },
+            {
+                "kode_ver_id": 32,
+                "vervar": "Afganistan",
+                "item_ver_id": 10646,
+                "group_ver_id": 377,
+                "name_group_ver_id": "Paspor yang dipegang"
+            },
+            {
+                "kode_ver_id": 33,
+                "vervar": "Turkmenistan",
+                "item_ver_id": 5670,
+                "group_ver_id": 377,
+                "name_group_ver_id": "Paspor yang dipegang"
+            },
+            {
+                "kode_ver_id": 34,
+                "vervar": "Stateless",
+                "item_ver_id": 5665,
+                "group_ver_id": 377,
+                "name_group_ver_id": "Paspor yang dipegang"
+            },
+            {
+                "kode_ver_id": 35,
+                "vervar": "Korea Utara",
+                "item_ver_id": 5660,
+                "group_ver_id": 377,
+                "name_group_ver_id": "Paspor yang dipegang"
+            },
+            {
+                "kode_ver_id": 36,
+                "vervar": "Macao, RRT",
+                "item_ver_id": 11318,
+                "group_ver_id": 377,
+                "name_group_ver_id": "Paspor yang dipegang"
+            },
+            {
+                "kode_ver_id": 37,
+                "vervar": "British Indian Ocean Teritory",
+                "item_ver_id": 5931,
+                "group_ver_id": 377,
+                "name_group_ver_id": "Paspor yang dipegang"
+            },
+            {
+                "kode_ver_id": 38,
+                "vervar": "Lain-lain",
+                "item_ver_id": 5672,
+                "group_ver_id": 377,
+                "name_group_ver_id": "Paspor yang dipegang"
+            },
+            {
+                "kode_ver_id": 39,
+                "vervar": "&lt;b&gt;TOTAL ASIA (Excl.ASEAN)&lt;\/b&gt;",
+                "item_ver_id": 5673,
+                "group_ver_id": 377,
+                "name_group_ver_id": "Paspor yang dipegang"
+            },
+            {
+                "kode_ver_id": 40,
+                "vervar": "Saudi Arabia",
+                "item_ver_id": 5674,
+                "group_ver_id": 377,
+                "name_group_ver_id": "Paspor yang dipegang"
+            }
+        ]
+    ]
+}

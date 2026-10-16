@@ -1,0 +1,33 @@
+{
+    "status": "OK",
+    "request": {
+        "domain": "http:\/\/www.archive.bps.go.id",
+        "model": "publication",
+        "lang": "ind",
+        "id": "aa06ecfee0864e824b9a5f97",
+        "time_access": "2026-10-15 22:11:21"
+    },
+    "data-availability": "available",
+    "data": {
+        "pub_id": "aa06ecfee0864e824b9a5f97",
+        "title": "Tourism Satellite Account Indonesia 2022-2024",
+        "id_subject_csa": [
+            561
+        ],
+        "subject_csa": null,
+        "kat_no": "8401007",
+        "pub_no": "07300.26005",
+        "issn": "3109-7022",
+        "abstract": "Publikasi Tourism Satellite Account (TSA) Indonesia 2022\u20132024 menyajikan statistik pariwisata yang menggambarkan aktivitas pariwisata dari sisi permintaan dan penyediaan. Dari sisi permintaan, disajikan informasi mengenai pengeluaran wisatawan mancanegara (inbound), wisatawan nusantara (domestic), serta wisatawan Indonesia yang melakukan perjalanan ke luar negeri (outbound). Dari sisi penyediaan, publikasi ini memuat data mengenai produk, karakteristik, kinerja industri pariwisata, serta kontribusi industri terkait dalam memenuhi permintaan pariwisata di Indonesia. Melalui kerangka TSA yang selaras dengan standar internasional, publikasi ini menyajikan indikator kontribusi pariwisata terhadap nilai tambah, Produk Domestik Bruto (PDB), dan penyerapan tenaga kerja. Informasi yang dihasilkan diharapkan dapat mendukung perumusan kebijakan berbasis bukti, evaluasi kinerja sektor pariwisata, serta pengembangan strategi pembangunan pariwisata yang berkelanjutan dan berdaya saing di Indonesia.",
+        "sch_date": "2026-06-30",
+        "rl_date": "2026-03-16",
+        "updt_date": null,
+        "periode": "Tahunan",
+        "bahasa": "Indonesia dan Inggris",
+        "revisi": 0,
+        "cover": "https:\/\/webapi.bps.go.id\/cover.php?f=R2aX5qzzjEOJ6\/0b1UMj0nQrNmxLRGJKNUNkcDdWYk9VQ1krRG1qS1JmUG11b2hOMS9OZGZkdElLQzBpWjE5UnE1Y0xIUGZPY0pPcFF0bXVmbFZXdGp4eHphcjNsVUpsYmNmRmZYZjg4YzJpV0diOEJ5ME9zR1I2VlRnY1M4cW8rOXpTM3YyY3VUK2tyNk1h",
+        "pdf": "https:\/\/webapi.bps.go.id\/download.php?f=WWvKTFJXOu8nqeMMQZydbHR0VzRrajY1QSsvL0JqS3lIV2hSNHlnZTBDbmViVmRVSUJsSjlRVERMK2publZjU1FTN2pDWE1OYU1QWng0dHhidEtLcVc1MHpFZmxhcG94UkQ2K25Tc2tRTDBnMVd4RXE3MVh2cVBaWDRxOEMwMUc3WkJuZThzbHdQeTVzUUcwWjIvNlZrVTF6Qk9FZldadFFSOTZWSUtRejNFRWFCbkRPNXRzR00xMGRLMHpkSVNaK3ZZRnlJOXZ2a3o5ZjVGeDJGYnZRdzJSRWd0YXptMElCVHc4YVlNYmtaK0hwTnNwaGZzUjdXRnRhYUlGbzNpQXJBT1Bzcy9Ja2JUUldZNWN1OEZzejFPT3p5eEVhclF6V1dwdW13PT0=",
+        "size": "27.26 MB",
+        "related": []
+    }
+}

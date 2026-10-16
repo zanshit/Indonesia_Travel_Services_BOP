@@ -1,0 +1,85 @@
+{
+    "status": "OK",
+    "data-availability": "available",
+    "data": [
+        {
+            "page": 16,
+            "pages": 25,
+            "per_page": 10,
+            "count": 10,
+            "total": 248
+        },
+        [
+            {
+                "kode_ver_id": 151,
+                "vervar": "St. Lucia",
+                "item_ver_id": 5790,
+                "group_ver_id": 377,
+                "name_group_ver_id": "Paspor yang dipegang"
+            },
+            {
+                "kode_ver_id": 152,
+                "vervar": "Antigua &amp; Barbuda",
+                "item_ver_id": 5774,
+                "group_ver_id": 377,
+                "name_group_ver_id": "Paspor yang dipegang"
+            },
+            {
+                "kode_ver_id": 153,
+                "vervar": "Bahama Islands",
+                "item_ver_id": 5778,
+                "group_ver_id": 377,
+                "name_group_ver_id": "Paspor yang dipegang"
+            },
+            {
+                "kode_ver_id": 154,
+                "vervar": "Haiti",
+                "item_ver_id": 5782,
+                "group_ver_id": 377,
+                "name_group_ver_id": "Paspor yang dipegang"
+            },
+            {
+                "kode_ver_id": 155,
+                "vervar": "Dominika Rep.",
+                "item_ver_id": 5779,
+                "group_ver_id": 377,
+                "name_group_ver_id": "Paspor yang dipegang"
+            },
+            {
+                "kode_ver_id": 156,
+                "vervar": "St. Vincent",
+                "item_ver_id": 5791,
+                "group_ver_id": 377,
+                "name_group_ver_id": "Paspor yang dipegang"
+            },
+            {
+                "kode_ver_id": 157,
+                "vervar": "Alaska",
+                "item_ver_id": 5775,
+                "group_ver_id": 377,
+                "name_group_ver_id": "Paspor yang dipegang"
+            },
+            {
+                "kode_ver_id": 158,
+                "vervar": "Bermuda",
+                "item_ver_id": 5777,
+                "group_ver_id": 377,
+                "name_group_ver_id": "Paspor yang dipegang"
+            },
+            {
+                "kode_ver_id": 159,
+                "vervar": "Martinique",
+                "item_ver_id": 5785,
+                "group_ver_id": 377,
+                "name_group_ver_id": "Paspor yang dipegang"
+            },
+            {
+                "kode_ver_id": 160,
+                "vervar": "Puertorico",
+                "item_ver_id": 5787,
+                "group_ver_id": 377,
+                "name_group_ver_id": "Paspor yang dipegang"
+            }
+        ]
+    ]
+}

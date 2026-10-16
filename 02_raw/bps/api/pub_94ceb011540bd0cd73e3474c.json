@@ -1,0 +1,33 @@
+{
+    "status": "OK",
+    "request": {
+        "domain": "http:\/\/www.archive.bps.go.id",
+        "model": "publication",
+        "lang": "ind",
+        "id": "94ceb011540bd0cd73e3474c",
+        "time_access": "2026-10-15 22:10:57"
+    },
+    "data-availability": "available",
+    "data": {
+        "pub_id": "94ceb011540bd0cd73e3474c",
+        "title": "Statistik Kunjungan Wisatawan Mancanegara 2019",
+        "id_subject_csa": [
+            561
+        ],
+        "subject_csa": null,
+        "kat_no": "8401011",
+        "pub_no": "06330.2003",
+        "issn": "2085-9309",
+        "abstract": "Publikasi Statistik Kunjungan\r\nWisatawan Mancanegara 2019, merupakan publikasi rutin tahunan yang disusun dan\r\ndisajikan oleh Badan Pusat Statistik (BPS). Data yang disajikan meliputi jumlah\r\nkunjungan wisatawan mancanegara menurut pintu masuk, kebangsaan, dan pola\r\nkunjungan.",
+        "sch_date": "2020-06-26",
+        "rl_date": "2020-06-26",
+        "updt_date": "2020-07-09",
+        "periode": "Tahunan",
+        "bahasa": "Indonesia dan Inggris",
+        "revisi": 2,
+        "cover": "https:\/\/webapi.bps.go.id\/cover.php?f=hU77FfAvmEQMw56VwjDYVWF1RCtueXBycG9wN3J0Y2ZCQUhYSzlTaHN2WFIzbzZZdGdkdy9WQmJua3Q5NkRPMEVRUkg1bVhmbG5mZ2xRUG91b2h0d2l0STd5a0VaOVRZNUsxUm5EdzE1ckNTaUpGVHgra3VMMVFpcmJwNzlEZ3kxRi9RektQeS8wNThDNUNk",
+        "pdf": "https:\/\/webapi.bps.go.id\/download.php?f=NAr+7iAmjY56YruJEMBvdWN0N2JOdW5jYXAyUDBQZVNRUTBiL1JmUkVlVkJ3NnlIbXBQeGtvd0h4QUNuTkJ4aVNGbytxTEhQNVVtSkpHRnFPWHNPMG40QlhHdWJwTFJlUFJTdXh2dGdWUFQzd01HUE5hRFZjNDJYYmZzNEY1RU00YzBpcE41UW1UbTg2K1hvYjk1MjM3dTBzRDlac28zaTZheUJYaGNwNE1UL0ZudFlWVGhOSEFKZEZKSlFtaDhnS2M4V2tTTUhCcWE0VnhMWmJyZzcwTUJ3QkFSK3J6aWRQOUVMaVYrUFpWMzdGbjlmTkhqelBDMDdmb3RFQXU3dnhia2dRazNBdFFZS2VLOHNuWmppOTNJejRkRHdQMGZpT3c1Y2V3PT0=",
+        "size": "6.14 MB",
+        "related": []
+    }
+}

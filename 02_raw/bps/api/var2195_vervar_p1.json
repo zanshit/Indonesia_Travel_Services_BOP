@@ -1,0 +1,85 @@
+{
+    "status": "OK",
+    "data-availability": "available",
+    "data": [
+        {
+            "page": 1,
+            "pages": 4,
+            "per_page": 10,
+            "count": 10,
+            "total": 36
+        },
+        [
+            {
+                "kode_ver_id": 1,
+                "vervar": "I. PINTU UTAMA",
+                "item_ver_id": 8763,
+                "group_ver_id": 525,
+                "name_group_ver_id": "Pintu Masuk Kedatangan Wisnas"
+            },
+            {
+                "kode_ver_id": 2,
+                "vervar": "A. Pintu Udara",
+                "item_ver_id": 8764,
+                "group_ver_id": 525,
+                "name_group_ver_id": "Pintu Masuk Kedatangan Wisnas"
+            },
+            {
+                "kode_ver_id": 3,
+                "vervar": "Ngurah Rai",
+                "item_ver_id": 8765,
+                "group_ver_id": 525,
+                "name_group_ver_id": "Pintu Masuk Kedatangan Wisnas"
+            },
+            {
+                "kode_ver_id": 4,
+                "vervar": "Soekarno Hatta",
+                "item_ver_id": 8766,
+                "group_ver_id": 525,
+                "name_group_ver_id": "Pintu Masuk Kedatangan Wisnas"
+            },
+            {
+                "kode_ver_id": 5,
+                "vervar": "Juanda",
+                "item_ver_id": 8767,
+                "group_ver_id": 525,
+                "name_group_ver_id": "Pintu Masuk Kedatangan Wisnas"
+            },
+            {
+                "kode_ver_id": 6,
+                "vervar": "Kualanamu",
+                "item_ver_id": 8768,
+                "group_ver_id": 525,
+                "name_group_ver_id": "Pintu Masuk Kedatangan Wisnas"
+            },
+            {
+                "kode_ver_id": 7,
+                "vervar": "Husein Sastranegara",
+                "item_ver_id": 8769,
+                "group_ver_id": 525,
+                "name_group_ver_id": "Pintu Masuk Kedatangan Wisnas"
+            },
+            {
+                "kode_ver_id": 8,
+                "vervar": "Adi Sucipto\/YIA",
+                "item_ver_id": 8770,
+                "group_ver_id": 525,
+                "name_group_ver_id": "Pintu Masuk Kedatangan Wisnas"
+            },
+            {
+                "kode_ver_id": 9,
+                "vervar": "Bandara Int&#039;l Lombok",
+                "item_ver_id": 8771,
+                "group_ver_id": 525,
+                "name_group_ver_id": "Pintu Masuk Kedatangan Wisnas"
+            },
+            {
+                "kode_ver_id": 10,
+                "vervar": "Sam Ratulangi",
+                "item_ver_id": 8772,
+                "group_ver_id": 525,
+                "name_group_ver_id": "Pintu Masuk Kedatangan Wisnas"
+            }
+        ]
+    ]
+}

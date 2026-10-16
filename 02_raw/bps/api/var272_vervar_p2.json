@@ -1,0 +1,85 @@
+{
+    "status": "OK",
+    "data-availability": "available",
+    "data": [
+        {
+            "page": 2,
+            "pages": 4,
+            "per_page": 10,
+            "count": 10,
+            "total": 37
+        },
+        [
+            {
+                "kode_ver_id": 12,
+                "vervar": "Srilanka",
+                "item_ver_id": 1907,
+                "group_ver_id": 110,
+                "name_group_ver_id": "Negara Tempat Tinggal"
+            },
+            {
+                "kode_ver_id": 14,
+                "vervar": "Republik Rakyat Tiongkok",
+                "item_ver_id": 1909,
+                "group_ver_id": 110,
+                "name_group_ver_id": "Negara Tempat Tinggal"
+            },
+            {
+                "kode_ver_id": 15,
+                "vervar": "Arab Saudi",
+                "item_ver_id": 1910,
+                "group_ver_id": 110,
+                "name_group_ver_id": "Negara Tempat Tinggal"
+            },
+            {
+                "kode_ver_id": 16,
+                "vervar": "Austria",
+                "item_ver_id": 1911,
+                "group_ver_id": 110,
+                "name_group_ver_id": "Negara Tempat Tinggal"
+            },
+            {
+                "kode_ver_id": 17,
+                "vervar": "Belgia",
+                "item_ver_id": 1912,
+                "group_ver_id": 110,
+                "name_group_ver_id": "Negara Tempat Tinggal"
+            },
+            {
+                "kode_ver_id": 18,
+                "vervar": "Denmark",
+                "item_ver_id": 1913,
+                "group_ver_id": 110,
+                "name_group_ver_id": "Negara Tempat Tinggal"
+            },
+            {
+                "kode_ver_id": 19,
+                "vervar": "Perancis",
+                "item_ver_id": 1914,
+                "group_ver_id": 110,
+                "name_group_ver_id": "Negara Tempat Tinggal"
+            },
+            {
+                "kode_ver_id": 20,
+                "vervar": "Jerman",
+                "item_ver_id": 1915,
+                "group_ver_id": 110,
+                "name_group_ver_id": "Negara Tempat Tinggal"
+            },
+            {
+                "kode_ver_id": 21,
+                "vervar": "Italia",
+                "item_ver_id": 1916,
+                "group_ver_id": 110,
+                "name_group_ver_id": "Negara Tempat Tinggal"
+            },
+            {
+                "kode_ver_id": 22,
+                "vervar": "Belanda",
+                "item_ver_id": 1917,
+                "group_ver_id": 110,
+                "name_group_ver_id": "Negara Tempat Tinggal"
+            }
+        ]
+    ]
+}

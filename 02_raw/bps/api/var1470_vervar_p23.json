@@ -1,0 +1,85 @@
+{
+    "status": "OK",
+    "data-availability": "available",
+    "data": [
+        {
+            "page": 23,
+            "pages": 25,
+            "per_page": 10,
+            "count": 10,
+            "total": 248
+        },
+        [
+            {
+                "kode_ver_id": 221,
+                "vervar": "Liberia",
+                "item_ver_id": 5844,
+                "group_ver_id": 377,
+                "name_group_ver_id": "Paspor yang dipegang"
+            },
+            {
+                "kode_ver_id": 222,
+                "vervar": "Swaziland",
+                "item_ver_id": 5865,
+                "group_ver_id": 377,
+                "name_group_ver_id": "Paspor yang dipegang"
+            },
+            {
+                "kode_ver_id": 223,
+                "vervar": "Guinea",
+                "item_ver_id": 5837,
+                "group_ver_id": 377,
+                "name_group_ver_id": "Paspor yang dipegang"
+            },
+            {
+                "kode_ver_id": 224,
+                "vervar": "Cape Verde",
+                "item_ver_id": 5827,
+                "group_ver_id": 377,
+                "name_group_ver_id": "Paspor yang dipegang"
+            },
+            {
+                "kode_ver_id": 225,
+                "vervar": "Ivory Coast (Pantai Gading)",
+                "item_ver_id": 5840,
+                "group_ver_id": 377,
+                "name_group_ver_id": "Paspor yang dipegang"
+            },
+            {
+                "kode_ver_id": 226,
+                "vervar": "Congo",
+                "item_ver_id": 5936,
+                "group_ver_id": 377,
+                "name_group_ver_id": "Paspor yang dipegang"
+            },
+            {
+                "kode_ver_id": 227,
+                "vervar": "Burundi",
+                "item_ver_id": 5825,
+                "group_ver_id": 377,
+                "name_group_ver_id": "Paspor yang dipegang"
+            },
+            {
+                "kode_ver_id": 228,
+                "vervar": "Mauritania",
+                "item_ver_id": 5851,
+                "group_ver_id": 377,
+                "name_group_ver_id": "Paspor yang dipegang"
+            },
+            {
+                "kode_ver_id": 229,
+                "vervar": "Togo",
+                "item_ver_id": 5867,
+                "group_ver_id": 377,
+                "name_group_ver_id": "Paspor yang dipegang"
+            },
+            {
+                "kode_ver_id": 230,
+                "vervar": "Gabon",
+                "item_ver_id": 5834,
+                "group_ver_id": 377,
+                "name_group_ver_id": "Paspor yang dipegang"
+            }
+        ]
+    ]
+}

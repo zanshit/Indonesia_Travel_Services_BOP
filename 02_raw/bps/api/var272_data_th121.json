@@ -1,0 +1,231 @@
+{
+    "status": "OK",
+    "data-availability": "available",
+    "last_update": "2026-05-25 12:46:38",
+    "subject": [
+        {
+            "val": 561,
+            "label": "Pariwisata"
+        }
+    ],
+    "var": [
+        {
+            "val": 272,
+            "label": "Rata-Rata Pengeluaran Wisatawan Mancanegara per Kunjungan Menurut Kebangsaan",
+            "unit": "US $",
+            "subj": "Pariwisata",
+            "def": "",
+            "decimal": null,
+            "note": "<p><br \/><\/p><ul><li>Sumber dari Passenger Exit Survey, BPS<\/li><\/ul><p><br \/><\/p><p><br \/><\/p><p><br \/><\/p><p><br \/><\/p><p><br \/><\/p><p><br \/><\/p><p><br \/><\/p><p><br \/><\/p><p><br \/><\/p><p><br \/><\/p><p><br \/><\/p><p><br \/><\/p><p><br \/><\/p>"
+        }
+    ],
+    "turvar": [
+        {
+            "val": "0",
+            "label": "Tidak ada"
+        }
+    ],
+    "labelvervar": "Negara Tempat Tinggal",
+    "vervar": [
+        {
+            "val": 1,
+            "label": "Brunei Darussalam"
+        },
+        {
+            "val": 2,
+            "label": "Malaysia"
+        },
+        {
+            "val": 3,
+            "label": "Filipina"
+        },
+        {
+            "val": 4,
+            "label": "Singapura"
+        },
+        {
+            "val": 5,
+            "label": "Thailand"
+        },
+        {
+            "val": 7,
+            "label": "India"
+        },
+        {
+            "val": 8,
+            "label": "Jepang"
+        },
+        {
+            "val": 9,
+            "label": "Korea Selatan"
+        },
+        {
+            "val": 10,
+            "label": "Pakistan"
+        },
+        {
+            "val": 11,
+            "label": "Bangladesh"
+        },
+        {
+            "val": 12,
+            "label": "Srilanka"
+        },
+        {
+            "val": 14,
+            "label": "Republik Rakyat Tiongkok"
+        },
+        {
+            "val": 15,
+            "label": "Arab Saudi"
+        },
+        {
+            "val": 16,
+            "label": "Austria"
+        },
+        {
+            "val": 17,
+            "label": "Belgia"
+        },
+        {
+            "val": 18,
+            "label": "Denmark"
+        },
+        {
+            "val": 19,
+            "label": "Perancis"
+        },
+        {
+            "val": 20,
+            "label": "Jerman"
+        },
+        {
+            "val": 21,
+            "label": "Italia"
+        },
+        {
+            "val": 22,
+            "label": "Belanda"
+        },
+        {
+            "val": 23,
+            "label": "Spanyol"
+        },
+        {
+            "val": 24,
+            "label": "Portugal "
+        },
+        {
+            "val": 25,
+            "label": "Swedia"
+        },
+        {
+            "val": 26,
+            "label": "Swiss"
+        },
+        {
+            "val": 27,
+            "label": "Inggris"
+        },
+        {
+            "val": 28,
+            "label": "Finlandia"
+        },
+        {
+            "val": 29,
+            "label": "Norwegia"
+        },
+        {
+            "val": 31,
+            "label": "Rusia"
+        },
+        {
+            "val": 32,
+            "label": "Amerika Serikat"
+        },
+        {
+            "val": 33,
+            "label": "Kanada"
+        },
+        {
+            "val": 34,
+            "label": "Amerika Tengah"
+        },
+        {
+            "val": 35,
+            "label": "Amerika Selatan"
+        },
+        {
+            "val": 36,
+            "label": "Australia"
+        },
+        {
+            "val": 37,
+            "label": "Selandia Baru"
+        },
+        {
+            "val": 38,
+            "label": "Mesir"
+        },
+        {
+            "val": 39,
+            "label": "Negara lainnya"
+        },
+        {
+            "val": 40,
+            "label": "Rata- Rata"
+        }
+    ],
+    "tahun": [
+        {
+            "val": 121,
+            "label": "2021"
+        }
+    ],
+    "turtahun": [
+        {
+            "val": 0,
+            "label": "Tahun"
+        }
+    ],
+    "datacontent": {
+        "2427201210": 6626.68,
+        "1627201210": 4998.58,
+        "3527201210": 0,
+        "727201210": 0,
+        "2327201210": 6885.01,
+        "127201210": 688.23,
+        "927201210": 1916.25,
+        "1427201210": 0,
+        "2627201210": 0,
+        "3327201210": 2593.58,
+        "427201210": 1359.61,
+        "4027201210": 3097.41,
+        "2927201210": 0,
+        "3127201210": 3710.41,
+        "1027201210": 0,
+        "1827201210": 2819.51,
+        "3827201210": 0,
+        "327201210": 0,
+        "227201210": 1374.65,
+        "2727201210": 3075.16,
+        "1927201210": 4648.37,
+        "3427201210": 0,
+        "1527201210": 1715.5,
+        "3727201210": 0,
+        "2227201210": 4714.05,
+        "3227201210": 5045.97,
+        "1227201210": 0,
+        "527201210": 5097.13,
+        "1727201210": 0,
+        "3927201210": 3111.87,
+        "2127201210": 3607.5,
+        "2827201210": 0,
+        "3627201210": 3086.86,
+        "2027201210": 4174.43,
+        "827201210": 1677.66,
+        "1127201210": 0,
+        "2527201210": 0
+    },
+    "related": []
+}

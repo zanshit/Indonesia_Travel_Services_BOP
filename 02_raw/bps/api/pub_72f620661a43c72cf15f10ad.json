@@ -1,0 +1,33 @@
+{
+    "status": "OK",
+    "request": {
+        "domain": "http:\/\/www.archive.bps.go.id",
+        "model": "publication",
+        "lang": "ind",
+        "id": "72f620661a43c72cf15f10ad",
+        "time_access": "2026-10-15 22:10:21"
+    },
+    "data-availability": "available",
+    "data": {
+        "pub_id": "72f620661a43c72cf15f10ad",
+        "title": "Statistik Pengeluaran Wisatawan Mancanegara 2022",
+        "id_subject_csa": [
+            561
+        ],
+        "subject_csa": null,
+        "kat_no": "8401018",
+        "pub_no": "06300.2308",
+        "issn": "-",
+        "abstract": "Publikasi Statistik Pengeluaran Wisatawan Mancanegara 2022 merupakan publikasi tahunan yang diterbitkan oleh Badan Pusat Statistik (BPS). Publikasi ini menyajikan hasil pendataan profil wisatawan mancanegara yang berkunjung ke Indonesia, meliputi profil demografi, pola perjalanan, rata-rata dan pola pengeluaran wisatawan mancanegara.",
+        "sch_date": null,
+        "rl_date": "2023-05-31",
+        "updt_date": null,
+        "periode": "Tahunan",
+        "bahasa": "Indonesia dan Inggris",
+        "revisi": 0,
+        "cover": "https:\/\/webapi.bps.go.id\/cover.php?f=qkX49rnIBWE64GTQEEAp3W1zeEJTTmJyNXZVNGQrcElxazRGeXZlS2tZOW1BWGJoQ2orK3Q5c3dtRDBFTit0dnVnS2Z4Um9pb09kSTZPTStXZzN5eVhiK2MxaERzVTV1NkxzOHJnYWZhdmZQZkF0Y01jYjU1NEZBUnV3OXFjSWVCTlo4c2ZJd01GUEZMOGdz",
+        "pdf": "https:\/\/webapi.bps.go.id\/download.php?f=ZqXtFCD9JeL\/uINUoJEL+DJGaEM3RTluQ1lqQzBuRnJ6alNPbEF0d21pRDdjdmJiVUsrTkJqTmY1RnJaKzNkNlFRTThjTDNQOVhVWWZRdjY2bXk1VmdyYWFrZUp3azRKK25DRENLMlZ0UUJsV0NBR3ZyeXV1a0pHQTVMNE1Td2M3QllEUjNmU3hNVHZUWmp4a1VMSU4yQytCMWxLUkVRdmdvMFJqK25tWDcyKzNVS1JmOGI0cHdTT2p0dHdMY0Y4alduSDV6K1Q3NWhwMkNSNERrTjRsRld5S25qWHBXU1YyK3lIamZ0TXFHQ0JlbHMvd0Q5czlaWUFUeENtVzVtUUdsdEcyNVBJN3pNazVFMFMwWlNsVzl2U29JSWF5b0RyQy9Yd3B3PT0=",
+        "size": "16.52 MB",
+        "related": []
+    }
+}

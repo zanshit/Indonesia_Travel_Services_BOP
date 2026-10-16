@@ -1,0 +1,673 @@
+source,item,flow_idn,year,quarter,value,currency,unit,status_flag,url,retrieved_at
+BI SEKI Table V.3 (sheet Th 2004-2010); balance = credit - debit,services_total,balance,2004,,-7942.72,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010),services_total,credit,2004,,13137.56,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010),services_total,debit,2004,,21080.28,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010); balance = credit - debit,services_total,balance,2004,1,-2889.02,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010),services_total,credit,2004,1,3723.02,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010),services_total,debit,2004,1,6612.04,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010); balance = credit - debit,services_total,balance,2004,2,-1440.26,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010),services_total,credit,2004,2,3415.35,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010),services_total,debit,2004,2,4855.61,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010); balance = credit - debit,services_total,balance,2004,3,-1373.47,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010),services_total,credit,2004,3,3029.74,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010),services_total,debit,2004,3,4403.21,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010); balance = credit - debit,services_total,balance,2004,4,-2239.97,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010),services_total,credit,2004,4,2969.45,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010),services_total,debit,2004,4,5209.42,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010); balance = credit - debit,services_total,balance,2005,,-8865.39,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010),services_total,credit,2005,,13515.98,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010),services_total,debit,2005,,22381.37,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010); balance = credit - debit,services_total,balance,2005,1,-2330.72,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010),services_total,credit,2005,1,3217.2,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010),services_total,debit,2005,1,5547.92,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010); balance = credit - debit,services_total,balance,2005,2,-1009.77,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010),services_total,credit,2005,2,3406.97,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010),services_total,debit,2005,2,4416.74,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010); balance = credit - debit,services_total,balance,2005,3,-2271.24,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010),services_total,credit,2005,3,3351.7,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010),services_total,debit,2005,3,5622.94,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010); balance = credit - debit,services_total,balance,2005,4,-3253.66,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010),services_total,credit,2005,4,3540.12,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010),services_total,debit,2005,4,6793.78,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010); balance = credit - debit,services_total,balance,2006,,-11868.34,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010),services_total,credit,2006,,9897.47,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010),services_total,debit,2006,,21765.81,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010); balance = credit - debit,services_total,balance,2006,1,-3324.18,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010),services_total,credit,2006,1,2005.14,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010),services_total,debit,2006,1,5329.32,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010); balance = credit - debit,services_total,balance,2006,2,-2906.97,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010),services_total,credit,2006,2,2345.63,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010),services_total,debit,2006,2,5252.6,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010); balance = credit - debit,services_total,balance,2006,3,-2380.94,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010),services_total,credit,2006,3,2805.43,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010),services_total,debit,2006,3,5186.37,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010); balance = credit - debit,services_total,balance,2006,4,-3256.24,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010),services_total,credit,2006,4,2741.28,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010),services_total,debit,2006,4,5997.52,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010); balance = credit - debit,services_total,balance,2007,,-13144.49,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010),services_total,credit,2007,,11754.38,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010),services_total,debit,2007,,24898.87,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010); balance = credit - debit,services_total,balance,2007,1,-3300.7,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010),services_total,credit,2007,1,3131.25,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010),services_total,debit,2007,1,6431.95,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010); balance = credit - debit,services_total,balance,2007,2,-3371.24,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010),services_total,credit,2007,2,2792.34,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010),services_total,debit,2007,2,6163.58,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010); balance = credit - debit,services_total,balance,2007,3,-3168.99,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010),services_total,credit,2007,3,2733.97,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010),services_total,debit,2007,3,5902.96,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010); balance = credit - debit,services_total,balance,2007,4,-3303.56,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010),services_total,credit,2007,4,3096.82,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010),services_total,debit,2007,4,6400.38,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010); balance = credit - debit,services_total,balance,2008,,-14801.71,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010),services_total,credit,2008,,13888.01,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010),services_total,debit,2008,,28689.72,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010); balance = credit - debit,services_total,balance,2008,1,-3739.82,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010),services_total,credit,2008,1,3373.84,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010),services_total,debit,2008,1,7113.66,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010); balance = credit - debit,services_total,balance,2008,2,-3788.88,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010),services_total,credit,2008,2,3465.13,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010),services_total,debit,2008,2,7254.01,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010); balance = credit - debit,services_total,balance,2008,3,-3647.34,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010),services_total,credit,2008,3,3646.22,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010),services_total,debit,2008,3,7293.56,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010); balance = credit - debit,services_total,balance,2008,4,-3625.68,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010),services_total,credit,2008,4,3402.81,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010),services_total,debit,2008,4,7028.49,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010); balance = credit - debit,services_total,balance,2009,,-11182.94,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010),services_total,credit,2009,,12115.09,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010),services_total,debit,2009,,23298.03,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010); balance = credit - debit,services_total,balance,2009,1,-2219.32,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010),services_total,credit,2009,1,2471.48,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010),services_total,debit,2009,1,4690.8,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010); balance = credit - debit,services_total,balance,2009,2,-2514.74,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010),services_total,credit,2009,2,3088.2,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010),services_total,debit,2009,2,5602.94,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010); balance = credit - debit,services_total,balance,2009,3,-2946.76,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010),services_total,credit,2009,3,2973.5,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010),services_total,debit,2009,3,5920.26,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010); balance = credit - debit,services_total,balance,2009,4,-3502.12,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010),services_total,credit,2009,4,3581.91,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010),services_total,debit,2009,4,7084.03,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,services_total,balance,2010,,-9790.5,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,credit,2010,,16670.49,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,debit,2010,,26460.99,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,services_total,balance,2010,1,-2474.09,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,credit,2010,1,3583.9,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,debit,2010,1,6057.99,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,services_total,balance,2010,2,-2183.17,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,credit,2010,2,4196.25,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,debit,2010,2,6379.42,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,services_total,balance,2010,3,-2298.67,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,credit,2010,3,4282.47,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,debit,2010,3,6581.14,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,services_total,balance,2010,4,-2834.57,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,credit,2010,4,4607.88,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,debit,2010,4,7442.45,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,services_total,balance,2011,,-9803.27,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,credit,2011,,21888.15,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,debit,2011,,31691.42,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,services_total,balance,2011,1,-1278.02,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,credit,2011,1,5106.45,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,debit,2011,1,6384.47,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,services_total,balance,2011,2,-3125.09,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,credit,2011,2,4624.83,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,debit,2011,2,7749.92,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,services_total,balance,2011,3,-2587.52,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,credit,2011,3,5451.7,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,debit,2011,3,8039.22,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,services_total,balance,2011,4,-2812.64,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,credit,2011,4,6705.18,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,debit,2011,4,9517.82,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,services_total,balance,2012,,-10564.2,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,credit,2012,,23660.23,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,debit,2012,,34224.43,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,services_total,balance,2012,1,-2173.7,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,credit,2012,1,5968.04,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,debit,2012,1,8141.74,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,services_total,balance,2012,2,-2813.78,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,credit,2012,2,5895.22,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,debit,2012,2,8709.0,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,services_total,balance,2012,3,-2346.67,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,credit,2012,3,5600.11,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,debit,2012,3,7946.78,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,services_total,balance,2012,4,-3230.04,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,credit,2012,4,6196.87,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,debit,2012,4,9426.91,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,services_total,balance,2013,,-12070.48,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,credit,2013,,22944.08,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,debit,2013,,35014.56,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,services_total,balance,2013,1,-2633.18,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,credit,2013,1,5702.0,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,debit,2013,1,8335.18,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,services_total,balance,2013,2,-3551.59,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,credit,2013,2,5511.88,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,debit,2013,2,9063.47,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,services_total,balance,2013,3,-2780.91,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,credit,2013,3,5644.16,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,debit,2013,3,8425.07,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,services_total,balance,2013,4,-3104.8,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,credit,2013,4,6086.04,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,debit,2013,4,9190.84,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,services_total,balance,2014,,-10009.69,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,credit,2014,,23530.93,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,debit,2014,,33540.62,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,services_total,balance,2014,1,-2131.41,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,credit,2014,1,5886.72,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,debit,2014,1,8018.13,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,services_total,balance,2014,2,-2831.19,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,credit,2014,2,5720.68,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,debit,2014,2,8551.87,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,services_total,balance,2014,3,-2485.78,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,credit,2014,3,5697.68,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,debit,2014,3,8183.46,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,services_total,balance,2014,4,-2561.32,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,credit,2014,4,6225.84,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,debit,2014,4,8787.16,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,services_total,balance,2015,,-8696.67,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,credit,2015,,22220.88,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,debit,2015,,30917.55,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,services_total,balance,2015,1,-1823.09,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,credit,2015,1,5574.02,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,debit,2015,1,7397.11,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,services_total,balance,2015,2,-2828.87,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,credit,2015,2,5086.53,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,debit,2015,2,7915.4,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,services_total,balance,2015,3,-2292.66,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,credit,2015,3,5407.98,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,debit,2015,3,7700.64,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,services_total,balance,2015,4,-1752.06,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,credit,2015,4,6152.35,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,debit,2015,4,7904.41,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,services_total,balance,2016,,-7083.67,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,credit,2016,,23323.54,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,debit,2016,,30407.21,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,services_total,balance,2016,1,-1171.56,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,credit,2016,1,5773.0,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,debit,2016,1,6944.56,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,services_total,balance,2016,2,-2449.87,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,credit,2016,2,5307.92,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,debit,2016,2,7757.79,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,services_total,balance,2016,3,-1723.55,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,credit,2016,3,5801.36,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,debit,2016,3,7524.91,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,services_total,balance,2016,4,-1738.69,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,credit,2016,4,6441.26,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,debit,2016,4,8179.95,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,services_total,balance,2017,,-7379.16,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,credit,2017,,25327.66,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,debit,2017,,32706.82,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,services_total,balance,2017,1,-1106.27,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,credit,2017,1,5947.53,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,debit,2017,1,7053.8,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,services_total,balance,2017,2,-2049.26,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,credit,2017,2,5725.26,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,debit,2017,2,7774.52,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,services_total,balance,2017,3,-2088.51,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,credit,2017,3,6614.4,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,debit,2017,3,8702.91,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,services_total,balance,2017,4,-2135.12,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,credit,2017,4,7040.47,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,debit,2017,4,9175.59,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,services_total,balance,2018,,-6485.07,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,credit,2018,,31206.85,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,debit,2018,,37691.92,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,services_total,balance,2018,1,-1339.17,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,credit,2018,1,7965.21,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,debit,2018,1,9304.38,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,services_total,balance,2018,2,-1681.27,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,credit,2018,2,7055.92,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,debit,2018,2,8737.19,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,services_total,balance,2018,3,-1816.51,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,credit,2018,3,8182.28,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,debit,2018,3,9998.79,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,services_total,balance,2018,4,-1648.11,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,credit,2018,4,8003.45,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,debit,2018,4,9651.56,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,services_total,balance,2019,,-7640.8,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,credit,2019,,31641.58,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,debit,2019,,39282.38,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,services_total,balance,2019,1,-1521.77,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,credit,2019,1,7498.64,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,debit,2019,1,9020.41,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,services_total,balance,2019,2,-1868.79,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,credit,2019,2,7384.64,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,debit,2019,2,9253.43,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,services_total,balance,2019,3,-2246.16,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,credit,2019,3,8448.11,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,debit,2019,3,10694.27,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,services_total,balance,2019,4,-2004.08,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,credit,2019,4,8310.19,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,debit,2019,4,10314.27,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,services_total,balance,2020,,-9755.48,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,credit,2020,,15015.99,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,debit,2020,,24771.47,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,services_total,balance,2020,1,-1735.1,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,credit,2020,1,6189.28,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,debit,2020,1,7924.38,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,services_total,balance,2020,2,-2147.59,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,credit,2020,2,2613.43,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,debit,2020,2,4761.02,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,services_total,balance,2020,3,-2768.0,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,credit,2020,3,2845.21,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,debit,2020,3,5613.21,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,services_total,balance,2020,4,-3104.8,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,credit,2020,4,3368.06,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,debit,2020,4,6472.86,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,services_total,balance,2021,,-14598.52,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,credit,2021,,13951.27,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,debit,2021,,28549.79,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,services_total,balance,2021,1,-3446.36,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,credit,2021,1,3068.85,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,debit,2021,1,6515.21,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,services_total,balance,2021,2,-3660.0,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,credit,2021,2,3200.22,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,debit,2021,2,6860.22,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,services_total,balance,2021,3,-3530.61,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,credit,2021,3,3431.78,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,debit,2021,3,6962.39,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,services_total,balance,2021,4,-3961.54,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,credit,2021,4,4250.42,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,debit,2021,4,8211.96,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,services_total,balance,2022,,-19957.12,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,credit,2022,,23207.56,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,debit,2022,,43164.68,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,services_total,balance,2022,1,-4334.76,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,credit,2022,1,3973.53,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,debit,2022,1,8308.29,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,services_total,balance,2022,2,-4971.69,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,credit,2022,2,5521.14,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,debit,2022,2,10492.83,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,services_total,balance,2022,3,-5259.66,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,credit,2022,3,6607.89,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,debit,2022,3,11867.55,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,services_total,balance,2022,4,-5391.02,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,credit,2022,4,7105.0,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,debit,2022,4,12496.02,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,services_total,balance,2023,,-17676.09,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,credit,2023,,33606.82,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,debit,2023,,51282.91,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,services_total,balance,2023,1,-4480.92,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,credit,2023,1,7488.27,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,debit,2023,1,11969.19,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,services_total,balance,2023,2,-4534.17,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,credit,2023,2,8044.35,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,debit,2023,2,12578.52,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,services_total,balance,2023,3,-3894.77,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,credit,2023,3,9344.78,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,debit,2023,3,13239.55,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,services_total,balance,2023,4,-4766.24,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,credit,2023,4,8729.42,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,debit,2023,4,13495.66,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,services_total,balance,2024,,-18485.13,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,credit,2024,,39089.58,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,debit,2024,,57574.71,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,services_total,balance,2024,1,-4213.98,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,credit,2024,1,8711.83,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,debit,2024,1,12925.81,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,services_total,balance,2024,2,-4977.73,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,credit,2024,2,9076.76,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,debit,2024,2,14054.49,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,services_total,balance,2024,3,-4188.06,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,credit,2024,3,10893.97,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,debit,2024,3,15082.03,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,services_total,balance,2024,4,-5105.37,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,credit,2024,4,10407.02,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,debit,2024,4,15512.39,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,services_total,balance,2025,,-20203.96,USD,millions,*,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,credit,2025,,42580.72,USD,millions,*,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,debit,2025,,62784.68,USD,millions,*,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,services_total,balance,2025,1,-5402.46,USD,millions,*,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,credit,2025,1,8937.73,USD,millions,*,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,debit,2025,1,14340.19,USD,millions,*,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,services_total,balance,2025,2,-5295.57,USD,millions,*,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,credit,2025,2,10511.63,USD,millions,*,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,debit,2025,2,15807.2,USD,millions,*,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,services_total,balance,2025,3,-4280.64,USD,millions,*,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,credit,2025,3,12100.51,USD,millions,*,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,debit,2025,3,16381.15,USD,millions,*,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,services_total,balance,2025,4,-5225.29,USD,millions,*,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,credit,2025,4,11030.85,USD,millions,*,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,debit,2025,4,16256.14,USD,millions,*,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,services_total,balance,2026,1,-4391.13,USD,millions,*,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,credit,2026,1,9906.14,USD,millions,*,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,debit,2026,1,14297.27,USD,millions,*,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,services_total,balance,2026,2,-5893.35,USD,millions,**,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,credit,2026,2,10867.69,USD,millions,**,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),services_total,debit,2026,2,16761.04,USD,millions,**,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010); balance = credit - debit,travel,balance,2004,,1290.84,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010),travel,credit,2004,,4797.83,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010),travel,debit,2004,,3506.99,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010); balance = credit - debit,travel,balance,2004,1,34.62,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010),travel,credit,2004,1,1093.02,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010),travel,debit,2004,1,1058.4,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010); balance = credit - debit,travel,balance,2004,2,468.88,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010),travel,credit,2004,2,1161.11,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010),travel,debit,2004,2,692.23,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010); balance = credit - debit,travel,balance,2004,3,515.3,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010),travel,credit,2004,3,1350.14,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010),travel,debit,2004,3,834.84,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010); balance = credit - debit,travel,balance,2004,4,272.05,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010),travel,credit,2004,4,1193.56,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010),travel,debit,2004,4,921.51,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010); balance = credit - debit,travel,balance,2005,,937.64,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010),travel,credit,2005,,4521.9,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010),travel,debit,2005,,3584.26,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010); balance = credit - debit,travel,balance,2005,1,110.14,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010),travel,credit,2005,1,1102.19,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010),travel,debit,2005,1,992.05,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010); balance = credit - debit,travel,balance,2005,2,359.6,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010),travel,credit,2005,2,1151.96,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010),travel,debit,2005,2,792.36,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010); balance = credit - debit,travel,balance,2005,3,467.45,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010),travel,credit,2005,3,1286.28,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010),travel,debit,2005,3,818.83,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010); balance = credit - debit,travel,balance,2005,4,0.46,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010),travel,credit,2005,4,981.47,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010),travel,debit,2005,4,981.01,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010); balance = credit - debit,travel,balance,2006,,417.52,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010),travel,credit,2006,,4447.98,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010),travel,debit,2006,,4030.46,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010); balance = credit - debit,travel,balance,2006,1,-43.62,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010),travel,credit,2006,1,982.86,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010),travel,debit,2006,1,1026.48,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010); balance = credit - debit,travel,balance,2006,2,187.89,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010),travel,credit,2006,2,1141.88,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010),travel,debit,2006,2,953.99,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010); balance = credit - debit,travel,balance,2006,3,229.88,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010),travel,credit,2006,3,1162.21,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010),travel,debit,2006,3,932.33,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010); balance = credit - debit,travel,balance,2006,4,43.38,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010),travel,credit,2006,4,1161.04,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010),travel,debit,2006,4,1117.66,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010); balance = credit - debit,travel,balance,2007,,442.18,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010),travel,credit,2007,,5346.09,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010),travel,debit,2007,,4903.91,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010); balance = credit - debit,travel,balance,2007,1,-8.75,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010),travel,credit,2007,1,1179.75,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010),travel,debit,2007,1,1188.5,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010); balance = credit - debit,travel,balance,2007,2,238.02,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010),travel,credit,2007,2,1344.32,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010),travel,debit,2007,2,1106.3,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010); balance = credit - debit,travel,balance,2007,3,301.94,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010),travel,credit,2007,3,1431.76,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010),travel,debit,2007,3,1129.82,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010); balance = credit - debit,travel,balance,2007,4,-89.05,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010),travel,credit,2007,4,1390.25,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010),travel,debit,2007,4,1479.3,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010); balance = credit - debit,travel,balance,2008,,1823.12,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010),travel,credit,2008,,7377.39,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010),travel,debit,2008,,5554.27,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010); balance = credit - debit,travel,balance,2008,1,353.59,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010),travel,credit,2008,1,1663.36,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010),travel,debit,2008,1,1309.77,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010); balance = credit - debit,travel,balance,2008,2,440.3,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010),travel,credit,2008,2,1770.59,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010),travel,debit,2008,2,1330.29,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010); balance = credit - debit,travel,balance,2008,3,617.48,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010),travel,credit,2008,3,1974.82,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010),travel,debit,2008,3,1357.34,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010); balance = credit - debit,travel,balance,2008,4,411.77,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010),travel,credit,2008,4,1968.63,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010),travel,debit,2008,4,1556.86,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010); balance = credit - debit,travel,balance,2009,,281.78,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010),travel,credit,2009,,5597.92,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010),travel,debit,2009,,5316.14,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010); balance = credit - debit,travel,balance,2009,1,228.05,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010),travel,credit,2009,1,1227.88,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010),travel,debit,2009,1,999.83,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010); balance = credit - debit,travel,balance,2009,2,216.0,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010),travel,credit,2009,2,1368.09,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010),travel,debit,2009,2,1152.09,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010); balance = credit - debit,travel,balance,2009,3,234.79,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010),travel,credit,2009,3,1489.22,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010),travel,debit,2009,3,1254.43,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010); balance = credit - debit,travel,balance,2009,4,-397.07,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010),travel,credit,2009,4,1512.72,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet Th 2004-2010),travel,debit,2009,4,1909.79,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,travel,balance,2010,,563.38,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,credit,2010,,6957.91,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,debit,2010,,6394.53,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,travel,balance,2010,1,351.37,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,credit,2010,1,1689.21,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,debit,2010,1,1337.84,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,travel,balance,2010,2,61.19,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,credit,2010,2,1554.22,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,debit,2010,2,1493.03,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,travel,balance,2010,3,283.05,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,credit,2010,3,1809.39,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,debit,2010,3,1526.34,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,travel,balance,2010,4,-132.24,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,credit,2010,4,1905.08,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,debit,2010,4,2037.32,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,travel,balance,2011,,1741.39,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,credit,2011,,7996.65,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,debit,2011,,6255.26,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,travel,balance,2011,1,640.82,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,credit,2011,1,1933.5,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,debit,2011,1,1292.68,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,travel,balance,2011,2,263.78,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,credit,2011,2,1736.51,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,debit,2011,2,1472.73,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,travel,balance,2011,3,660.01,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,credit,2011,3,2093.4,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,debit,2011,3,1433.39,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,travel,balance,2011,4,176.78,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,credit,2011,4,2233.24,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,debit,2011,4,2056.46,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,travel,balance,2012,,1553.11,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,credit,2012,,8323.62,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,debit,2012,,6770.51,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,travel,balance,2012,1,704.59,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,credit,2012,1,2118.77,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,debit,2012,1,1414.18,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,travel,balance,2012,2,185.11,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,credit,2012,2,1785.68,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,debit,2012,2,1600.57,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,travel,balance,2012,3,531.55,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,credit,2012,3,2072.52,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,debit,2012,3,1540.97,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,travel,balance,2012,4,131.85,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,credit,2012,4,2346.64,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,debit,2012,4,2214.79,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,travel,balance,2013,,1444.31,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,credit,2013,,9119.18,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,debit,2013,,7674.87,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,travel,balance,2013,1,500.84,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,credit,2013,1,2243.31,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,debit,2013,1,1742.47,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,travel,balance,2013,2,41.42,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,credit,2013,2,1962.89,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,debit,2013,2,1921.47,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,travel,balance,2013,3,543.1,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,credit,2013,3,2340.24,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,debit,2013,3,1797.14,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,travel,balance,2013,4,358.95,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,credit,2013,4,2572.74,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,debit,2013,4,2213.79,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,travel,balance,2014,,2579.16,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,credit,2014,,10261.11,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,debit,2014,,7681.95,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,travel,balance,2014,1,876.1,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,credit,2014,1,2582.63,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,debit,2014,1,1706.53,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,travel,balance,2014,2,402.73,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,credit,2014,2,2234.95,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,debit,2014,2,1832.22,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,travel,balance,2014,3,701.02,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,credit,2014,3,2606.91,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,debit,2014,3,1905.89,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,travel,balance,2014,4,599.31,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,credit,2014,4,2836.62,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,debit,2014,4,2237.31,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,travel,balance,2015,,3468.76,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,credit,2015,,10760.95,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,debit,2015,,7292.19,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,travel,balance,2015,1,1058.63,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,credit,2015,1,2756.31,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,debit,2015,1,1697.68,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,travel,balance,2015,2,608.91,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,credit,2015,2,2292.31,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,debit,2015,2,1683.4,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,travel,balance,2015,3,827.03,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,credit,2015,3,2796.18,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,debit,2015,3,1969.15,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,travel,balance,2015,4,974.18,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,credit,2015,4,2916.15,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,debit,2015,4,1941.97,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,travel,balance,2016,,3639.25,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,credit,2016,,11205.66,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,debit,2016,,7566.41,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,travel,balance,2016,1,1089.35,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,credit,2016,1,2722.25,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,debit,2016,1,1632.9,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,travel,balance,2016,2,589.57,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,credit,2016,2,2358.8,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,debit,2016,2,1769.23,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,travel,balance,2016,3,849.06,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,credit,2016,3,3023.49,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,debit,2016,3,2174.43,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,travel,balance,2016,4,1111.28,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,credit,2016,4,3101.13,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,debit,2016,4,1989.85,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,travel,balance,2017,,4850.49,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,credit,2017,,13139.38,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,debit,2017,,8288.89,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,travel,balance,2017,1,1532.11,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,credit,2017,1,3251.33,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,debit,2017,1,1719.22,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,travel,balance,2017,2,976.88,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,credit,2017,2,2955.4,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,debit,2017,2,1978.52,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,travel,balance,2017,3,1212.17,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,credit,2017,3,3741.45,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,debit,2017,3,2529.28,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,travel,balance,2017,4,1129.31,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,credit,2017,4,3191.19,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,debit,2017,4,2061.88,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,travel,balance,2018,,6112.26,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,credit,2018,,16425.79,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,debit,2018,,10313.53,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,travel,balance,2018,1,1692.82,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,credit,2018,1,3946.92,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,debit,2018,1,2254.1,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,travel,balance,2018,2,1241.95,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,credit,2018,2,3634.0,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,debit,2018,2,2392.05,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,travel,balance,2018,3,1604.77,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,credit,2018,3,4647.48,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,debit,2018,3,3042.71,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,travel,balance,2018,4,1572.72,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,credit,2018,4,4197.39,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,debit,2018,4,2624.67,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,travel,balance,2019,,5603.06,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,credit,2019,,16910.74,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,debit,2019,,11307.68,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,travel,balance,2019,1,1590.56,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,credit,2019,1,4058.78,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,debit,2019,1,2468.22,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,travel,balance,2019,2,1065.19,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,credit,2019,2,3649.24,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,debit,2019,2,2584.05,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,travel,balance,2019,3,1349.36,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,credit,2019,3,4722.71,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,debit,2019,3,3373.35,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,travel,balance,2019,4,1597.97,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,credit,2019,4,4480.02,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,debit,2019,4,2882.05,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,travel,balance,2020,,1634.26,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,credit,2020,,3381.87,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,debit,2020,,1747.61,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,travel,balance,2020,1,1587.82,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,credit,2020,1,2991.0,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,debit,2020,1,1403.18,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,travel,balance,2020,2,-22.45,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,credit,2020,2,89.55,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,debit,2020,2,112.0,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,travel,balance,2020,3,2.78,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,credit,2020,3,112.38,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,debit,2020,3,109.6,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,travel,balance,2020,4,66.1,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,credit,2020,4,188.94,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,debit,2020,4,122.84,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,travel,balance,2021,,48.99,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,credit,2021,,520.74,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,debit,2021,,471.75,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,travel,balance,2021,1,17.39,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,credit,2021,1,94.75,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,debit,2021,1,77.36,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,travel,balance,2021,2,50.72,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,credit,2021,2,144.92,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,debit,2021,2,94.2,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,travel,balance,2021,3,-6.04,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,credit,2021,3,93.26,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,debit,2021,3,99.3,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,travel,balance,2021,4,-13.07,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,credit,2021,4,187.81,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,debit,2021,4,200.88,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,travel,balance,2022,,362.97,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,credit,2022,,6781.18,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,debit,2022,,6418.21,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,travel,balance,2022,1,-64.08,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,credit,2022,1,215.03,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,debit,2022,1,279.11,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,travel,balance,2022,2,154.9,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,credit,2022,2,1607.54,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,debit,2022,2,1452.64,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,travel,balance,2022,3,124.69,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,credit,2022,3,2416.23,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,debit,2022,3,2291.54,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,travel,balance,2022,4,147.46,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,credit,2022,4,2542.38,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,debit,2022,4,2394.92,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,travel,balance,2023,,2317.91,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,credit,2023,,14000.91,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,debit,2023,,11683.0,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,travel,balance,2023,1,491.49,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,credit,2023,1,2845.09,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,debit,2023,1,2353.6,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,travel,balance,2023,2,-92.7,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,credit,2023,2,3249.44,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,debit,2023,2,3342.14,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,travel,balance,2023,3,1077.85,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,credit,2023,3,4375.8,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,debit,2023,3,3297.95,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,travel,balance,2023,4,841.28,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,credit,2023,4,3530.58,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,debit,2023,4,2689.3,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,travel,balance,2024,,3244.63,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,credit,2024,,16703.3,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,debit,2024,,13458.67,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,travel,balance,2024,1,1085.4,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,credit,2024,1,3632.88,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,debit,2024,1,2547.48,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,travel,balance,2024,2,-366.18,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,credit,2024,2,3835.0,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,debit,2024,2,4201.18,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,travel,balance,2024,3,1273.31,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,credit,2024,3,5163.58,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,debit,2024,3,3890.27,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,travel,balance,2024,4,1252.1,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,credit,2024,4,4071.84,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,debit,2024,4,2819.74,USD,millions,,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,travel,balance,2025,,4156.47,USD,millions,*,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,credit,2025,,18274.65,USD,millions,*,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,debit,2025,,14118.18,USD,millions,*,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,travel,balance,2025,1,1028.1,USD,millions,*,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,credit,2025,1,3807.8,USD,millions,*,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,debit,2025,1,2779.7,USD,millions,*,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,travel,balance,2025,2,-14.88,USD,millions,*,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,credit,2025,2,4390.26,USD,millions,*,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,debit,2025,2,4405.14,USD,millions,*,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,travel,balance,2025,3,1821.5,USD,millions,*,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,credit,2025,3,5624.4,USD,millions,*,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,debit,2025,3,3802.9,USD,millions,*,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,travel,balance,2025,4,1321.75,USD,millions,*,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,credit,2025,4,4452.19,USD,millions,*,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,debit,2025,4,3130.44,USD,millions,*,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,travel,balance,2026,1,1098.8,USD,millions,*,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,credit,2026,1,4046.23,USD,millions,*,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,debit,2026,1,2947.43,USD,millions,*,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3); balance = credit - debit,travel,balance,2026,2,606.4,USD,millions,**,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,credit,2026,2,4387.69,USD,millions,**,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z
+BI SEKI Table V.3 (sheet 5.3),travel,debit,2026,2,3781.29,USD,millions,**,https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,2026-10-15T15:03:15Z

@@ -1,0 +1,6 @@
+anchor,expected,got,status
+TIS AUS SD 2023 USD: reporter D 5852.4 -> IDN credit,5852.4,5852.4,PASS
+TIS AUS SD 2023 USD: reporter C 1318.1 -> IDN debit,1318.1,1318.1,PASS
+TIS AUS SD 2023 USD: reporter B -4534.3 -> IDN balance +4534.3,4534.3,4534.3,PASS
+TIS JPN SD 2023 USD: reporter C 636.8 -> IDN debit,636.8,636.8,PASS
+TIS JPN SD 2023 USD: reporter D 419.0 -> IDN credit,419.0,419,PASS

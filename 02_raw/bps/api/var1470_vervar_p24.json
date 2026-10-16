@@ -1,0 +1,85 @@
+{
+    "status": "OK",
+    "data-availability": "available",
+    "data": [
+        {
+            "page": 24,
+            "pages": 25,
+            "per_page": 10,
+            "count": 10,
+            "total": 248
+        },
+        [
+            {
+                "kode_ver_id": 231,
+                "vervar": "Lesotho",
+                "item_ver_id": 5843,
+                "group_ver_id": 377,
+                "name_group_ver_id": "Paspor yang dipegang"
+            },
+            {
+                "kode_ver_id": 232,
+                "vervar": "South Sudan",
+                "item_ver_id": 5937,
+                "group_ver_id": 377,
+                "name_group_ver_id": "Paspor yang dipegang"
+            },
+            {
+                "kode_ver_id": 233,
+                "vervar": "Niger",
+                "item_ver_id": 5855,
+                "group_ver_id": 377,
+                "name_group_ver_id": "Paspor yang dipegang"
+            },
+            {
+                "kode_ver_id": 234,
+                "vervar": "Djibouti",
+                "item_ver_id": 5831,
+                "group_ver_id": 377,
+                "name_group_ver_id": "Paspor yang dipegang"
+            },
+            {
+                "kode_ver_id": 235,
+                "vervar": "Guinea Equator",
+                "item_ver_id": 5839,
+                "group_ver_id": 377,
+                "name_group_ver_id": "Paspor yang dipegang"
+            },
+            {
+                "kode_ver_id": 236,
+                "vervar": "Afrika Tengah Rep.",
+                "item_ver_id": 5818,
+                "group_ver_id": 377,
+                "name_group_ver_id": "Paspor yang dipegang"
+            },
+            {
+                "kode_ver_id": 237,
+                "vervar": "Angola",
+                "item_ver_id": 5820,
+                "group_ver_id": 377,
+                "name_group_ver_id": "Paspor yang dipegang"
+            },
+            {
+                "kode_ver_id": 238,
+                "vervar": "Benin",
+                "item_ver_id": 5821,
+                "group_ver_id": 377,
+                "name_group_ver_id": "Paspor yang dipegang"
+            },
+            {
+                "kode_ver_id": 239,
+                "vervar": "Sahara",
+                "item_ver_id": 5858,
+                "group_ver_id": 377,
+                "name_group_ver_id": "Paspor yang dipegang"
+            },
+            {
+                "kode_ver_id": 240,
+                "vervar": "Sao Tome &amp; Principe",
+                "item_ver_id": 5859,
+                "group_ver_id": 377,
+                "name_group_ver_id": "Paspor yang dipegang"
+            }
+        ]
+    ]
+}

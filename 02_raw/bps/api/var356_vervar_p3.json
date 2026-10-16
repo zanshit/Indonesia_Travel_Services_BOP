@@ -1,0 +1,85 @@
+{
+    "status": "OK",
+    "data-availability": "available",
+    "data": [
+        {
+            "page": 3,
+            "pages": 4,
+            "per_page": 10,
+            "count": 10,
+            "total": 37
+        },
+        [
+            {
+                "kode_ver_id": 23,
+                "vervar": "Spanyol",
+                "item_ver_id": 1918,
+                "group_ver_id": 110,
+                "name_group_ver_id": "Negara Tempat Tinggal"
+            },
+            {
+                "kode_ver_id": 24,
+                "vervar": "Portugal ",
+                "item_ver_id": 1919,
+                "group_ver_id": 110,
+                "name_group_ver_id": "Negara Tempat Tinggal"
+            },
+            {
+                "kode_ver_id": 25,
+                "vervar": "Swedia",
+                "item_ver_id": 1920,
+                "group_ver_id": 110,
+                "name_group_ver_id": "Negara Tempat Tinggal"
+            },
+            {
+                "kode_ver_id": 26,
+                "vervar": "Swiss",
+                "item_ver_id": 1921,
+                "group_ver_id": 110,
+                "name_group_ver_id": "Negara Tempat Tinggal"
+            },
+            {
+                "kode_ver_id": 27,
+                "vervar": "Inggris",
+                "item_ver_id": 1922,
+                "group_ver_id": 110,
+                "name_group_ver_id": "Negara Tempat Tinggal"
+            },
+            {
+                "kode_ver_id": 28,
+                "vervar": "Finlandia",
+                "item_ver_id": 1923,
+                "group_ver_id": 110,
+                "name_group_ver_id": "Negara Tempat Tinggal"
+            },
+            {
+                "kode_ver_id": 29,
+                "vervar": "Norwegia",
+                "item_ver_id": 1924,
+                "group_ver_id": 110,
+                "name_group_ver_id": "Negara Tempat Tinggal"
+            },
+            {
+                "kode_ver_id": 31,
+                "vervar": "Rusia",
+                "item_ver_id": 1926,
+                "group_ver_id": 110,
+                "name_group_ver_id": "Negara Tempat Tinggal"
+            },
+            {
+                "kode_ver_id": 32,
+                "vervar": "Amerika Serikat",
+                "item_ver_id": 1927,
+                "group_ver_id": 110,
+                "name_group_ver_id": "Negara Tempat Tinggal"
+            },
+            {
+                "kode_ver_id": 33,
+                "vervar": "Kanada",
+                "item_ver_id": 1928,
+                "group_ver_id": 110,
+                "name_group_ver_id": "Negara Tempat Tinggal"
+            }
+        ]
+    ]
+}

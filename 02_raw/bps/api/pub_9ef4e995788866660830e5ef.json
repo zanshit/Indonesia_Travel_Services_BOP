@@ -1,0 +1,33 @@
+{
+    "status": "OK",
+    "request": {
+        "domain": "http:\/\/www.archive.bps.go.id",
+        "model": "publication",
+        "lang": "ind",
+        "id": "9ef4e995788866660830e5ef",
+        "time_access": "2026-10-15 22:11:09"
+    },
+    "data-availability": "available",
+    "data": {
+        "pub_id": "9ef4e995788866660830e5ef",
+        "title": "Statistik Kunjungan Wisatawan Mancanegara 2014",
+        "id_subject_csa": [
+            561
+        ],
+        "subject_csa": null,
+        "kat_no": "8401011",
+        "pub_no": "06330.1503",
+        "issn": "2085-9309",
+        "abstract": "Data yang disajikan dalam publikasi ini mencakup antara lain: jumlah kunjungan wisatawan mancanegara, pangsa pasar utama, pola kunjungan, moda angkutan, dan karakterisitik demografi. Selain itu, publikasi ini juga memuat data rata-rata pengeluaran dan lama tinggal wisatawan mancanegara di Indonesia.",
+        "sch_date": "2015-08-10",
+        "rl_date": "2015-08-10",
+        "updt_date": null,
+        "periode": "Tahunan",
+        "bahasa": "Indonesia dan Inggris",
+        "revisi": 0,
+        "cover": "https:\/\/webapi.bps.go.id\/cover.php?f=bMMnR0lNtiBVnhmHfrDMaHhwdVQ4K2VoZmZPNTNxS0NDbEtaWEVLcFFoWnNIcUdTKy9jRFNpZ1NCQXA4TGdwWS9vZGRVd0FvOHpiT2xEY0dXOUY2Vm9EWFdSeWVYOG9uS2s3eEJGOFdpbzlNS3VPZ1FCSHRLSXJjVEg0R25ldlV3TnBJbGpJdFM3dEhUQ0FT",
+        "pdf": "https:\/\/webapi.bps.go.id\/download.php?f=G2pzQd+qGY2Gc16fgY9aBGhuOTdOVXZXakdaTmRTaXhRYlZLS2duc2xUT1ZySG1mUmkyZXl2REVGNkxFMkdwbGp0bEtabDZTL003dDV3MTBIQmc2MmI1T1l1c3BIbkN5c0xzMUJaRC9rYnBTeHVXbHdFcmdlWVFpWHJ2RGFheUgxMFE5R3U1VWFuMVB1YnNYOWhvRHcxL0RqQ2lVZ3gyZkh6RStxM1EwQkFGbkxQd2ZpYjRFSUkvalF3cVN4WVlndFo4cVpSVXRmTE0xeG1kdkxQYXhoYXd2OXV3cXJYelIya0Q3WjdoekR1VEQ1UGtkZ2FaK1dnZ2NXd2d1M3V5WWFyeitBK3VRQVBteFh2UnRmUHBJSlU1L3RvZE8weXI0VnRRNWZnPT0=",
+        "size": "0 MB",
+        "related": []
+    }
+}

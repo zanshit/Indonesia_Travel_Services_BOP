@@ -1,0 +1,33 @@
+{
+    "status": "OK",
+    "request": {
+        "domain": "http:\/\/www.archive.bps.go.id",
+        "model": "publication",
+        "lang": "ind",
+        "id": "ddea1823bc9cd63789d51b05",
+        "time_access": "2026-10-15 22:11:47"
+    },
+    "data-availability": "available",
+    "data": {
+        "pub_id": "ddea1823bc9cd63789d51b05",
+        "title": "Statistik Kunjungan Wisatawan Mancanegara 2020",
+        "id_subject_csa": [
+            561
+        ],
+        "subject_csa": null,
+        "kat_no": "8401011",
+        "pub_no": "06300.2105",
+        "issn": "2085-9309",
+        "abstract": "Publikasi Statistik Kunjungan Wisatawan Mancanegara 2020\r\nmerupakan publikasi rutin tahunan yang disusun dan disajikan oleh Badan Pusat\r\nStatistik (BPS) berdasarkan data sekunder yang diperoleh dari Direktorat\r\nJenderal Imigrasi, Kementerian Hukum dan Hak Asasi Manusia, Kementerian\r\nPariwisata, dan pendataan berbasis Mobile Positioning Data (MPD) dari salah\r\nsatu operator telepon seluler. Data yang disajikan dalam publikasi ini meliputi\r\njumlah kunjungan wisatawan mancanegara menurut pintu masuk, kebangsaan, dan\r\npola kunjungan.",
+        "sch_date": "2021-06-30",
+        "rl_date": "2021-06-30",
+        "updt_date": null,
+        "periode": "Tahunan",
+        "bahasa": "Indonesia dan Inggris",
+        "revisi": 0,
+        "cover": "https:\/\/webapi.bps.go.id\/cover.php?f=zL915hQenutaJdfMee1LjVdtSFFjSHhwbGMzbEV2bU1vcm5ZZEtENVBWQzZaR0FJNDhHWmdRMWtvcFh6RDNtYjBBVVZWUEQrSlVZY1pPSjhNM1owL0t5VmZPdXluNUN3Um1BRlRlQzRmaVBPL0laR3Nwd0pKYmVtTDM4TGt6YXRwdmd6M29jN0EwRUtGMkll",
+        "pdf": "https:\/\/webapi.bps.go.id\/download.php?f=Ey6QbQDbGKHN1HkEjjdwTXUwMkk3bDRhaTN6aEZUSVZoWHlsSGkxRXZ6TkdDRnlWZFYyNkFGSmtRZFViK05uWkhqdm5MNnRSenRCZ1ExYjhPbDA3SDJTZ1lqRDJGRzQ0OFJpTnEvTVpGNVdBSFBxZU1ZOVROd24vTGlIT1FHR3VoNmhFdUZpYlM1UnIvQTc0cjA5dWp0Y0UwRUZaQTJ2S3pBUmh0OUU3TXpVRS9UVkZLVkRsNHJzbjlyY1lBRFArNXVzazBKVjlKa0ZOVi9hK3BmM2w2QU44aTZSTTdtZzhGSUR5YzdWei9hVGR0a1BPYkN5S3VFUEpCT1BCSStuSkZwNHZSakNNNnlXUndOcE5odC9oNzJhcU9LbHZ6VlpoTzYreHZnPT0=",
+        "size": "5.76 MB",
+        "related": []
+    }
+}

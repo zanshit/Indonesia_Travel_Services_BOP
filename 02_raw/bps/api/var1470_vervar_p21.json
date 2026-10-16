@@ -1,0 +1,85 @@
+{
+    "status": "OK",
+    "data-availability": "available",
+    "data": [
+        {
+            "page": 21,
+            "pages": 25,
+            "per_page": 10,
+            "count": 10,
+            "total": 248
+        },
+        [
+            {
+                "kode_ver_id": 201,
+                "vervar": "Ghana",
+                "item_ver_id": 5836,
+                "group_ver_id": 377,
+                "name_group_ver_id": "Paspor yang dipegang"
+            },
+            {
+                "kode_ver_id": 202,
+                "vervar": "Kamerun",
+                "item_ver_id": 5841,
+                "group_ver_id": 377,
+                "name_group_ver_id": "Paspor yang dipegang"
+            },
+            {
+                "kode_ver_id": 203,
+                "vervar": "Uganda",
+                "item_ver_id": 5869,
+                "group_ver_id": 377,
+                "name_group_ver_id": "Paspor yang dipegang"
+            },
+            {
+                "kode_ver_id": 204,
+                "vervar": "Malagasy (Madagascar)",
+                "item_ver_id": 5846,
+                "group_ver_id": 377,
+                "name_group_ver_id": "Paspor yang dipegang"
+            },
+            {
+                "kode_ver_id": 205,
+                "vervar": "Ethiopia",
+                "item_ver_id": 5833,
+                "group_ver_id": 377,
+                "name_group_ver_id": "Paspor yang dipegang"
+            },
+            {
+                "kode_ver_id": 206,
+                "vervar": "Congo Rep. Dem.",
+                "item_ver_id": 5830,
+                "group_ver_id": 377,
+                "name_group_ver_id": "Paspor yang dipegang"
+            },
+            {
+                "kode_ver_id": 207,
+                "vervar": "Seychelles",
+                "item_ver_id": 5861,
+                "group_ver_id": 377,
+                "name_group_ver_id": "Paspor yang dipegang"
+            },
+            {
+                "kode_ver_id": 208,
+                "vervar": "Burkina Faso",
+                "item_ver_id": 5823,
+                "group_ver_id": 377,
+                "name_group_ver_id": "Paspor yang dipegang"
+            },
+            {
+                "kode_ver_id": 209,
+                "vervar": "Rwanda",
+                "item_ver_id": 5857,
+                "group_ver_id": 377,
+                "name_group_ver_id": "Paspor yang dipegang"
+            },
+            {
+                "kode_ver_id": 210,
+                "vervar": "Zambia",
+                "item_ver_id": 5871,
+                "group_ver_id": 377,
+                "name_group_ver_id": "Paspor yang dipegang"
+            }
+        ]
+    ]
+}

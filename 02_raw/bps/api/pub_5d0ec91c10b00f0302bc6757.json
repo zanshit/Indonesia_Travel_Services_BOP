@@ -1,0 +1,33 @@
+{
+    "status": "OK",
+    "request": {
+        "domain": "http:\/\/www.archive.bps.go.id",
+        "model": "publication",
+        "lang": "ind",
+        "id": "5d0ec91c10b00f0302bc6757",
+        "time_access": "2026-10-15 22:10:09"
+    },
+    "data-availability": "available",
+    "data": {
+        "pub_id": "5d0ec91c10b00f0302bc6757",
+        "title": "Statistik Pengeluaran Wisatawan Mancanegara 2025",
+        "id_subject_csa": [
+            561
+        ],
+        "subject_csa": null,
+        "kat_no": "8401018",
+        "pub_no": "06300.26005",
+        "issn": "3123-8262",
+        "abstract": "Publikasi Statistik Pengeluaran Wisatawan Mancanegara 2025 adalah publikasi tahunan yang diterbitkan Badan Pusat Statistik (BPS) dan merupakan kelanjutan dari tahun sebelumnya. Data yang disajikan dalam publikasi ini merupakan hasil pendataan Passenger Exit Survey (PES) 2025 yang mencatat profil wisatawan mancanegara yang berkunjung ke Indonesia mencakup profil demografi, pola perjalanan, dan pola pengeluaran wisatawan mancanegara. PES 2025 dilaksanakan di pintu keberangkatan internasional bandar udara\/pelabuhan\/ pos lintas batas di tujuh belas provinsi di Indonesia. Adapun metode pendataan yang dilakukan dalam survei ini adalah Computer Assisted Personal Interviewing (CAPI).&lt;br&gt;",
+        "sch_date": "2026-05-05",
+        "rl_date": "2026-05-05",
+        "updt_date": null,
+        "periode": "Tahunan",
+        "bahasa": "Indonesia dan Inggris",
+        "revisi": 0,
+        "cover": "https:\/\/webapi.bps.go.id\/cover.php?f=BuayD2LUoLimz8\/7NJmIfGJsNHVhcmJSZVZHVWVuMVNJSGpkdkVNQVBsYnVqTEswNnlwaFZRV1Y3Uk1hTm5NZk4xOUxYUWZTVUllZTgvZ3RVWTE4YmdJMWF5TC9QSDJhQWI0YWtQZjRXMXc3QUp6RVBqN1VNK1I5S1U0Vlhsb1B4VnhqdndpNG4vNVVldDBM",
+        "pdf": "https:\/\/webapi.bps.go.id\/download.php?f=7Mlo\/hi5u2TU3yBRCujKqW04cTA0aVZwRDFyeUpRRWFqb1dCVDZqSTk4TkdoUCtTeTBqZXVNcS9aaFd3dXhwTmFTRSt2VTZtdmc5dnBGdHVQdlQ4L3dtdkFMdHdjMEt3dXdFK09kL1RWSzB0L08xaHJSMFQ4Yy9yVHBYZnlrUTcwNjhBYnJkR1RUSm5tb0JZRHFaaVF6eTFodFptRUNvWEoxcXZyNU1IMU4wcC9QcDBCaE5hUVdOYksvbFV4R1JiMUdSYXpzZEdlY1lkbFhkNFlscEoyM1V2MC9vbE5UUGdaYkZUck0wUGV0cURLQ1Q5N0VlWS9qa2U2MHNjR09iZTRKU1F6ZWYybDJDZkdnMGxyUHUwYzM3VEY0b1dzMUkvMFBWdGxnPT0=",
+        "size": "27.91 MB",
+        "related": []
+    }
+}

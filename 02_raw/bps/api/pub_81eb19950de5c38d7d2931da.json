@@ -1,0 +1,33 @@
+{
+    "status": "OK",
+    "request": {
+        "domain": "http:\/\/www.archive.bps.go.id",
+        "model": "publication",
+        "lang": "ind",
+        "id": "81eb19950de5c38d7d2931da",
+        "time_access": "2026-10-15 22:10:43"
+    },
+    "data-availability": "available",
+    "data": {
+        "pub_id": "81eb19950de5c38d7d2931da",
+        "title": "Tourism Satellite Account Indonesia 2018-2022",
+        "id_subject_csa": [
+            561
+        ],
+        "subject_csa": null,
+        "kat_no": "8401007",
+        "pub_no": "07100.24004",
+        "issn": "-",
+        "abstract": "Publikasi Tourism Satellite Account Indonesia 2018-2022 menyajikan beragam data statistik terkait pariwisata dari sisi permintaan seperti pengeluaran yang dikeluarkan oleh wisatawan baik wisatawan mancanegara(inbound), wisatawan lokal (domestic) maupun wisatawan Indonesia yang berkunjung ke luar negeri (outbound). Sementara dari sisi penyediaan, data statistik pariwisata yang disajikan berupa produk pariwisata yang dihasilkan oleh industri pariwisata dan industri lainnya di Indonesia. Selain dari sisi penyediaan maupun permintaan, dalam mendukung upaya pemerintah untuk menjadikan pariwisata sebagai sumber ekonomi baru sebagaimana tertuang dalam RPJMN-Prioritas Nasional (PN)-3, dibutuhkan suatu indikator yang dapat menangkap kontribusi pariwisata terhadap perekonomian yang juga digambarkan dalam publikasi ini.<br>",
+        "sch_date": null,
+        "rl_date": "2024-06-13",
+        "updt_date": null,
+        "periode": "Khusus\/Ad Hoc\/Lainnya",
+        "bahasa": "Indonesia dan Inggris",
+        "revisi": 0,
+        "cover": "https:\/\/webapi.bps.go.id\/cover.php?f=lPuzwGIcLJp\/VyhsUya9o3grc1lSM0VXUUx1UlVmQXhVQXZEZmhvb2JQVzZ3VXZBWU9qQW1WQUtXZ0YzeHVhS003MXM5Qk0xeDhRYlVTb25rM1h2QXJHQlZ3dUJTakxwNk9QbVk1N0pGdDk1d2dYTm9wMDZpT1pMSGcyQnBxMVVzYmpGWmw3Z1RuSWVDYUox",
+        "pdf": "https:\/\/webapi.bps.go.id\/download.php?f=zg35yabJV4YUqUXQzFhsqTFrS0JGZDJrRWR1KzZidThTMTVBV3dXdFNLNXpnTE96RGd5R3o5Sy9LbForb3l1RkpRUlY0OXlaYWo5TTNldDZRQjNPN2ZtOEh0WWFVVnV6Y3d6VWg1VjgrZUNhK2ZIbmF4QmtzYkFveWlBaGZDeHY5eXEzaUdCRDJIN2I3cXhld29STWhybU9IQnA1Z1I1MEQ5Y0RnNlNlTkZ6ZXpGLyt0cEtBQVJDLzArQ1gvSjZDYmo5RXdrbjNoV2d6QVdEYVhzZFFldVFTdFpUQnpyai9hdURqNTNpbnUvYmRIZ1kvQ0ZhbXpQZ25FY2hsVnFyTUgzV3dDOE8xeWF4bWdFcFRUUTNkMHFsR3BsTDhSZmdDYnNhY2lRPT0=",
+        "size": "15.12 MB",
+        "related": []
+    }
+}

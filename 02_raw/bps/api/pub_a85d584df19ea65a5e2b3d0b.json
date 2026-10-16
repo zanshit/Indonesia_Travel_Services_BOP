@@ -1,0 +1,33 @@
+{
+    "status": "OK",
+    "request": {
+        "domain": "http:\/\/www.archive.bps.go.id",
+        "model": "publication",
+        "lang": "ind",
+        "id": "a85d584df19ea65a5e2b3d0b",
+        "time_access": "2026-10-15 22:11:20"
+    },
+    "data-availability": "available",
+    "data": {
+        "pub_id": "a85d584df19ea65a5e2b3d0b",
+        "title": "Statistik Kunjungan Wisatawan Mancanegara 2024",
+        "id_subject_csa": [
+            561
+        ],
+        "subject_csa": null,
+        "kat_no": "8401011",
+        "pub_no": "06300.25004",
+        "issn": "2085-9309",
+        "abstract": "Publikasi Statistik Kunjungan Wisatawan Mancanegara 2024 merupakan publikasi rutin tahunan yang disusun dan disajikan oleh Badan Pusat Statistik (BPS). Sumber Data publikasi ini diperoleh dari Direktorat Jenderal Imigrasi, Kementerian Imigrasi dan Pemasyarakatan dan Kementerian Pariwisata dan pendataan yang berbasis Mobile Positioning Data (MPD). Data yang disajikan dalam publikasi ini meliputi jumlah kunjungan wisatawan mancanegara menurut pintu masuk, kebangsaan, dan pola kunjungan.<br>",
+        "sch_date": "2025-03-20",
+        "rl_date": "2025-03-20",
+        "updt_date": null,
+        "periode": "Tahunan",
+        "bahasa": "Indonesia dan Inggris",
+        "revisi": 0,
+        "cover": "https:\/\/webapi.bps.go.id\/cover.php?f=m6CKby6\/2IXEIIwyivFke3UxNnNXN1pNNzlZZEF1bTRRMlZQMDBxRGF2c0JFYVFFVFlEaE5ZcnhHZW9yWktjTlBrZE9rVjIyREFRMng2dk8rRG9QM2F3dUp0Y2tXT0ExdUYrcjdUWkgzN3ZhcS9DUVl3bDhuZWFqOEhsSmZJVHQ3SWJmVzQ1ZUVzZ3JQVExN",
+        "pdf": "https:\/\/webapi.bps.go.id\/download.php?f=rEB9s\/sAcyKXn36czAQSWUpraWhxaURwZ2JPejYybHRIMm9aNElybWwwRUR1Q0Fxc3ZiU25GUUl5L0ptaGpMTHF1SzN1Z3NnemUySkw1MUVIdW96WFAyVS9jTFNUM1hCOS9OUWtLekhGdGJZOG4yT1BwK2F6dWFUTkNudUJWcWtrcE5LbE83ZmFiQkxDNHNCQjNMaUkyS2tQR0lUUkhkZzA1STRGVlNDWVdtS3YwSS9leTQ0ZzJ4VENlQU9xYkpXRy9wLzVJTFlzZkh2SFRBVVdjbm45L2d5YlprYWtiL0FHV2FDOXZ5SnZFUDFKdWcvcDhtMmk3aHFXdTlMbGFpZ1A1Vi9vZDdMZnliTFZScERYSjE0KytMb0ZrbnhRNHcrNi80V3pRPT0=",
+        "size": "18.53 MB",
+        "related": []
+    }
+}

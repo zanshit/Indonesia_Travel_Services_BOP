@@ -1,0 +1,51 @@
+{
+    "status": "OK",
+    "data-availability": "available",
+    "last_update": "2024-05-06 15:09:13",
+    "subject": [
+        {
+            "val": 561,
+            "label": "Pariwisata"
+        }
+    ],
+    "var": [
+        {
+            "val": 1160,
+            "label": "Jumlah Devisa Sektor Pariwisata",
+            "unit": "Miliar US $",
+            "subj": "Tujuan Pembangunan Berkelanjutan Edisi I",
+            "def": "",
+            "decimal": 2,
+            "note": "<p><br \/><\/p><p>Sumber: Bank Indonesia\n<br \/><\/p><p><br \/><\/p>"
+        }
+    ],
+    "turvar": [
+        {
+            "val": "0",
+            "label": "Tidak ada"
+        }
+    ],
+    "labelvervar": "Wilayah ",
+    "vervar": [
+        {
+            "val": 1,
+            "label": "Indonesia"
+        }
+    ],
+    "tahun": [
+        {
+            "val": 121,
+            "label": "2021"
+        }
+    ],
+    "turtahun": [
+        {
+            "val": 0,
+            "label": "Tahun"
+        }
+    ],
+    "datacontent": {
+        "1116001210": 0.54
+    },
+    "related": []
+}

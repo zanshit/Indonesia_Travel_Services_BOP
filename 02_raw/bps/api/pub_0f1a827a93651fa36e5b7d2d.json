@@ -1,0 +1,33 @@
+{
+    "status": "OK",
+    "request": {
+        "domain": "http:\/\/www.archive.bps.go.id",
+        "model": "publication",
+        "lang": "ind",
+        "id": "0f1a827a93651fa36e5b7d2d",
+        "time_access": "2026-10-15 22:09:30"
+    },
+    "data-availability": "available",
+    "data": {
+        "pub_id": "0f1a827a93651fa36e5b7d2d",
+        "title": "Statistik Kunjungan Wisatawan Mancanegara 2015",
+        "id_subject_csa": [
+            561
+        ],
+        "subject_csa": null,
+        "kat_no": "8401011",
+        "pub_no": "06330.1601",
+        "issn": "2085-9309",
+        "abstract": "Data yang disajikan dalam publikasi ini mencakup antara lain: jumlah kunjungan wisatawan mancanegara, pintu masuk utama, dan pola kunjungan. Selain itu, publikasi ini juga memuat data rata-rata lama tinggal dan pengeluaran wisatawan mancanegara di Indonesia.",
+        "sch_date": "2016-08-29",
+        "rl_date": "2016-09-20",
+        "updt_date": null,
+        "periode": "Tahunan",
+        "bahasa": "Indonesia dan Inggris",
+        "revisi": 0,
+        "cover": "https:\/\/webapi.bps.go.id\/cover.php?f=CgGKLB0V+uUUD7GcGlbpoTFSY3g0YnFEbU40YUNSWis0N0t2KzA2WDE1UHVNSk1oT3RFdmZ4aTdWano3NDdHV1lDdlN1VGhTZXFJOFc3UG9CRTZNbm56Tm9abFA3SWRDUHhCVjNaYXhpM2FJWEoxOEJXZVhLaW9Nb3hibW1mb1RqaS9Ra2tZK0xQLzlvTUs1",
+        "pdf": "https:\/\/webapi.bps.go.id\/download.php?f=OzOEPKgzJaShkc8DBgeDlXVMMENBM0h2REN3STg0dmtjdmttdGpsOStCUDRESTA2YzE4eVhpRWZPbDBaTFo4MUlYRVluSUYxQWJ3SmVSVE56UEVkb1h3MHdUekRCQVZ6OGhmYmRhYmN2Ynlxd2p1T0VPRXNzS1FPRTJBNWxjWDk3Q1lTa2JkN3ZhSUFjaE4ybXc3V1NaMmJhRCsra1NrYlJlN2RNWlIvMG5MaVg2OFU2ZVBHNEsxN011c1cvQWFEZCtBUHVieXljTlNaUWc1Ry9tYjVQRkFEV0RVSW0rY2g4RnhKUVpUUnFwdFk1VVJPaUltbHhXQno3emEwS2JhYjBOVzNWeGNSMGZoRUVEK2wyR0dMbUk3cjZqMGRkRWtzeGVpZGFnPT0=",
+        "size": " MB",
+        "related": []
+    }
+}

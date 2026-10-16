@@ -1,0 +1,33 @@
+{
+    "status": "OK",
+    "request": {
+        "domain": "http:\/\/www.archive.bps.go.id",
+        "model": "publication",
+        "lang": "ind",
+        "id": "8f41f59ea24192828f6c7275",
+        "time_access": "2026-10-15 22:10:52"
+    },
+    "data-availability": "available",
+    "data": {
+        "pub_id": "8f41f59ea24192828f6c7275",
+        "title": "Statistik Wisatawan Nasional 2024",
+        "id_subject_csa": [
+            561
+        ],
+        "subject_csa": null,
+        "kat_no": "8401021",
+        "pub_no": "06300.25002",
+        "issn": "-",
+        "abstract": "Publikasi Statistik Wisatawan Nasional 2024 merupakan publikasi rutin tahunan yang disusun dan disajikan oleh Badan Pusat Statistik. Data yang disajikan dalam publikasi ini merupakan hasil pendataan penduduk Indonesia yang melakukan perjalanan ke luar negeri (wisatawan nasional), meliputi jumlah perjalanan, karakteristik perjalanan, karakteristik sosial ekonomi, dan karakteristik pengeluaran. Sumber Data publikasi ini berasal dari berbagai sumber, yaitu Direktorat Jendral Imigrasi Kementerian Imigrasi dan Pemasyarakatan, Survei Digital Wisatawan Nasional dan Mobile Positioning Data (MPD). MPD merupakan salah satu pemanfaatan teknologi informasi (big data) dalam pengembangan metode penghitungan wisnas.",
+        "sch_date": null,
+        "rl_date": "2025-03-17",
+        "updt_date": "2025-04-24",
+        "periode": "Tahunan",
+        "bahasa": "Indonesia dan Inggris",
+        "revisi": 1,
+        "cover": "https:\/\/webapi.bps.go.id\/cover.php?f=9vt5d4YuRYkT5ODgcPoI2lBXL2krMFJnUzhQWm9ZamY4TDVidjczVlhzbEFCaWc5QXlBS1ZVQnRETmcxRDVNcGY0eHZhN0VuQmgvMVhyZ2EwdDQvNG5kUHdJTnNZeHFCSUZEYkRtZWlXSXhhWityNk1BcjlnSVZPSFgxUnkzR0ZqQlhqaHdteU1WZUpibkRv",
+        "pdf": "https:\/\/webapi.bps.go.id\/download.php?f=zsX0nmeR2GLmYyC5idnuVVVPYU1Yb1pSTktGVXJxZWwvNE5qaWpBZVEzdGREQUNEbFlKUWlhUXpqcEFMWUVHd0UzaVFibjZkY2pUNi9yQVhhM3JLa2wvcXd1V29Ia1U0Y1U4SnA5d0VWQmpNV3FkTTVvR0Q3NW1zWTlCbFZuVzhVS0pvdFdJT25uak9CWThVNjNLY2trc3NiRzJmcndSUkE5dHBvT2R4TFFodVhXdktlT2c1RE1YRHpWMS9oSVhpSlhPb2ZyWVBlR3lkMFJxYXlJOWZzWWl1V0FCUFE0YXVSdnpBZ282MHVwZmtEYlVWdllESHBqMkVNZk55eVVtWSt0bm9ibWtQQWY4M3g4TzE=",
+        "size": "22.5 MB",
+        "related": []
+    }
+}

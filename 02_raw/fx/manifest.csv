@@ -1,0 +1,2 @@
+file,url,retrieved_at_utc,sha256,bytes
+wb_PA.NUS.FCRF.json,"https://api.worldbank.org/v2/country/IDN;MYS;SGP;JPN;THA;AUS;EMU;GBR/indicator/PA.NUS.FCRF?date=2010:2025&format=json&per_page=500",2026-10-15T16:02:58.855220,e7940397543e3c0bfee4a28856162a817256003b505a471a6cc144554d10701a,30878

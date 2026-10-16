@@ -1,0 +1,33 @@
+{
+    "status": "OK",
+    "request": {
+        "domain": "http:\/\/www.archive.bps.go.id",
+        "model": "publication",
+        "lang": "ind",
+        "id": "300a7a65c3ab81bfd6476e2d",
+        "time_access": "2026-10-15 22:09:47"
+    },
+    "data-availability": "available",
+    "data": {
+        "pub_id": "300a7a65c3ab81bfd6476e2d",
+        "title": "Statistik Pengeluaran Wisatawan Mancanegara 2019",
+        "id_subject_csa": [
+            561
+        ],
+        "subject_csa": null,
+        "kat_no": "8401018",
+        "pub_no": "06330.2008",
+        "issn": "978-602-438-357-2",
+        "abstract": "Publikasi\r\nStatistik Pengeluaran Wisatawan Mancanegara 2019 merupakan publikasi baru yang\r\nditerbitkan oleh Badan Pusat Statistik (BPS). Publikasi ini memuat hasil\r\npendataan profil wisatawan mancanegara yang berkunjung ke Indonesia, meliputi\r\nprofil demografi, pola perjalanan, rata-rata dan pola pengeluaran wisatawan\r\nmancanegara",
+        "sch_date": null,
+        "rl_date": "2020-10-22",
+        "updt_date": null,
+        "periode": "Tahunan",
+        "bahasa": "Indonesia",
+        "revisi": 0,
+        "cover": "https:\/\/webapi.bps.go.id\/cover.php?f=jhHN\/F4yE+b6x8U\/FHOfQjF6YTl5c3NrTG93aXhORGdwMXNBSXZtT3NYQ0xMR2pQckM3bGVzVUMyMTh3TUxuYWMwdk56OFlZNGRVeVZHZTYrWUorWnpMUUxsQ2tKWFhvemI3cVdqUWN6N3kvT0V2Mm9RKzdVQ2pzcnZQWThwdEhTSDZuY0xBOE10aUFJU1Ix",
+        "pdf": "https:\/\/webapi.bps.go.id\/download.php?f=w3qKuEBeOW9VpqLarla+qnZNRVF4VG1JU2lGaUd6TENjRVZxTEZ2THpWbWY2eVR5b0lvNC9QTGlMalp6L2RQWlVlbG4wUzZoOUVBd2FUVXhmVlIyRzJZOEdWandhQ1g1SmFkaGtaNFZFbkhkbnJUV21ESTNZVFNBY2NQd1piVWo4STdtYVlLYjFWcGtiSjVuc0VKWGF4cllVanUrWjJ2QXlZNUpoNFpxVWtmcFhVQUE0c1BYTWljNGt6MnhQdTk3Uk0wdEZSbEh4bG0xTDRpRStTZ1hiN2ZnSkFPVGNJSTVlQUdGQlloUHNMZFAvek9jM0lGQnhYKzRZbHdOdUF2dnhnbTZTa0oxZEk3d25VM2pka2NjOEx1Y25hemtrK2NHUmdNMkNBPT0=",
+        "size": "3.08 MB",
+        "related": []
+    }
+}

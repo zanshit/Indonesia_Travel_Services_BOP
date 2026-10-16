@@ -1,0 +1,33 @@
+{
+    "status": "OK",
+    "request": {
+        "domain": "http:\/\/www.archive.bps.go.id",
+        "model": "publication",
+        "lang": "ind",
+        "id": "4293acd4c70c003f804fab9d",
+        "time_access": "2026-10-15 22:09:52"
+    },
+    "data-availability": "available",
+    "data": {
+        "pub_id": "4293acd4c70c003f804fab9d",
+        "title": "Tourism Satellite Account Indonesia 2017-2021",
+        "id_subject_csa": [
+            561
+        ],
+        "subject_csa": null,
+        "kat_no": "8401007",
+        "pub_no": "07100.2303",
+        "issn": "-",
+        "abstract": "Daya tarik pariwisata Indonesia di kalangan lokal maupun global mendorong pemerintah untuk menjadikan pariwisata sebagai sumber ekonomi baru. Indonesia sebagaimana tertuang dalam RPJMN-Prioritas Nasional (PN)-3. Oleh sebab itu, dalam mendukung pembangunan nasional, serta pemulihan ekonomi di masa pandemi, diperlukan indikator yang dapat menangkap kontribusi sektor pariwisata terhadap perekonomian yang digambarkan dalam publikasi Tourism Satellite Account Indonesia 2017 \u2013 2021. Selain itu, publikasi ini juga menyajikan pengeluaran yang dikeluarkan oleh Pariwisata baik turis mancanegara (inbound), turis lokal (domestic) maupun turis Indonesia yang berkunjung ke luar negeri (outbound).",
+        "sch_date": null,
+        "rl_date": "2023-06-29",
+        "updt_date": null,
+        "periode": "Khusus\/Ad Hoc\/Lainnya",
+        "bahasa": "Indonesia dan Inggris",
+        "revisi": 0,
+        "cover": "https:\/\/webapi.bps.go.id\/cover.php?f=YURe60RMzD83b5xkVGWeSjJJV2dFZlowaWN1dGRGTUw5bnQyeFVOSVNMUExEc2pwcEJkYW9TSXdWNXBEWW9jVVRMa1RwYzQzNEY0K0NZMm11NGV0N2tTdHRnbVhIdVZwSVRYZFd1L21WQW8xMUVWNjFyVTZHV05OODlYa09uUER3dTN6U04xU1c3THdjbzdW",
+        "pdf": "https:\/\/webapi.bps.go.id\/download.php?f=1Utn4jrmFyofB3QwlcyTf05mUjlTZU9BZTJXM0QxVTIrTGovVFhIMGZSekdXaTVJdTB5cCtoc0FVV3lCejg2Z1Q2emMwVmRzZ1JiMFUwWUs4MUVrUUVJOHpnQSt6b0xzUkhQSm5ROUxranlha0tJU0dJWTQzT3RnYVFwQlRDWTBIdUYrcWU0aHgrbHoybmN1OWlUd3VvVENEOHQ2Vno3cXp2NzVRS3FBU2FQMGJXMEVJd05rLy9Qd3BuY3pNdmZRZEgzYjFNbWNybzByVjlSSnkzelJGZzJ4WTIza2k0MDVMM09SNVdxa2VMNDlmTFVpdTF4TG1zNHYvS2NLMzljallqMFNPMmRnNWNNanpQdHY3WkNobjlKUzFoNHJhcVVRanJUMGhRPT0=",
+        "size": "3.65 MB",
+        "related": []
+    }
+}

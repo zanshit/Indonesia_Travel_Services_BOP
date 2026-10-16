@@ -1,0 +1,33 @@
+{
+    "status": "OK",
+    "request": {
+        "domain": "http:\/\/www.archive.bps.go.id",
+        "model": "publication",
+        "lang": "ind",
+        "id": "4dcc6b622ae0c4e7ea6a61e8",
+        "time_access": "2026-10-15 22:09:58"
+    },
+    "data-availability": "available",
+    "data": {
+        "pub_id": "4dcc6b622ae0c4e7ea6a61e8",
+        "title": "Statistik Kunjungan Wisatawan Mancanegara 2022",
+        "id_subject_csa": [
+            561
+        ],
+        "subject_csa": null,
+        "kat_no": "8401011",
+        "pub_no": "06300.2302",
+        "issn": "2085-9309",
+        "abstract": "Publikasi Statistik Kunjungan Wisatawan Mancanegara 2022 merupakan publikasi rutin tahunan yang disusun dan disajikan oleh Badan Pusat Statistik (BPS) berdasarkan data sekunder yang diperoleh dari Direktorat Jenderal Imigrasi, Kementerian Hukum dan Hak Asasi Manusia, Kementerian Pariwisata dan Ekonomi Kreatif, dan pendataan berbasis Mobile Positioning Data (MPD) dari salah satu operator telepon seluler. Data yang disajikan dalam publikasi ini meliputi jumlah kunjungan wisatawan mancanegara menurut pintu masuk, kebangsaan, dan pola kunjungan.",
+        "sch_date": "2023-05-12",
+        "rl_date": "2023-05-12",
+        "updt_date": null,
+        "periode": "Tahunan",
+        "bahasa": "Indonesia dan Inggris",
+        "revisi": 0,
+        "cover": "https:\/\/webapi.bps.go.id\/cover.php?f=OxRkTN\/aX39GN2BbzEdd4lQ1SERmTzNKS0o3QnppZjhLZkFZWHFnVzdFWjRIK1hUYXlqNVYwbk53OVYrS2cxUE5STXhEL29hcm5vUE5IRE95OVVRcWF4ZzVpQlFwR1BnTTg0c3Z2MXM5K2NZQlBSdm8xQjhyWmFWT3dISGNLMzVsWUIwa1ZVL2xLQllwS2RV",
+        "pdf": "https:\/\/webapi.bps.go.id\/download.php?f=hC4ZUd6ghozave\/9m7nNrFBLdXlrOGpjYTh2QzQzbVk3MmVrcHFPdkh1b2NrRXJYVTRmTyt0T3owbmdjMUxuOGRtY2xSSlhKS3JnS055QnNERWpEYXF4WDRvbUpyVGNUK0tBSWtEVnl4akdHWlRPdW80aWZVVndhYldITDEvck5yRmdXRkVNc3FqTWY2dDZkTFdwbUVLT0dkNXd3VUt5dDRJd3lSK3pnYUdPcWdBSUM3amgzTkpVSGdXWGgzS3pFZ0NXVVZEUGszNVAxSUtZSTIzVFRqbWMycXUyRXp0S2s2WGNSdDR5NmJGb2NOanFNK1djWU5uUnZoK3lEMllnV1V6TWtZTGE0V2dmeURleHhOU1NUQzNDc1JPd3ZEbWdXVG9zOVBnPT0=",
+        "size": "16.87 MB",
+        "related": []
+    }
+}

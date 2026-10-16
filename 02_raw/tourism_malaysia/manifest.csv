@@ -1,0 +1,8 @@
+file,url,retrieved_at_utc,sha256,bytes
+Malaysia_Tourism_Statistics_in_Brief_2024.pdf,https://data.tourism.gov.my/frontend/pdf/New_Final_Malaysia%20Tourism%20Statistics%20in%20Brief%202024.pdf,2026-10-15T15:24:24Z,364a7fc5e4e58b15d2aa8409f81be35de519f1350c3fa555daecd30f831f6e99,9039932
+TouristProfile2024_pages_9_10_13_15_subset.pdf,"https://data.tourism.gov.my/frontend/pdf/Malaysia_Tourist_Profile_2024%20v2.pdf#pages=9,10,13,15 (page subset extracted by HTTP Range; not the full 860 MB file)",2026-10-15T15:24:22Z,3df0a5b8a4eabc56999a609802c3da0a284517238cfb398763ef2da8807657d0,120024
+TouristProfile2024_pdfpage09_purpose_of_visit.txt,https://data.tourism.gov.my/frontend/pdf/Malaysia_Tourist_Profile_2024%20v2.pdf#page=9,2026-10-15T15:24:22Z,b2aa29a0ebd9fbf09aeee1d812a99301bef34659f0e1fb24d685ad8e668714be,4090
+TouristProfile2024_pdfpage10_arrivals_by_country.txt,https://data.tourism.gov.my/frontend/pdf/Malaysia_Tourist_Profile_2024%20v2.pdf#page=10,2026-10-15T15:24:22Z,2405359c1cad26b7c79fb3f5082d1dcb21dda2b308929efcfdac251443e8bea8,1898
+TouristProfile2024_pdfpage13_expenditure_components.txt,https://data.tourism.gov.my/frontend/pdf/Malaysia_Tourist_Profile_2024%20v2.pdf#page=13,2026-10-15T15:24:22Z,3d3b33adc9c488c86611a2486755477ffc5296471ab00434fef95484e6a10bb7,3198
+TouristProfile2024_pdfpage15_tourist_expenditure_by_country.txt,https://data.tourism.gov.my/frontend/pdf/Malaysia_Tourist_Profile_2024%20v2.pdf#page=15,2026-10-15T15:24:22Z,9b9e34bf2775e439ab1773a3aebc272278884a7cb11a61f83dbd0a7c55ebbe19,5451
+kpi_2025_new.pdf,https://data.tourism.gov.my/frontend/pdf/2025/publications/kpi/kpi_2025_new.pdf,2026-10-15T15:24:26Z,216dad251283d384c52312527d97b12a38ff05b5da9f1c23a6e189e1820214a9,13064164

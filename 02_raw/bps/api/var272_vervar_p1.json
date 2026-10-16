@@ -1,0 +1,85 @@
+{
+    "status": "OK",
+    "data-availability": "available",
+    "data": [
+        {
+            "page": 1,
+            "pages": 4,
+            "per_page": 10,
+            "count": 10,
+            "total": 37
+        },
+        [
+            {
+                "kode_ver_id": 1,
+                "vervar": "Brunei Darussalam",
+                "item_ver_id": 1896,
+                "group_ver_id": 110,
+                "name_group_ver_id": "Negara Tempat Tinggal"
+            },
+            {
+                "kode_ver_id": 2,
+                "vervar": "Malaysia",
+                "item_ver_id": 1897,
+                "group_ver_id": 110,
+                "name_group_ver_id": "Negara Tempat Tinggal"
+            },
+            {
+                "kode_ver_id": 3,
+                "vervar": "Filipina",
+                "item_ver_id": 1898,
+                "group_ver_id": 110,
+                "name_group_ver_id": "Negara Tempat Tinggal"
+            },
+            {
+                "kode_ver_id": 4,
+                "vervar": "Singapura",
+                "item_ver_id": 1899,
+                "group_ver_id": 110,
+                "name_group_ver_id": "Negara Tempat Tinggal"
+            },
+            {
+                "kode_ver_id": 5,
+                "vervar": "Thailand",
+                "item_ver_id": 1900,
+                "group_ver_id": 110,
+                "name_group_ver_id": "Negara Tempat Tinggal"
+            },
+            {
+                "kode_ver_id": 7,
+                "vervar": "India",
+                "item_ver_id": 1902,
+                "group_ver_id": 110,
+                "name_group_ver_id": "Negara Tempat Tinggal"
+            },
+            {
+                "kode_ver_id": 8,
+                "vervar": "Jepang",
+                "item_ver_id": 1903,
+                "group_ver_id": 110,
+                "name_group_ver_id": "Negara Tempat Tinggal"
+            },
+            {
+                "kode_ver_id": 9,
+                "vervar": "Korea Selatan",
+                "item_ver_id": 1904,
+                "group_ver_id": 110,
+                "name_group_ver_id": "Negara Tempat Tinggal"
+            },
+            {
+                "kode_ver_id": 10,
+                "vervar": "Pakistan",
+                "item_ver_id": 1905,
+                "group_ver_id": 110,
+                "name_group_ver_id": "Negara Tempat Tinggal"
+            },
+            {
+                "kode_ver_id": 11,
+                "vervar": "Bangladesh",
+                "item_ver_id": 1906,
+                "group_ver_id": 110,
+                "name_group_ver_id": "Negara Tempat Tinggal"
+            }
+        ]
+    ]
+}

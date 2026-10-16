@@ -1,0 +1,22 @@
+{
+    "status": "OK",
+    "data-availability": "available",
+    "data": [
+        {
+            "page": 1,
+            "pages": 1,
+            "per_page": 10,
+            "count": 1,
+            "total": 1
+        },
+        [
+            {
+                "kode_ver_id": 1,
+                "vervar": "Indonesia",
+                "item_ver_id": 5357,
+                "group_ver_id": 308,
+                "name_group_ver_id": "Wilayah "
+            }
+        ]
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "status": "OK",
+    "request": {
+        "domain": "http:\/\/www.archive.bps.go.id",
+        "model": "publication",
+        "lang": "ind",
+        "id": "b3c824a618fff5f53bab4d8e",
+        "time_access": "2026-10-15 22:11:32"
+    },
+    "data-availability": "available",
+    "data": {
+        "pub_id": "b3c824a618fff5f53bab4d8e",
+        "title": "Tourism Satellite Account Indonesia 2016-2020",
+        "id_subject_csa": [
+            561
+        ],
+        "subject_csa": null,
+        "kat_no": "8401007",
+        "pub_no": "07100.2204",
+        "issn": "-",
+        "abstract": "Pandemi COVID-19 membuat dunia menghadapi situasi yang belum pernah terjadi sebelumnya dan menimbulkan banyak tantangan sosial ekonomi yang harus ditangani. Penyebaran pandemi ini dirasakan hampir diseluruh kegiatan mulai dari Pendidikan, Kesehatan, Ekonomi dan lain lain. Dunia pariwisata pun turut menerima dampak dari adanya pandemi ini yang terlihat dari jumlah wisatawan mancanegara ke Indonesia yang mengalami penurunan drastis sebesar 74,86 persen pada tahun 2020 dibanding tahun sebelumnya. Penurunan jumlah wisatawan selama pandemi disebabkan karena adanya pemberhentian penerbangan internasional menuju Indonesia. \r\n",
+        "sch_date": null,
+        "rl_date": "2022-07-05",
+        "updt_date": null,
+        "periode": "Khusus\/Ad Hoc\/Lainnya",
+        "bahasa": "Indonesia dan Inggris",
+        "revisi": 0,
+        "cover": "https:\/\/webapi.bps.go.id\/cover.php?f=2HZNv5\/FpDGZQJO5kn7SBVlGVzk1N0R5WTIzYWNXOEFubXc3L3BuN2hITVJhTXlDWDhETjR4dVBPNm1BRjR6L2RHSmpiQUkzVGkyYTczTnplQkYvSnpXTGVZdDd4UGxOVi9EcVRzS2lBLzNTSU9ObkQ3ZzArczhKeUo2YlNQK01uQ0VmZ2lYM2JIRHFMRWVk",
+        "pdf": "https:\/\/webapi.bps.go.id\/download.php?f=jb7vk96H6U9E28L1go0gzklOYi8vR3BGN05QazlsbVVQZURjUkxnd01YaXdvRWFOYWJMNTFGUWlyTzFvRzZPSmJzUlRHRVlFcEpWTzdPSExia2w4VS9HM1Rjd3V0S2tOazQwZjhqN0c3bVk2NFVOSmxVWmFqL0UzaW01OVFlYmVQeDZaakZhNFBMdE1vQ0pQNElacUZlVEtWNkE4ZnhVQU5sdms4bmxMRW9iNTREYldYTGlMQ2U4NHJsai9qT2JOa0o2c0pWdU04YkxHUkNFdytGUkh3NzNHZFRKQzQxMVdacHJjRXFtSjdjSUNNNWhtYUcwcnpuRFdZZkk0SElFKzNWdTBya1FYNTJKTy9tbllPQ1lIMlVwMjVCZzNsaU1BcUZQZGNRPT0=",
+        "size": "6.32 MB",
+        "related": []
+    }
+}

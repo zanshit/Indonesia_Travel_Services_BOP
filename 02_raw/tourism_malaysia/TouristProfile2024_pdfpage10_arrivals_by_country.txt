@@ -1,0 +1,50 @@
+TOURIST ARRIVALS BY COUNTRY 
+RANK COUNTRY OF NATIONALITY 2024 2023 GROWTH % 
+1 Singapore 9,099,727  8,308,230  9.5  
+2 Indonesia 3,651,668  3,108,165  17.5  
+3 China 3,287,362  1,474,114  123.0  
+4 Thailand 1,639,211  1,551,282  5.7  
+5 Brunei 1,142,134  811,833  40.7  
+6 India 1,133,331  671,846  68.7  
+7 Australia 382,628  343,438  11.4  
+8 South Korea 475,815  400,853  18.7  
+9 Philippines 400,912  339,282  18.2  
+10 United Kingdom 345,438  272,297  26.9  
+11 Japan 307,883  229,892  33.9  
+12 United States of America 271,809  229,476  18.4  
+13 Chinese Taipei 385,415  283,380  36.0  
+14 Vietnam 330,189  344,361  -4.1  
+15 Bangladesh 143,919  142,748  0.8  
+16 Germany 155,848  125,987  23.7  
+17 Myanmar 114,551  86,298  32.7  
+18 Russia 112,806  109,689  2.8  
+19 Pakistan 102,570  107,657  -4.7  
+20 France 160,637  115,145  39.5  
+21 Canada 86,882  71,981  20.7  
+22 Sri Lanka 58,015  55,050  5.4  
+23 Netherlands 82,964  68,448  21.2  
+24 New Zealand 47,961  42,955  11.7  
+25 Italy 69,781  48,440  44.1  
+26 Cambodia 63,964  72,627  -11.9  
+27 Poland 36,821  21,472  71.5  
+28 Spain 60,527  40,762  48.5  
+29 Sweden 21,242  18,006  18.0  
+30 South Africa 16,979  15,155  12.0  
+31 Saudi Arabia 62,764  51,375  22.2  
+32 Switzerland 28,035  23,312  20.3  
+33 Turkiye 23,986  17,275  38.8  
+34 Iran 24,710  19,908  24.1  
+35 Egypt 22,859  20,783  10.0  
+36 Denmark 19,242  16,053  19.9  
+37 Ireland 21,170  18,127  16.8  
+38 Iraq 18,884  12,562  50.3  
+39 Belgium 25,234  17,726  42.4  
+40 Laos 18,886  16,781  12.5  
+41 Norway 13,250  9,981  32.8  
+42 Nepal 20,091  18,488  8.7  
+43 Ukraine 13,511  11,129  21.4  
+44 United Arab Emirates 6,836  7,877  -13.2  
+45 Central Asia 61,128 25,097 143.6 
+ Others 477,521  361,302  32.2  
+25,016,698  20,141,846  24.2  GRAND TOTAL 
+MALAYSIA’S TOURIST PROFILE 2024 BY SELECTED MARKETS  |  11 

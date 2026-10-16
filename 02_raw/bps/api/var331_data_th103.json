@@ -1,0 +1,225 @@
+{
+    "status": "OK",
+    "data-availability": "available",
+    "last_update": "2019-12-01 08:22:44",
+    "subject": [
+        {
+            "val": 561,
+            "label": "Pariwisata"
+        }
+    ],
+    "var": [
+        {
+            "val": 331,
+            "label": "Penerimaan dari Wisatawan Mancanegara",
+            "unit": "Juta US$",
+            "subj": "Pariwisata",
+            "def": "",
+            "decimal": null,
+            "note": "Sumber:Survei Pengeluaran Wisatawan Mancanegara, Kementerian Pariwisata dan Ekonomi Kreatif"
+        }
+    ],
+    "turvar": [
+        {
+            "val": "0",
+            "label": "Tidak ada"
+        }
+    ],
+    "labelvervar": "Negara Tempat Tinggal [Penerimaan dari Wisman]",
+    "vervar": [
+        {
+            "val": 1,
+            "label": "Brunei Darussalam"
+        },
+        {
+            "val": 2,
+            "label": "Malaysia"
+        },
+        {
+            "val": 3,
+            "label": "Filipina"
+        },
+        {
+            "val": 4,
+            "label": "Singapura"
+        },
+        {
+            "val": 5,
+            "label": "Thailand"
+        },
+        {
+            "val": 6,
+            "label": "Hong Kong"
+        },
+        {
+            "val": 7,
+            "label": "India"
+        },
+        {
+            "val": 8,
+            "label": "Jepang"
+        },
+        {
+            "val": 9,
+            "label": "Korea"
+        },
+        {
+            "val": 10,
+            "label": "Pakistan"
+        },
+        {
+            "val": 11,
+            "label": "Bangladesh"
+        },
+        {
+            "val": 12,
+            "label": "Srilanka"
+        },
+        {
+            "val": 13,
+            "label": "Taiwan"
+        },
+        {
+            "val": 14,
+            "label": "Cina"
+        },
+        {
+            "val": 15,
+            "label": "Arab Saudi"
+        },
+        {
+            "val": 16,
+            "label": "Austria"
+        },
+        {
+            "val": 17,
+            "label": "Belgia"
+        },
+        {
+            "val": 18,
+            "label": "Denmark"
+        },
+        {
+            "val": 19,
+            "label": "Perancis"
+        },
+        {
+            "val": 20,
+            "label": "Jerman"
+        },
+        {
+            "val": 21,
+            "label": "Italia"
+        },
+        {
+            "val": 22,
+            "label": "Belanda"
+        },
+        {
+            "val": 23,
+            "label": "Spanyol"
+        },
+        {
+            "val": 24,
+            "label": "Portugal"
+        },
+        {
+            "val": 25,
+            "label": "Swedia"
+        },
+        {
+            "val": 26,
+            "label": "Swiss"
+        },
+        {
+            "val": 27,
+            "label": "Inggris"
+        },
+        {
+            "val": 28,
+            "label": "Finlandia"
+        },
+        {
+            "val": 29,
+            "label": "Norwegia"
+        },
+        {
+            "val": 30,
+            "label": "Rusia"
+        },
+        {
+            "val": 31,
+            "label": "Amerika Serikat"
+        },
+        {
+            "val": 32,
+            "label": "Kanada"
+        },
+        {
+            "val": 33,
+            "label": "Amerika Tengah"
+        },
+        {
+            "val": 34,
+            "label": "Amerika Selatan"
+        },
+        {
+            "val": 35,
+            "label": "Australia"
+        },
+        {
+            "val": 36,
+            "label": "Selandia Baru"
+        },
+        {
+            "val": 37,
+            "label": "Mesir"
+        },
+        {
+            "val": 38,
+            "label": "Negara lainnya"
+        },
+        {
+            "val": 39,
+            "label": "Jumlah"
+        }
+    ],
+    "tahun": [
+        {
+            "val": 103,
+            "label": "2003"
+        }
+    ],
+    "turtahun": [
+        {
+            "val": 0,
+            "label": "Tahun"
+        }
+    ],
+    "datacontent": {
+        "833101030": 447.66,
+        "433101030": 791.72,
+        "333101030": 64.05,
+        "733101030": 22.94,
+        "2133101030": 33.97,
+        "133101030": 12.36,
+        "3933101030": 4037.02,
+        "233101030": 325.89,
+        "933101030": 223.39,
+        "1933101030": 84.42,
+        "633101030": 67.43,
+        "3833101030": 413.71,
+        "2633101030": 16.45,
+        "2733101030": 107.54,
+        "3233101030": 27.67,
+        "533101030": 31.89,
+        "1333101030": 411.41,
+        "2033101030": 134.7,
+        "3533101030": 299.19,
+        "3133101030": 155.71,
+        "1433101030": 45.59,
+        "3633101030": 17.9,
+        "2233101030": 107.13
+    },
+    "related": []
+}

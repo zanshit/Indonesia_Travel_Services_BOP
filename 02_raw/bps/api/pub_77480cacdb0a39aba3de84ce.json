@@ -1,0 +1,33 @@
+{
+    "status": "OK",
+    "request": {
+        "domain": "http:\/\/www.archive.bps.go.id",
+        "model": "publication",
+        "lang": "ind",
+        "id": "77480cacdb0a39aba3de84ce",
+        "time_access": "2026-10-15 22:10:31"
+    },
+    "data-availability": "available",
+    "data": {
+        "pub_id": "77480cacdb0a39aba3de84ce",
+        "title": "Statistik Kunjungan Wisatawan Mancanegara 2017",
+        "id_subject_csa": [
+            561
+        ],
+        "subject_csa": null,
+        "kat_no": "8401011",
+        "pub_no": "06330.1801",
+        "issn": "2085-9309",
+        "abstract": "<p>Data\r\n yang disajikan dalam publikasi ini mencakup antara lain: jumlah \r\nkunjungan wisatawan mancanegara menurut pintu masuk, kebangsaan, dan \r\npola kunjungan. Selain itu, publikasi ini juga memuat data rata-rata \r\nlama tinggal dan pengeluaran wisatawan mancanegara di Indonesia.<br><\/p>",
+        "sch_date": "2018-06-07",
+        "rl_date": "2018-09-14",
+        "updt_date": null,
+        "periode": "Tahunan",
+        "bahasa": "Indonesia dan Inggris",
+        "revisi": 0,
+        "cover": "https:\/\/webapi.bps.go.id\/cover.php?f=kbNt6gnhU2RlbD1oQeXZyTZZRWpmR0x5Vm5mK3ZJWG1qcVppNE03aGxva2Rkbzk1NHFsaklyVEdUbnJsMG5wWUEzQVB0eDd3R0VlS1lzTjZtbWpSZEFqdVM1N0hFQnBmQTBja1NabWNYbXRaNHdjcWpqK3dyNDY2eUhxTTl3OHovVmJXTmRkbHF4N0ZHQklH",
+        "pdf": "https:\/\/webapi.bps.go.id\/download.php?f=4ZTXmfWoUt7rE6dx1cI2O0drdmVqWDZ1TldTWkdLSXBHVm9td0g5Vjc1Rm1BOFZyM3E2Q3pmOStDbmd4WHRwYmVFUlZmMzVnY0gwV20wOWpZUUpaTGxoc040Um9IYkVLdkNsUFhUOURzS3NGejIrUG50SVpHZG1wMzd5bHJqZENXWTFFaUFTRUV4Tmh4RitSbWtFWUMya3BsRkZmdXpQQk1JbmtKTVJjWjVIK09pMHNNelpkdGhOZTBwNHluUkExc29sV0RxWGpGM2VRNmlsNUF3L0x4QWROVFdwc2xaSGNMY1hweEZGSld6ZWp5U1E4NEFWWEZFWU5JSytRMENwU0Z3b0diVW51RER2S3VqRFdPRnkzQnlDdnY0NUtpQWpYdGw0R05RPT0=",
+        "size": "4.89 MB",
+        "related": []
+    }
+}

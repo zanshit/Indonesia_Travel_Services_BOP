@@ -1,0 +1,236 @@
+{
+    "status": "OK",
+    "data-availability": "available",
+    "last_update": "2017-11-17 00:00:00",
+    "subject": [
+        {
+            "val": 527,
+            "label": "Budaya"
+        }
+    ],
+    "var": [
+        {
+            "val": 178,
+            "label": "Jumlah Jemaah Haji yang Diberangkatkan ke Tanah Suci Mekah Menurut Provinsi",
+            "unit": "Orang",
+            "subj": "Sosial Budaya",
+            "def": "",
+            "decimal": null,
+            "note": "Catatan: \n1 Keberangkatan Melalui Kementerian Agama.\n\n2 Data Kalimantan Utara tahun 2013 dan 2014 masih bergabung dengan Provinsi Kalimantan Timur.\n\nSumber: Direktorat Jenderal Penyelenggaraan Haji dan Umrah Kementerian Agama R.I.\n\nData dikutip dari Publikasi Statistik Indonesia 2015."
+        }
+    ],
+    "turvar": [
+        {
+            "val": "0",
+            "label": "Tidak ada"
+        }
+    ],
+    "labelvervar": "38 Provinsi",
+    "vervar": [
+        {
+            "val": 1100,
+            "label": "ACEH"
+        },
+        {
+            "val": 1200,
+            "label": "SUMATERA UTARA"
+        },
+        {
+            "val": 1300,
+            "label": "SUMATERA BARAT"
+        },
+        {
+            "val": 1400,
+            "label": "RIAU"
+        },
+        {
+            "val": 1500,
+            "label": "JAMBI"
+        },
+        {
+            "val": 1600,
+            "label": "SUMATERA SELATAN"
+        },
+        {
+            "val": 1700,
+            "label": "BENGKULU"
+        },
+        {
+            "val": 1800,
+            "label": "LAMPUNG"
+        },
+        {
+            "val": 1900,
+            "label": "KEP. BANGKA BELITUNG"
+        },
+        {
+            "val": 2100,
+            "label": "KEP. RIAU"
+        },
+        {
+            "val": 3100,
+            "label": "DKI JAKARTA"
+        },
+        {
+            "val": 3200,
+            "label": "JAWA BARAT"
+        },
+        {
+            "val": 3300,
+            "label": "JAWA TENGAH"
+        },
+        {
+            "val": 3400,
+            "label": "DI YOGYAKARTA"
+        },
+        {
+            "val": 3500,
+            "label": "JAWA TIMUR"
+        },
+        {
+            "val": 3600,
+            "label": "BANTEN"
+        },
+        {
+            "val": 5100,
+            "label": "BALI"
+        },
+        {
+            "val": 5200,
+            "label": "NUSA TENGGARA BARAT"
+        },
+        {
+            "val": 5300,
+            "label": "NUSA TENGGARA TIMUR"
+        },
+        {
+            "val": 6100,
+            "label": "KALIMANTAN BARAT"
+        },
+        {
+            "val": 6200,
+            "label": "KALIMANTAN TENGAH"
+        },
+        {
+            "val": 6300,
+            "label": "KALIMANTAN SELATAN"
+        },
+        {
+            "val": 6400,
+            "label": "KALIMANTAN TIMUR"
+        },
+        {
+            "val": 6500,
+            "label": "KALIMANTAN UTARA"
+        },
+        {
+            "val": 7100,
+            "label": "SULAWESI UTARA"
+        },
+        {
+            "val": 7200,
+            "label": "SULAWESI TENGAH"
+        },
+        {
+            "val": 7300,
+            "label": "SULAWESI SELATAN"
+        },
+        {
+            "val": 7400,
+            "label": "SULAWESI TENGGARA"
+        },
+        {
+            "val": 7500,
+            "label": "GORONTALO"
+        },
+        {
+            "val": 7600,
+            "label": "SULAWESI BARAT"
+        },
+        {
+            "val": 8100,
+            "label": "MALUKU"
+        },
+        {
+            "val": 8200,
+            "label": "MALUKU UTARA"
+        },
+        {
+            "val": 9100,
+            "label": "PAPUA BARAT"
+        },
+        {
+            "val": 9200,
+            "label": "PAPUA BARAT DAYA"
+        },
+        {
+            "val": 9400,
+            "label": "PAPUA"
+        },
+        {
+            "val": 9500,
+            "label": "PAPUA SELATAN"
+        },
+        {
+            "val": 9600,
+            "label": "PAPUA TENGAH"
+        },
+        {
+            "val": 9700,
+            "label": "PAPUA PEGUNUNGAN"
+        },
+        {
+            "val": 9999,
+            "label": "INDONESIA"
+        }
+    ],
+    "tahun": [
+        {
+            "val": 116,
+            "label": "2016"
+        }
+    ],
+    "turtahun": [
+        {
+            "val": 0,
+            "label": "Tahun"
+        }
+    ],
+    "datacontent": {
+        "320017801160": 30012,
+        "330017801160": 23642,
+        "999917801160": 154441,
+        "740017801160": 1343,
+        "750017801160": 711,
+        "130017801160": 3576,
+        "170017801160": 1283,
+        "720017801160": 1402,
+        "940017801160": 846,
+        "190017801160": 729,
+        "520017801160": 3583,
+        "640017801160": 2242,
+        "820017801160": 851,
+        "120017801160": 6529,
+        "620017801160": 1078,
+        "710017801160": 558,
+        "180017801160": 5010,
+        "810017801160": 568,
+        "760017801160": 1151,
+        "730017801160": 5775,
+        "360017801160": 6773,
+        "510017801160": 511,
+        "210017801160": 793,
+        "630017801160": 3030,
+        "310017801160": 5649,
+        "610017801160": 1864,
+        "530017801160": 519,
+        "110017801160": 3135,
+        "140017801160": 4032,
+        "350017801160": 27029,
+        "150017801160": 2100,
+        "160017801160": 5082,
+        "340017801160": 2466,
+        "910017801160": 569
+    },
+    "related": []
+}

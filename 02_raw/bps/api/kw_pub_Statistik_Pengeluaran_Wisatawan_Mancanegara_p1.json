@@ -1,0 +1,175 @@
+{
+    "status": "OK",
+    "data-availability": "available",
+    "data": [
+        {
+            "page": 1,
+            "pages": 1,
+            "per_page": 10,
+            "count": 10,
+            "total": 10
+        },
+        [
+            {
+                "pub_id": "27b61f56c20226ca8ecfd974",
+                "title": "Tourism Satellite Account Indonesia 2023-2025",
+                "issn": "3109-7022",
+                "abstract": "Publikasi Tourism Satellite Account (TSA) Indonesia 2023-2025 menyajikan statistik pariwisata yang menggambarkan aktivitas pariwisata dari sisi permintaan dan penyediaan. Dari sisi permintaan, disajikan informasi mengenai pengeluaran wisatawan mancanegara (inbound), wisatawan nusantara (domestic), serta wisatawan Indonesia yang melakukan perjalanan ke luar negeri (outbound). Dari sisi penyediaan, publikasi ini memuat data mengenai produk, karakteristik, kinerja industri pariwisata, serta kontribusi industri terkait dalam memenuhi permintaan pariwisata di Indonesia. Melalui kerangka TSA yang selaras dengan standar internasional, publikasi ini menyajikan indikator kontribusi pariwisata terhadap nilai tambah, Produk Domestik Bruto (PDB), dan penyerapan tenaga kerja. Informasi yang dihasilkan diharapkan dapat mendukung perumusan kebijakan berbasis bukti, evaluasi kinerja sektor pariwisata, serta pengembangan strategi pembangunan pariwisata yang berkelanjutan dan berdaya saing di Indonesia.",
+                "sch_date": null,
+                "rl_date": "2026-09-01",
+                "updt_date": "2026-08-31",
+                "cover": "https:\/\/webapi.bps.go.id\/cover.php?f=8KMylZVFwQ8ZVyzCUH71cWtZRjFTUWRRM0pveHRrYjBMdWlBN3h1UGhsQ3NodkE2NzRBOXUrVGRtaDZoQk1uMVZ2TGYyZFYzd0Q4ZDFaOTdaVlc3WFZSSnV2S0kvNEJNME5YNnVlemlxZDZVUlRjbVZEZTdUbkVCSDNyaVVJOFFmdjlzRDJSMmJEMDR4ZGh6",
+                "pdf": "https:\/\/webapi.bps.go.id\/download.php?f=gp+9TgcW0tijoePNkqRxL01hT3N2a21tZUY2OE1odDVDWDlvTUx2ZjFYZ0JDeUx1RjJkbVl6RFREYUJDbUI0dmlZQ2lEMUtydXJlR016dmhPaTRLWk9YTy9BWUhGQWcyYTgzWTA5UzBSSzV0aUo0YStsU1pzSGo1SldRYmo4NTdXTkY1ak5xaFJaRk03enFaYXJ0KzBmYUpjeWszTjBGOWE3UVlWKzliNldwbFFSemcyeWNMZ3Y4NnlUa0tMNTBZSDdRQytoNlU5aHRtVkNsZkp5L3kvczZJZGNOY2FPOHpUUEZENXBsMWM1WXVFL2dLaVpINlVONlQrNmdhTVZUZU1xb1R1a1ltZW9SZjZDelFMRGRZWWRIYldVamZzK0pGU3JhckV3PT0=",
+                "size": "15.71 MB",
+                "id_subject_csa": [
+                    561
+                ],
+                "subject_csa": null
+            },
+            {
+                "pub_id": "5d0ec91c10b00f0302bc6757",
+                "title": "Statistik Pengeluaran Wisatawan Mancanegara 2025",
+                "issn": "3123-8262",
+                "abstract": "Publikasi Statistik Pengeluaran Wisatawan Mancanegara 2025 adalah publikasi tahunan yang diterbitkan Badan Pusat Statistik (BPS) dan merupakan kelanjutan dari tahun sebelumnya. Data yang disajikan dalam publikasi ini merupakan hasil pendataan Passenger Exit Survey (PES) 2025 yang mencatat profil wisatawan mancanegara yang berkunjung ke Indonesia mencakup profil demografi, pola perjalanan, dan pola pengeluaran wisatawan mancanegara. PES 2025 dilaksanakan di pintu keberangkatan internasional bandar udara\/pelabuhan\/ pos lintas batas di tujuh belas provinsi di Indonesia. Adapun metode pendataan yang dilakukan dalam survei ini adalah Computer Assisted Personal Interviewing (CAPI).&lt;br&gt;",
+                "sch_date": "2026-05-05",
+                "rl_date": "2026-05-05",
+                "updt_date": "2026-05-04",
+                "cover": "https:\/\/webapi.bps.go.id\/cover.php?f=NwFE92ZJiWWIE43+XeH5BzhhZ3ljRGZUQ3QwbURlUFRpTmR4Y1dWUGN5S1JiNHJpOTdqaUZISnJrMGJGZ0hMNHlNUFVkWkVnc1JyVG1kUlVNd0Q5cFRQZ0crTHEzWmZUTUJEdEd3eUIvRVlnV0FHNXpBaXVFbWVybThoUlFYakVLNTJHb1NkbUJtTkxvRkJP",
+                "pdf": "https:\/\/webapi.bps.go.id\/download.php?f=Ig1EQ+6Pp0XefLhVjeWDNHVjbWVBakRwcFJYeS9kd2dsenRSNXVQSnpOa1p0Vkc2Z3I4TXpvazZidmRlNUR2WFBBVHBGb1NVNzQ3OUVKZnk0NFUxdGl5YmozWW05UzdDRG9uKy9FMFhkMnd6QjNQQXloNkMyRFNCM2xNQ2RpL2dhMkVZSVdyQlpJWmd6VG1WdWVxYWQ5NkxIN2JNUHdkeHo3ZWJQbkljZ2ZOZGwwMURtS0NRL0plQUxHdmcyejl6UUdSSXlCdFNaQ3YvY2hGeFp2dW94SlZ0dHE1YVBOTEd0anlCblJsRFJiaHNkUkJ2S2JFeVgvbzN3bmdQMlZmTHlUU0Q1aGhwQ2RUUlZ1MWpRZkx1U1lXYW4rUkhPN1NzQVRKalF3PT0=",
+                "size": "27.91 MB",
+                "id_subject_csa": [
+                    561
+                ],
+                "subject_csa": null
+            },
+            {
+                "pub_id": "aa06ecfee0864e824b9a5f97",
+                "title": "Tourism Satellite Account Indonesia 2022-2024",
+                "issn": "3109-7022",
+                "abstract": "Publikasi Tourism Satellite Account (TSA) Indonesia 2022\u20132024 menyajikan statistik pariwisata yang menggambarkan aktivitas pariwisata dari sisi permintaan dan penyediaan. Dari sisi permintaan, disajikan informasi mengenai pengeluaran wisatawan mancanegara (inbound), wisatawan nusantara (domestic), serta wisatawan Indonesia yang melakukan perjalanan ke luar negeri (outbound). Dari sisi penyediaan, publikasi ini memuat data mengenai produk, karakteristik, kinerja industri pariwisata, serta kontribusi industri terkait dalam memenuhi permintaan pariwisata di Indonesia. Melalui kerangka TSA yang selaras dengan standar internasional, publikasi ini menyajikan indikator kontribusi pariwisata terhadap nilai tambah, Produk Domestik Bruto (PDB), dan penyerapan tenaga kerja. Informasi yang dihasilkan diharapkan dapat mendukung perumusan kebijakan berbasis bukti, evaluasi kinerja sektor pariwisata, serta pengembangan strategi pembangunan pariwisata yang berkelanjutan dan berdaya saing di Indonesia.",
+                "sch_date": "2026-06-30",
+                "rl_date": "2026-03-16",
+                "updt_date": null,
+                "cover": "https:\/\/webapi.bps.go.id\/cover.php?f=DnJEd9O+6ZzQYFB2LubIZFBNc1czUkprRVkxMDhVTWFmUlJHWlA1RUxOVFpram9sTUxEd0QzZTdTSzNoejgxWjNaQ20xL1ZnTE0rdHhHM0tGcG5PSWhGczlCdVc0cG9qUzMrdWZ1cXcralZHMzVkRXBSWGJwRE8rTW1DSzQwVDNQandsdWhKcVlkNVdvdjI2",
+                "pdf": "https:\/\/webapi.bps.go.id\/download.php?f=EsS8yaOzZMwIS5kmrPVedUtaVGxneko4OG12d2ZMOXdpVEVhT3hSZ3JQc3JMN0VWTVR6VkpxQzAwdVUxaFo3ZGs4bFlHdXZCNURLNmN2aEkvQTBweEdWR3FGdnUwT1Q1RGErMmF2cmJEMTVQbHdhOTZrekpwdHI2L1BTZG0vN3lubEF2TlhCNTNGTWZMVjZwTUttY01tT1RKb0Vsa2JMOFNBeFdHK1dpbTBxb1NBbHNsM1FWZ09xN1pENVg4dzBvcVBvK3ExNDJmbUFqSWRoOXU2UjFlYWtDQmZ3Y2FENEx1dWxVNm5Ja09WUndhaThXTmt2aFlQYUZlYVl2cDZXeTczMjdtUThuOTF5cXR2TERvenFQZUgrR2Zjek05b3Z4dFBFdUZBPT0=",
+                "size": "27.26 MB",
+                "id_subject_csa": [
+                    561
+                ],
+                "subject_csa": null
+            },
+            {
+                "pub_id": "7bd0bd596f54cf0f51b45030",
+                "title": "Statistik Pengeluaran Wisatawan Mancanegara 2024",
+                "issn": "-",
+                "abstract": "Publikasi Statistik Pengeluaran Wisatawan Mancanegara 2024 adalah publikasi tahunan yang diterbitkan Badan Pusat Statistik (BPS) dan merupakan kelanjutan dari tahun sebelumnya. Data yang disajikan dalam publikasi ini merupakan hasil pendataan Passenger Exit Survey (PES) 2024 yang mencatat profil wisatawan mancanegara yang berkunjung ke Indonesia mencakup profil demografi, pola perjalanan, dan pola pengeluaran wisatawan mancanegara. PES 2024 dilaksanakan di pintu keberangkatan internasional bandar udara\/pelabuhan\/ pos lintas batas di lima belas provinsi di Indonesia. Adapun metode pendataan yang dilakukan dalam survei ini adalah Computer Assisted Personal Interviewing (CAPI).",
+                "sch_date": null,
+                "rl_date": "2025-03-24",
+                "updt_date": null,
+                "cover": "https:\/\/webapi.bps.go.id\/cover.php?f=l2aDOHXG+aXoFvJXTUp95kRLOEtMTEdRMFhqcDNQa2xTMjR2YlhQYUJTYUYrYkRIcWJRNUYzbXJFbXF6MmlEbUZWazFJejBzOHpseVdSMll3TEg2cEJDM20zMmhkckFCMGJuVXc3bVB2YmFrakhNYzlJTE9HcHcwTGhXcDdFYkRkTDdzQ3Urcno4K2Vxc1pN",
+                "pdf": "https:\/\/webapi.bps.go.id\/download.php?f=LQLw4w3RN7w5fHF4OvxiWklGaWVZQ3N5ZDJ2RWtuZEk1QUdyNDRXejFDWTFOOUFPUlV3ZWZiaS9xSlYxMUMvK1U1M0tOcWhTK1QveG5vd3UyWm9GRnFHSjh5eERFL2tHd3hwc3RHY2lzZG0rSzlVTWIvR1ZVMnJXb0FsVXRZMWZVWnlaTWxFWWl6THVIMnNScnQzTWUvQ3BJMFBNMWkwbTJoYkFTVlBrVzk2SmRFRVVGYXB1V1VZRTBsYlAvaFNicXA5VGRkUGJTc2pXNFAyVFY5REloR1pieVZmMkZOaGRTS0dscU1tcW41ZGRVbFU1UWl3VnptY0xmSzlQczFnZ0lrbkJ4MkJZc0VlcS9MTkJ2WE5PTmY2STJ1YnY3azB4b2xwQ3R3PT0=",
+                "size": "23.97 MB",
+                "id_subject_csa": [
+                    561
+                ],
+                "subject_csa": null
+            },
+            {
+                "pub_id": "81eb19950de5c38d7d2931da",
+                "title": "Tourism Satellite Account Indonesia 2018-2022",
+                "issn": "-",
+                "abstract": "Publikasi Tourism Satellite Account Indonesia 2018-2022 menyajikan beragam data statistik terkait pariwisata dari sisi permintaan seperti pengeluaran yang dikeluarkan oleh wisatawan baik wisatawan mancanegara(inbound), wisatawan lokal (domestic) maupun wisatawan Indonesia yang berkunjung ke luar negeri (outbound). Sementara dari sisi penyediaan, data statistik pariwisata yang disajikan berupa produk pariwisata yang dihasilkan oleh industri pariwisata dan industri lainnya di Indonesia. Selain dari sisi penyediaan maupun permintaan, dalam mendukung upaya pemerintah untuk menjadikan pariwisata sebagai sumber ekonomi baru sebagaimana tertuang dalam RPJMN-Prioritas Nasional (PN)-3, dibutuhkan suatu indikator yang dapat menangkap kontribusi pariwisata terhadap perekonomian yang juga digambarkan dalam publikasi ini.<br>",
+                "sch_date": null,
+                "rl_date": "2024-06-13",
+                "updt_date": null,
+                "cover": "https:\/\/webapi.bps.go.id\/cover.php?f=JNz5LHklrxoi3z7GL\/uZETRBMkg3VUMxWDZkMGd4ZFFVdVZ1L3gvemxzOWV6NmhGU3kxajU4U0VFM2VjRWp3S1p0MEZia09TZHZhS0ZXZUFkekNHMVpQNWxSOXZhRkdZdWVZeVZtZTEzODZ2eExBMmN4SStQYlNYU2F4WWV4WGpXSjBaWHBKd1FCck85NWM1",
+                "pdf": "https:\/\/webapi.bps.go.id\/download.php?f=kIHuigwXz6eQWPe3XofDbGdRV2xtTGpxNnk4VTdRaDZiNGtlSXVkdEg1bnhGZ0JmWTNqL0NTV1ZpalRBeFBzb0RhRG54dTZxZ0VBR3ZuOGpYQW1UVWR6bThOYUVIL25DN3lIZ0wzR3NZS2NUQ2JrbituY0pJcy93MFR4bGhvV2tEQzN3UDJjU2tIMFdOQmZIdDlLaTVVTE5VSFRpVXZBbnB6em83cmtUdHg2QXpvanRlMnZuOVNLdmorRWdObi8zWXZWbE1TOVRkcE53UDJqN0RHT0IrRyt0V2VwWm5kdm9iZUtoT0Z5SWJHTXpBV0lLdXl2SkkxVFh4YXRZRi9YdExZRWJhNllPZ2R0eTlNaWVLcE4zbXQ5UHJ2Q0ZiMTcyRVVFclFBPT0=",
+                "size": "15.12 MB",
+                "id_subject_csa": [
+                    561
+                ],
+                "subject_csa": null
+            },
+            {
+                "pub_id": "b88772d443001a23da1acf41",
+                "title": "Statistik Pengeluaran Wisatawan Mancanegara 2023",
+                "issn": "-",
+                "abstract": "Publikasi Statistik Pengeluaran Wisatawan Mancanegara 2023 adalah publikasi tahunan yang diterbitkan Badan Pusat Statistik (BPS) dan merupakan kelanjutan dari tahun sebelumnya. Data yang disajikan dalam publikasi ini merupakan hasil pendataan Passenger Exit Survey (PES) 2022 yang mencatat profil wisatawan mancanegara yang berkunjung ke Indonesia mencakup\r\nprofil demografi, pola perjalanan, dan pola pengeluaran wisatawan mancanegara. PES 2023 dilaksanakan di pintu keberangkatan internasional bandar udara\/pelabuhan\/ pos lintas batas di tiga belas provinsi di Indonesia. Adapun metode pendataan yang dilakukan dalam survei ini adalah Computer Assisted Personal Interviewing (CAPI).",
+                "sch_date": null,
+                "rl_date": "2024-05-15",
+                "updt_date": null,
+                "cover": "https:\/\/webapi.bps.go.id\/cover.php?f=2jxFl\/XN+05Lxi2Yirzgl2xyY29SeEZTU1FDTldGaDZ3bkVDOGFCNDNveWlMVzJsRFZjM0xacEkvS0Z4OFpSQ1ZJdE92T2dKUFRxd2xzMjBIQXJiR25tMVpoRnUyUEo0RDNVT3RrRmZXbldlczRIQk0yZzQ2NHYwbjMwZ0xpeDhvUERrSmtCZnNVQjU3VDI0",
+                "pdf": "https:\/\/webapi.bps.go.id\/download.php?f=nRwsAuetwLyADK+0nsPHJHkyaVZjcjFCcGFqOEFrL1huOTNkbUFUZ1dmOG5EZTBMdXpQaHRMZEh2RkpZaFRqUkdybGQvT3dDSm1vekpyaklVRTI5K0l2aUFrdUMvditMNk9iMFNoenNyMDYwWDJyaXVFa01INDlGRFN3QW9GbHpnS2xicWwxT21FVkhtTHZMQUNlN3FpTERqM0tINnpMdUhieW12cXN2SmVISkphTVlOZm1hTUVNZFB2ZU9kMk5VV21pdnlSNDl5MGIzdjVSOVR0SjVpaWh4YTVnblZkczVTczYrVStyK1dSazBaU0o2YWt5R1kraEJYNmFYVC9NaHEvbXd5Qm03Q0pEWkVHMFNHbTRyYlVheTIrbExpSXQxMCtWSThBPT0=",
+                "size": "10.16 MB",
+                "id_subject_csa": [
+                    561
+                ],
+                "subject_csa": null
+            },
+            {
+                "pub_id": "72f620661a43c72cf15f10ad",
+                "title": "Statistik Pengeluaran Wisatawan Mancanegara 2022",
+                "issn": "-",
+                "abstract": "Publikasi Statistik Pengeluaran Wisatawan Mancanegara 2022 merupakan publikasi tahunan yang diterbitkan oleh Badan Pusat Statistik (BPS). Publikasi ini menyajikan hasil pendataan profil wisatawan mancanegara yang berkunjung ke Indonesia, meliputi profil demografi, pola perjalanan, rata-rata dan pola pengeluaran wisatawan mancanegara.",
+                "sch_date": null,
+                "rl_date": "2023-05-31",
+                "updt_date": null,
+                "cover": "https:\/\/webapi.bps.go.id\/cover.php?f=4oMLeLNyVGPnK0Q3dZl3wmZ2bG5JWDliTDNJU09xa3hxSytsTkRla2dTRG9maC9WZjFiak9wekU1L01YRHA3U3ptNXdqME1WYUhkeG5HWEVvVndBdVdmNnhZOVhuZHYySnB0TGg0Q0RqSUFaVUwvUjIvRWdSTGd5R2ljSm5jUkZTYjhYVlpzOEZEMFRjSUlS",
+                "pdf": "https:\/\/webapi.bps.go.id\/download.php?f=74RT1eAB4Dxflwk5+NODZnBRY1U4M2gwK1NyeEh6Q3ZCWjJ3ZHlTcU5HeVNrVHRObEdmZGFjT3BMendiRUQ3cGVsT3doTzdNTThYbk5Td2V2RXNYZHZGMzV0cEZQaTRXaVZESVpuRzlKSk1uMkxMeU4zY0UxenUvOTdnNXkvYzVBWHRvUnVSVDRYQ1BySDRrbDdPYSt3WjdCMXg1dkRTTGJ3aVdTTDloSmRUM0VhdXk1TzFHS3ZualVpUDg4Ty9BditNTFNXVy8yZVNvbzN6ZWMxVHVkbDVTSXVGOUhKRzE2eERyQ0RtUHpCVE00Y1dPNTBUakpNaFM5Wk9ZQTlmbXlBSzVHYUYxaTd6SUpacU9BRzMybVh1YkE4UzlqditESHFyUHdnPT0=",
+                "size": "16.52 MB",
+                "id_subject_csa": [
+                    561
+                ],
+                "subject_csa": null
+            },
+            {
+                "pub_id": "5f780a406ed2d93e3aaac7a5",
+                "title": "Statistik Pengeluaran Wisatawan Mancanegara 2021",
+                "issn": "",
+                "abstract": "Publikasi Statistik Pengeluaran Wisatawan Mancanegara 2021 merupakan publikasi tahunan yang diterbitkan oleh Badan Pusat Statistik (BPS). Publikasi ini memuat hasil pendataan profil wisatawan mancanegara yang berkunjung ke Indonesia, meliputi profil demografi, pola perjalanan, rata-rata dan pola pengeluaran wisatawan mancanegara.\r\n",
+                "sch_date": null,
+                "rl_date": "2022-10-07",
+                "updt_date": null,
+                "cover": "https:\/\/webapi.bps.go.id\/cover.php?f=CAV9RerUBrBNYS0aHNlc8VZkWGpqeDk5RkNwc1dHK3VEUytGWEQ3eTA3bDVRUDl2M2MyeGxHVDgzZitnOTVoVzAwN2hHb1RUT3NKTURlY1lVQ3lsT3pQbHBEaTZYU2wvaGZYOTJRZjRCZ1FDbStrVG9Wa3drbjI5OGhHYlA5RFhydVRUM2JWWUdMV1FIVDgr",
+                "pdf": "https:\/\/webapi.bps.go.id\/download.php?f=5PkedIBXJMZhUaqpDdu84nhqSWlDUHYwYjc5SkpKT3JxMXA0Y0RNa1gwbmpleDljenZJZUNSQUc3Tk1qZHQ1YkJlcFp3YUNkZXN5MVRSN2tFRkdkNEtiNTdRWHc2NW4xTmxJcVNRR2NxYWQ0Wk81VWh6aFdUc2RYQStjbHI0L2xrcnNTbDMyamw4bEZ4QThicTJVbTQxbUQ2aFhvazhJTEgyQndpMVh6OFhkQUl4ZUxxV00zRHpTc0NNM3h0SHFNNE0vUFJHNFVPbjIyVHY0a3ZXS3Jxd3NIZ2YwR0xVQnNudUhGZkpmQlR4ek5DTE9LZmJGQ25TTjlQbSsrNEc2ZjB0MHhDZy9yajVucGsvSTBKc05YYzNFcksvQjlCN2haeFNSVVlnPT0=",
+                "size": "8.37 MB",
+                "id_subject_csa": [
+                    561
+                ],
+                "subject_csa": null
+            },
+            {
+                "pub_id": "edd8fc78594be9545eacc2c1",
+                "title": "Statistik Pengeluaran Wisatawan Mancanegara 2020",
+                "issn": "978-602-438-434-0",
+                "abstract": "Publikasi Statistik Pengeluaran Wisatawan Mancanegara 2020 merupakan publikasi baru yang diterbitkan oleh Badan Pusat Statistik (BPS). Publikasi ini memuat hasil pendataan profil wisatawan mancanegara yang berkunjung ke Indonesia, meliputi profil demografi, pola perjalanan, rata-rata dan pola pengeluaran wisatawan mancanegara.",
+                "sch_date": null,
+                "rl_date": "2021-10-20",
+                "updt_date": null,
+                "cover": "https:\/\/webapi.bps.go.id\/cover.php?f=LGqYIpPvjMKKbbe\/xoxzUmhsTEw3NVBvVU9WVkpTbEk5enVWbVlHa0hSU081OG9WS0x2dkUyMHpqYkYvME1UajkyOXROMElnaVc5R0dyc0FJSmN1bURna2xqbGNkcGxrdGV6YmFiYnBlL1VHTEZrMkxLZy9jMk4wQ2JXY0hIdldNRXRlVkxCUS9PVFVUbXRa",
+                "pdf": "https:\/\/webapi.bps.go.id\/download.php?f=Dx1\/nK7QZmFLs1NAQ\/d7q0JBTTJkK3E5eEc3STRVZUxYWWg3VFByU3BZYXhsWkp1S3hLc1lldFJUWS8vVlp5ckxqU2hSdjhYZ1FRK3FWK2VpL0pmVTJmaHJxbml4ZEdQZ3p5M2o3RTNrc3pob2hJSXhJaEVsekNPZmI5RWlGQThDeGtnVnZRL3lPVGxPV1MvOTE5Nk1xM1pRanlpbWNpdndnbU04T2Z5SlcydnVVaGhHbnJrTVRpeUZiNkJsdzdYb1J2R1ZUbTJYZXhpeFo5NjErQ3p3L0JHbkFCTUVES2VrV1lTOW5OUUpBRzN6c0NTS3RIVXJmMHVjaXhhVnRnYkZmdzVBTnYvS0VvQi95RDJzNEpYOWtCbkZjTzhBUkl2SWlxWTBBPT0=",
+                "size": "7.59 MB",
+                "id_subject_csa": [
+                    561
+                ],
+                "subject_csa": null
+            },
+            {
+                "pub_id": "300a7a65c3ab81bfd6476e2d",
+                "title": "Statistik Pengeluaran Wisatawan Mancanegara 2019",
+                "issn": "978-602-438-357-2",
+                "abstract": "Publikasi\r\nStatistik Pengeluaran Wisatawan Mancanegara 2019 merupakan publikasi baru yang\r\nditerbitkan oleh Badan Pusat Statistik (BPS). Publikasi ini memuat hasil\r\npendataan profil wisatawan mancanegara yang berkunjung ke Indonesia, meliputi\r\nprofil demografi, pola perjalanan, rata-rata dan pola pengeluaran wisatawan\r\nmancanegara",
+                "sch_date": null,
+                "rl_date": "2020-10-22",
+                "updt_date": null,
+                "cover": "https:\/\/webapi.bps.go.id\/cover.php?f=T+u7Nm68SwykFnHX42Mc63JBUnQ1WWFSOTY3bmtsaVJmVnIxdzE3MEFrT21leHVhNWkyUEhhQ21QRmttMWpJRjhCdlR4MnBxTUZLZWl5aHVkbDFVZGRVMjgrOEZFOVRpRWpub3Exb2wveUxzOVFORGUzUTl3S1l4bk8xTXA1cnJQNDBhdGpMTXhiMVQ4eFB4",
+                "pdf": "https:\/\/webapi.bps.go.id\/download.php?f=y9ts2m0X5LZKq3Z0o5SX9zViNjBoMURjTTljb0hiQy9LVTd1djdFV2VWZ3hyRjdSV0tSb21yZFJCYUM0S3lMWEg4M2dTRFZhYndEeFp4QXpBMFI2UlVzV2pFaFcrL3dBRlFPOTdnNWxhSmk1Z0tqaXFDVUhOd1hkV0VMVUp0UnhRQjlBekZ5RUp6RHN6MnJNWks4eHJOS1JHNHZBM2phbGZIY2NsaFB3ay9sM1JMZXVXeVZ2VmZKRW5uQTRQeW1PMkhPL0hMcy9Tby9jN20rand3eVZjVktNNXdQWHVoMWJRamxQT3FTRGZqNSt0UWlkOXl3OUIxN1ZDSHMxaHI4NjVZcE01UFcxelJ5MGtlS3JQRnZQbjJ6NWVudEtNeWxZem5Oeld3PT0=",
+                "size": "3.08 MB",
+                "id_subject_csa": [
+                    561
+                ],
+                "subject_csa": null
+            }
+        ]
+    ]
+}

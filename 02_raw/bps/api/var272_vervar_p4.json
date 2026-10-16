@@ -1,0 +1,64 @@
+{
+    "status": "OK",
+    "data-availability": "available",
+    "data": [
+        {
+            "page": 4,
+            "pages": 4,
+            "per_page": 10,
+            "count": 7,
+            "total": 37
+        },
+        [
+            {
+                "kode_ver_id": 34,
+                "vervar": "Amerika Tengah",
+                "item_ver_id": 1929,
+                "group_ver_id": 110,
+                "name_group_ver_id": "Negara Tempat Tinggal"
+            },
+            {
+                "kode_ver_id": 35,
+                "vervar": "Amerika Selatan",
+                "item_ver_id": 1930,
+                "group_ver_id": 110,
+                "name_group_ver_id": "Negara Tempat Tinggal"
+            },
+            {
+                "kode_ver_id": 36,
+                "vervar": "Australia",
+                "item_ver_id": 1931,
+                "group_ver_id": 110,
+                "name_group_ver_id": "Negara Tempat Tinggal"
+            },
+            {
+                "kode_ver_id": 37,
+                "vervar": "Selandia Baru",
+                "item_ver_id": 1932,
+                "group_ver_id": 110,
+                "name_group_ver_id": "Negara Tempat Tinggal"
+            },
+            {
+                "kode_ver_id": 38,
+                "vervar": "Mesir",
+                "item_ver_id": 1933,
+                "group_ver_id": 110,
+                "name_group_ver_id": "Negara Tempat Tinggal"
+            },
+            {
+                "kode_ver_id": 39,
+                "vervar": "Negara lainnya",
+                "item_ver_id": 1934,
+                "group_ver_id": 110,
+                "name_group_ver_id": "Negara Tempat Tinggal"
+            },
+            {
+                "kode_ver_id": 40,
+                "vervar": "Rata- Rata",
+                "item_ver_id": 1935,
+                "group_ver_id": 110,
+                "name_group_ver_id": "Negara Tempat Tinggal"
+            }
+        ]
+    ]
+}

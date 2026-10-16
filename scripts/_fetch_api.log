@@ -1,0 +1,61 @@
+[var 272] fetching ...
+   years=['2025', '2024', '2023', '2022', '2021', '2020', '2019', '2018', '2016', '2015', '2014', '2013', '2012', '2011', '2010', '2009', '2008', '2007', '2006', '2005', '2004', '2003', '2002', '2001', '2000'] rows=820
+[var 356] fetching ...
+   years=['2025', '2024', '2023', '2022', '2021', '2020', '2019', '2018', '2016', '2015', '2014', '2013', '2012', '2011', '2010', '2009', '2008', '2007', '2006', '2005', '2004', '2003', '2002', '2001', '2000'] rows=886
+[var 1470] fetching ...
+   years=['2026', '2025', '2024', '2023', '2022', '2021', '2020', '2019', '2018', '2017'] rows=31000
+[var 331] fetching ...
+   years=['2014', '2013', '2012', '2011', '2010', '2009', '2008', '2007', '2006', '2005', '2004', '2003', '2002', '2001', '2000'] rows=516
+[var 1160] fetching ...
+   years=['2022', '2021', '2020', '2019', '2018', '2017', '2016', '2015'] rows=8
+[var 2195] fetching ...
+   years=['2026', '2025', '2024', '2023', '2022'] rows=2093
+[kw var] 'kebangsaan': 2 (available)
+[kw var] 'kunjungan wisatawan mancanegara': 3 (available)
+[kw var] 'wisatawan nasional': 1 (available)
+[kw var] 'negara tujuan': 2 (available)
+[kw var] 'negara tempat tinggal': 0 (list-not-available)
+[kw var] 'paspor': 1 (available)
+[kw var] 'pengeluaran wisatawan': 1 (available)
+[kw pub] 'Statistik Pengeluaran Wisatawan Mancanegara': 10 (available)
+[kw pub] 'Statistik Wisatawan Nasional': 11 (available)
+[kw pub] 'Statistik Kunjungan Wisatawan Mancanegara': 18 (available)
+[kw pub] 'Tourism Satellite Account': 7 (available)
+[pub] 0873b4ec8f3645e62d8caa4c Statistik Kunjungan Wisatawan Mancanegara 2016 6 MB
+[pub] 0ba2b8f3f4f15dd18799f0c0 Statistik Kunjungan Wisatawan Mancanegara 2023 11.1 MB
+[pub] 0f1a827a93651fa36e5b7d2d Statistik Kunjungan Wisatawan Mancanegara 2015  MB
+[pub] 1aaafdb1eca4c2bdda880782 Statistik Wisatawan Nasional 2022 14.1 MB
+[pub] 27b61f56c20226ca8ecfd974 Tourism Satellite Account Indonesia 2023-2025 15.71 MB
+[pub] 29e819fbeeee91c67f1c443d Statistik Kunjungan Wisatawan mancanegara 2008 1.55 MB
+[pub] 300a7a65c3ab81bfd6476e2d Statistik Pengeluaran Wisatawan Mancanegara 2019 3.08 MB
+[pub] 4293acd4c70c003f804fab9d Tourism Satellite Account Indonesia 2017-2021 3.65 MB
+[pub] 4dcc6b622ae0c4e7ea6a61e8 Statistik Kunjungan Wisatawan Mancanegara 2022 16.87 MB
+[pub] 4fb8642851550952baead819 Statistik Kunjungan Wisatawan Mancanegara 2025 18.52 MB
+[pub] 5d0ec91c10b00f0302bc6757 Statistik Pengeluaran Wisatawan Mancanegara 2025 27.91 MB
+[pub] 5f780a406ed2d93e3aaac7a5 Statistik Pengeluaran Wisatawan Mancanegara 2021 8.37 MB
+[pub] 6f2f99f9fdf5e645773c906b Tourism Satellite Account Indonesia 2016-2019 9.79 MB
+[pub] 72f620661a43c72cf15f10ad Statistik Pengeluaran Wisatawan Mancanegara 2022 16.52 MB
+[pub] 7344d8c9b1935d342f2ff9e7 Statistik Wisatawan Nasional 2025 13.95 MB
+[pub] 77480cacdb0a39aba3de84ce Statistik Kunjungan Wisatawan Mancanegara 2017 4.89 MB
+[pub] 7a139b19aecfd3c1c5120ac6 Statistik Kunjungan Wisatawan Mancanegara 2009  1.51 MB
+[pub] 7bd0bd596f54cf0f51b45030 Statistik Pengeluaran Wisatawan Mancanegara 2024 23.97 MB
+[pub] 81eb19950de5c38d7d2931da Tourism Satellite Account Indonesia 2018-2022 15.12 MB
+[pub] 84829679c5aea6f0d85c61f5 Statistik Kunjungan Wisatawan Mancanegara 2011 4 MB
+[pub] 87bd2b638690b4a5a9d0734f Statistik Kunjungan Wisatawan Mancanegara 2013 1.04 MB
+[pub] 8f41f59ea24192828f6c7275 Statistik Wisatawan Nasional 2024 22.5 MB
+[pub] 94ceb011540bd0cd73e3474c Statistik Kunjungan Wisatawan Mancanegara 2019 6.14 MB
+[pub] 97bc1d5c8f152f18226cb8cf Statistik Kunjungan Wisatawan Mancanegara 2010 1.27 MB
+[pub] 9882e9804970a1d1b9a69be3 Tourism Satellite Account Indonesia 2019-2023 9.36 MB
+[pub] 9ef4e995788866660830e5ef Statistik Kunjungan Wisatawan Mancanegara 2014 0 MB
+[pub] a14ac9b0d02a074aac856dfb Statistik Wisatawan Nasional 2023 8.84 MB
+[pub] a85d584df19ea65a5e2b3d0b Statistik Kunjungan Wisatawan Mancanegara 2024 18.53 MB
+[pub] aa06ecfee0864e824b9a5f97 Tourism Satellite Account Indonesia 2022-2024 27.26 MB
+[pub] ae12697e1ca6bae30db3171f Statistik Kunjungan Wisatawan Mancanegara 2012 1.09 MB
+[pub] b3c824a618fff5f53bab4d8e Tourism Satellite Account Indonesia 2016-2020 6.32 MB
+[pub] b88772d443001a23da1acf41 Statistik Pengeluaran Wisatawan Mancanegara 2023 10.16 MB
+[pub] bfefb340d548d03cb442ec2a Statistik Wisatawan Nasional 2020 7.55 MB
+[pub] d79faad2c263388e94e160ee Statistik Kunjungan Wisatawan Mancanegara 2021 4.02 MB
+[pub] ddea1823bc9cd63789d51b05 Statistik Kunjungan Wisatawan Mancanegara 2020 5.76 MB
+[pub] edd8fc78594be9545eacc2c1 Statistik Pengeluaran Wisatawan Mancanegara 2020 7.59 MB
+[pub] f2e676c8c2b7ae3346a28b88 Statistik Kunjungan Wisatawan Mancanegara 2018 4.04 MB
+done

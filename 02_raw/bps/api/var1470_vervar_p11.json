@@ -1,0 +1,85 @@
+{
+    "status": "OK",
+    "data-availability": "available",
+    "data": [
+        {
+            "page": 11,
+            "pages": 25,
+            "per_page": 10,
+            "count": 10,
+            "total": 248
+        },
+        [
+            {
+                "kode_ver_id": 101,
+                "vervar": "Serbia",
+                "item_ver_id": 5740,
+                "group_ver_id": 377,
+                "name_group_ver_id": "Paspor yang dipegang"
+            },
+            {
+                "kode_ver_id": 102,
+                "vervar": "Slovenia",
+                "item_ver_id": 5743,
+                "group_ver_id": 377,
+                "name_group_ver_id": "Paspor yang dipegang"
+            },
+            {
+                "kode_ver_id": 103,
+                "vervar": "Armenia",
+                "item_ver_id": 5722,
+                "group_ver_id": 377,
+                "name_group_ver_id": "Paspor yang dipegang"
+            },
+            {
+                "kode_ver_id": 104,
+                "vervar": "Azerbaijan",
+                "item_ver_id": 5723,
+                "group_ver_id": 377,
+                "name_group_ver_id": "Paspor yang dipegang"
+            },
+            {
+                "kode_ver_id": 105,
+                "vervar": "Cyprus",
+                "item_ver_id": 5729,
+                "group_ver_id": 377,
+                "name_group_ver_id": "Paspor yang dipegang"
+            },
+            {
+                "kode_ver_id": 106,
+                "vervar": "Macedonia",
+                "item_ver_id": 5736,
+                "group_ver_id": 377,
+                "name_group_ver_id": "Paspor yang dipegang"
+            },
+            {
+                "kode_ver_id": 107,
+                "vervar": "Bosnia Herzegovina",
+                "item_ver_id": 5725,
+                "group_ver_id": 377,
+                "name_group_ver_id": "Paspor yang dipegang"
+            },
+            {
+                "kode_ver_id": 108,
+                "vervar": "Georgia",
+                "item_ver_id": 5732,
+                "group_ver_id": 377,
+                "name_group_ver_id": "Paspor yang dipegang"
+            },
+            {
+                "kode_ver_id": 109,
+                "vervar": "Albania",
+                "item_ver_id": 5721,
+                "group_ver_id": 377,
+                "name_group_ver_id": "Paspor yang dipegang"
+            },
+            {
+                "kode_ver_id": 110,
+                "vervar": "Moldova",
+                "item_ver_id": 5737,
+                "group_ver_id": 377,
+                "name_group_ver_id": "Paspor yang dipegang"
+            }
+        ]
+    ]
+}

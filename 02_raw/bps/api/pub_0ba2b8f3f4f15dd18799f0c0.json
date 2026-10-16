@@ -1,0 +1,33 @@
+{
+    "status": "OK",
+    "request": {
+        "domain": "http:\/\/www.archive.bps.go.id",
+        "model": "publication",
+        "lang": "ind",
+        "id": "0ba2b8f3f4f15dd18799f0c0",
+        "time_access": "2026-10-15 22:09:25"
+    },
+    "data-availability": "available",
+    "data": {
+        "pub_id": "0ba2b8f3f4f15dd18799f0c0",
+        "title": "Statistik Kunjungan Wisatawan Mancanegara 2023",
+        "id_subject_csa": [
+            561
+        ],
+        "subject_csa": null,
+        "kat_no": "8401011",
+        "pub_no": "06300.24002",
+        "issn": "2085-9309",
+        "abstract": "Publikasi Statistik Kunjungan Wisatawan Mancanegara 2023 merupakan publikasi rutin tahunan \r\nyang disusun dan disajikan oleh Badan Pusat Statistik (BPS). Sumber Data publikasi ini diperoleh \r\ndari Direktorat Jenderal Imigrasi, Kementerian Hukum dan Hak Asasi Manusia dan Kementerian \r\nPariwisata dan Ekonomi Kreatif dan pendataan yang berbasis Mobile Positioning Data (MPD). Data \r\nyang disajikan dalam publikasi ini meliputi jumlah kunjungan wisatawan mancanegara menurut \r\npintu masuk, kebangsaan, dan pola kunjungan",
+        "sch_date": "2024-04-05",
+        "rl_date": "2024-04-05",
+        "updt_date": null,
+        "periode": "Tahunan",
+        "bahasa": "Indonesia dan Inggris",
+        "revisi": 0,
+        "cover": "https:\/\/webapi.bps.go.id\/cover.php?f=EOjmRc\/43lRK+mokrfHTlUZQaklFeXBiczRGNTk2RThvdjd4UVVyaE82TytINDBndy9BbmZRbW9GNWFhQkFkUVdoTzl3SEZhYzhra2JNUUpZUHhrVjJ1R25wcUJPYWZvd0NKVG9xSTNwZEhBUHpPaEZyL09zNURQVFJyMW9jZFRDM0RxZG9tMEorWEJMa0s0",
+        "pdf": "https:\/\/webapi.bps.go.id\/download.php?f=NNqXDXJQ3SIPAnVBG3HdqmZJYkRQSmtyU205V1hsZG1Yb21kaDhjMzBMWmRtbmFIVVUzTjF3aUpLa2tGcnlGRU9aWTloNno1RVhFVUowdlMvQXlBWkVVUk1aWEVOWGQ5czA0R3ZLbjFDZ05tMHczbWV3QXl3OEs1SW5rTG5uYm0rTHBOWTVkM09hTFZGTVNaR09FQzAvNEErbFFaUmtiT1VKNWJrRW0zcHRwMUwvL3ZBdy9qKzdYRk9vQ0d6aHg5QlVDcElWT2xaU1QrQTQxejlkRk41MzdFOVdyMnFRTmZaZHFxRmhEcyt5VHR5UW5hN0dtMGpBYUl1TlovR1hHTUVoL3NyeTZzQXZLM08zTnZTR2JiMndCZkZXZEU2U0p6ZXlrdFhBPT0=",
+        "size": "11.1 MB",
+        "related": []
+    }
+}

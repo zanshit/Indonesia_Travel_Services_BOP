@@ -1,0 +1,33 @@
+{
+    "status": "OK",
+    "request": {
+        "domain": "http:\/\/www.archive.bps.go.id",
+        "model": "publication",
+        "lang": "ind",
+        "id": "7344d8c9b1935d342f2ff9e7",
+        "time_access": "2026-10-15 22:10:26"
+    },
+    "data-availability": "available",
+    "data": {
+        "pub_id": "7344d8c9b1935d342f2ff9e7",
+        "title": "Statistik Wisatawan Nasional 2025",
+        "id_subject_csa": [
+            561
+        ],
+        "subject_csa": null,
+        "kat_no": "8401021",
+        "pub_no": "06300.26002",
+        "issn": "3090-2231",
+        "abstract": "Publikasi Statistik Wisatawan Nasional 2025 merupakan publikasi rutin tahunan yang disusun dan disajikan oleh Badan Pusat Statistik. Data yang disajikan dalam publikasi ini merupakan hasil pendataan penduduk Indonesia yang melakukan perjalanan ke luar negeri (wisatawan nasional), meliputi jumlah perjalanan, karakteristik perjalanan, karakteristik sosial ekonomi, dan karakteristik pengeluaran. Sumber Data publikasi ini berasal dari berbagai sumber, yaitu Direktorat Jendral Imigrasi Kementerian Imigrasi dan Pemasyarakatan, Survei Digital Wisatawan Nasional dan Mobile Positioning Data (MPD). MPD merupakan salah satu pemanfaatan teknologi informasi (big data) dalam pengembangan metode penghitungan wisnas.",
+        "sch_date": "2026-04-30",
+        "rl_date": "2026-04-30",
+        "updt_date": null,
+        "periode": "Tahunan",
+        "bahasa": "Indonesia dan Inggris",
+        "revisi": 0,
+        "cover": "https:\/\/webapi.bps.go.id\/cover.php?f=gneKOYcxYjnJTghruwJLD0lGc2YrQkRFUmErSTZTZEVoZHh0N1NuRVB3NGdsd2ZVbnM2UTFiZWJLYTlNSEJJWXV0em5vbk1KQkpMMExrMWsyK1hTTHpTNk5kZERJTkU4Q0hrOE9yKyttK3V1aUxOcXNFU0tGYWo1c1gwMGQvNmVIaXBDR3VmbTRJeTl2TDFO",
+        "pdf": "https:\/\/webapi.bps.go.id\/download.php?f=ExlK6XbY6OnXADZQ8UNZYkQyOWtQUFFod0Y5Q1BwZFkzSFJZelBXYkQrL2ZXTHV2ZERSemVzTzM0YVpNdXN5RlZGeWdoRGp6ZVVkOURTaG1nVE8vVG0zYlhhVTdWOGVPYzR4RVJTdGZWRElsUnlOWFl6bXgzL25QenFMTDNpQ04xUXRaYjBRTmhkZlBVMDJzYWN1b3BJbzJiaXNId0VzZUI0VUMvSWNJNy9DbkVkajNWa0NzSFBkWWthOUpXRjBpR0tRK05KNm1ZOGpDa3NqQkYrLy96d2J3SkdKZzdHb3NreDBWMC9CQU9hUFFTVWNUM2JiZUJXa3VuQkRlTGR0cnBRZ29iVHRKMGxRVUtlYUY=",
+        "size": "13.95 MB",
+        "related": []
+    }
+}

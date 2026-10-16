@@ -1,0 +1,33 @@
+{
+    "status": "OK",
+    "request": {
+        "domain": "http:\/\/www.archive.bps.go.id",
+        "model": "publication",
+        "lang": "ind",
+        "id": "b88772d443001a23da1acf41",
+        "time_access": "2026-10-15 22:11:35"
+    },
+    "data-availability": "available",
+    "data": {
+        "pub_id": "b88772d443001a23da1acf41",
+        "title": "Statistik Pengeluaran Wisatawan Mancanegara 2023",
+        "id_subject_csa": [
+            561
+        ],
+        "subject_csa": null,
+        "kat_no": "8401018",
+        "pub_no": "06300.24003",
+        "issn": "-",
+        "abstract": "Publikasi Statistik Pengeluaran Wisatawan Mancanegara 2023 adalah publikasi tahunan yang diterbitkan Badan Pusat Statistik (BPS) dan merupakan kelanjutan dari tahun sebelumnya. Data yang disajikan dalam publikasi ini merupakan hasil pendataan Passenger Exit Survey (PES) 2022 yang mencatat profil wisatawan mancanegara yang berkunjung ke Indonesia mencakup\r\nprofil demografi, pola perjalanan, dan pola pengeluaran wisatawan mancanegara. PES 2023 dilaksanakan di pintu keberangkatan internasional bandar udara\/pelabuhan\/ pos lintas batas di tiga belas provinsi di Indonesia. Adapun metode pendataan yang dilakukan dalam survei ini adalah Computer Assisted Personal Interviewing (CAPI).",
+        "sch_date": null,
+        "rl_date": "2024-05-15",
+        "updt_date": null,
+        "periode": "Tahunan",
+        "bahasa": "Indonesia dan Inggris",
+        "revisi": 0,
+        "cover": "https:\/\/webapi.bps.go.id\/cover.php?f=\/sEzNiCb\/Sc1MdWuWu7qBTZyTFB0elUwK3dzdytkTDQ1emtqNnlNTW5aVzJOQ3Bzd3RrM2NsQlRDTzMySlNtajBtN2RmWTE2a3dVZUJMd29NZitUL3YwKzA1eDNjMHc5aEtLV2RaZTlPaGtqcGk0OGRmMzYwQXdNK2gzTmpTT2V4UE4wTWdXSTBBeTM4bUpl",
+        "pdf": "https:\/\/webapi.bps.go.id\/download.php?f=kH4tU5t9dIpWH38gjpaKNHk0Yno4L2ZBWUhoVmRhZy9WQkk4N1lsbkE3SnJxS2owT3Zzby85cEh4dEYxNC8yOUVWSkVVc3loaVRKNTBtL3RQZjdzZGw4dTRvRWwwQUtDNWhReHF6WTlyUzlOcXdHZ1I5cm5SVDhLTm11eWhaZUVicDhTZHV0TzJjVUZBQXcySnF3eGFoVVRCVnZwTmFXTVhqaWJkSXBtc1RYVkNBcVgrRmVlQSs3QTl6MzFnQm91cjJkeDVhMDA2VlFxM3dQb3RYbFdZM3N3SUl2MVhYekN0MFNxdjFTSWRCVjliM1daNkFMcW1IZ1R6akVCcXM1Sjhld0I0NG1VZEtqR0dLc1JtbUt1bVpOT3BtVkk5cGZPTVlaM0t3PT0=",
+        "size": "10.16 MB",
+        "related": []
+    }
+}

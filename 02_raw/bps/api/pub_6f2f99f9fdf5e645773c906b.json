@@ -1,0 +1,33 @@
+{
+    "status": "OK",
+    "request": {
+        "domain": "http:\/\/www.archive.bps.go.id",
+        "model": "publication",
+        "lang": "ind",
+        "id": "6f2f99f9fdf5e645773c906b",
+        "time_access": "2026-10-15 22:10:16"
+    },
+    "data-availability": "available",
+    "data": {
+        "pub_id": "6f2f99f9fdf5e645773c906b",
+        "title": "Tourism Satellite Account Indonesia 2016-2019",
+        "id_subject_csa": [
+            561
+        ],
+        "subject_csa": null,
+        "kat_no": "8401007",
+        "pub_no": "07100.2103",
+        "issn": "978-602-438-423-4",
+        "abstract": "Publikasi Neraca Satelit Pariwisata Indonesia 2016-2019 merupakan kegiatan penyediaan data dalam rangka mendukung prioritas nasional pemerintah terkait Pengembangan Dunia Usaha dan Pariwisata Indonesia. Dalam publikasi ini digambarkan potret riil dan holistik mengenai kontribusi pariwisata terhadap perekonomian nasional. Informasi yang disajikan dalam publikasi ini mengintegrasikan data supply industri pariwisata dengan penggunaannya pada konsumsi wisatawan. Tabel yang disajikan disusun berdasarkan manual International Recommendations for Tourism Statistics (IRTS) dan Tourism Satellite Accounts: Recommended Methodological Framework (TSA:RMF) yang direkomendasikan PBB, sehingga informasi yang disajikan memiliki keterbandingan internasional serta memudahkan stakeholder terkait dalam pemanfaatan data dan informasinya. \r\n<br ><br>",
+        "sch_date": null,
+        "rl_date": "2021-07-06",
+        "updt_date": null,
+        "periode": "Khusus\/Ad Hoc\/Lainnya",
+        "bahasa": "Indonesia",
+        "revisi": 0,
+        "cover": "https:\/\/webapi.bps.go.id\/cover.php?f=HLEzUmHlci0EJIWR3TiYOzZoZEV4RFU1TkNPSHNiWGZ6VTRnRmZDM09lTEY4RFVWQnplZ1c3L3pWanZUMGVnaXh1MEZTV3RXTVUzM0U2SGdvVkMzblVpMmYrODYycjBWKzJ6Nng3MDY1T0FRNmtnL3FvVDFBMDNXMnA3WWNoeDRMWWxqU2JSQUptRi9ZZm9x",
+        "pdf": "https:\/\/webapi.bps.go.id\/download.php?f=CJuAYslb8Dtq9LQi+0XHVTJvNi8wOGpVcjhGNFllSXZjbjBpYW85ckd6SkhnYjJqbUlQd0NsTWVmOW1IbTE2STYzQnhvbndUNXZxdERXUmV2c2JKekdXck4wNHRvbng0QjJrZ1o4V0xJTWpIeVJ3MHdhNk1GQnhUSkJWYXhLQmFSOTZXVVd1dnF3SytOdjloNFdkOTVPRVEvL1ovMTYzeTFhZGdoYVZrbEtMZ3lZSlMyTlMxNmZmdDZQcStlZ3lsSTJoM2hoQVFFTTljc1U2b0RKQW1YYSt1QkNYc2lrMW1GTGM0WjlRUUdBa0IvbVN2T1NxRm8veWFDQmlqWW9yWUV4NkpqMUNLZTQ1WWJPL3RlMVdWYmlwUVMraUZ0NVVSYzM1Qmx3PT0=",
+        "size": "9.79 MB",
+        "related": []
+    }
+}

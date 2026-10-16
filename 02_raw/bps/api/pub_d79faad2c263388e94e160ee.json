@@ -1,0 +1,33 @@
+{
+    "status": "OK",
+    "request": {
+        "domain": "http:\/\/www.archive.bps.go.id",
+        "model": "publication",
+        "lang": "ind",
+        "id": "d79faad2c263388e94e160ee",
+        "time_access": "2026-10-15 22:11:42"
+    },
+    "data-availability": "available",
+    "data": {
+        "pub_id": "d79faad2c263388e94e160ee",
+        "title": "Statistik Kunjungan Wisatawan Mancanegara 2021",
+        "id_subject_csa": [
+            561
+        ],
+        "subject_csa": null,
+        "kat_no": "8401011",
+        "pub_no": "06300.2206",
+        "issn": "",
+        "abstract": "Publikasi Statistik Kunjungan Wisatawan Mancanegara 2021 merupakan publikasi rutin tahunan yang disusun dan disajikan oleh Badan Pusat Statistik (BPS) berdasarkan data sekunder yang diperoleh dari Direktorat Jenderal Imigrasi, Kementerian Hukum dan Hak Asasi Manusia, Kementerian Pariwisata, dan pendataan berbasis Mobile Positioning Data (MPD) dari salah satu operator telepon seluler. Data yang disajikan dalam publikasi ini meliputi jumlah kunjungan wisatawan mancanegara menurut pintu masuk, kebangsaan, dan pola kunjungan.",
+        "sch_date": "2022-04-28",
+        "rl_date": "2022-04-28",
+        "updt_date": "2022-12-05",
+        "periode": "Tahunan",
+        "bahasa": "Indonesia dan Inggris",
+        "revisi": 1,
+        "cover": "https:\/\/webapi.bps.go.id\/cover.php?f=E8M7oZLF9L6Xi3lW8viIYVp5WWlRSnlIT0pGWkEvdGVIRnpqMmpxczVPQ1F0dUttakRLMUZ4czFxbCtXMFFGaGlZZ0pqMTgyUWxqbmswUUQ0eC9GV0FXU2pZYnFtRXdZTXZsWllFUGhMWG5QM3Z2dkNDdkRidFdGOVlQQTBBZ09kV0VVcHY4cjdrSGJ6RStt",
+        "pdf": "https:\/\/webapi.bps.go.id\/download.php?f=qHlEOzZW+wgxMxobsgrmk3JzaHIxNzliZU9mQkp2UHAzMEVMRmZ4UUVPcm5ZejQrNTBwQmYvSjhyS1hYazBKUGRGbi9pd3J3VHV1MHF1YUpQV2ljK2paNnBFRk1qSU1MV29oNWptNzF4aVFzRDJ0RUxPODBEbVNmeUNtYlMyWFRSd09md24ydzNua0ZIbnZJelJXd09mM2l4V2R2c0lmem1laVk5QU9tSVRveDBCcFc3cDlXL3hYbXpXSGgxTFc2Z0N1OWtuNENXU1VzOTgrY2JrcGRYWHdGYUpOT3lkWGFqbXVIUnFOZFpURW5rTjhWd0U3Q201ejlOSXREZkF1ejAwR3RIUjVKRUtVa3lxdVpjNy9GSHVmeER2QkZzbFlySTVuamtnPT0=",
+        "size": "4.02 MB",
+        "related": []
+    }
+}

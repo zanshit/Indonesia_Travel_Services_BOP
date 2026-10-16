@@ -1,0 +1,9 @@
+﻿var_id,title,unit,subject,matched_keywords,source
+74,"Jumlah Kunjungan Wisatawan Mancanegara per bulan ke Indonesia Menurut Pintu Masuk, 2008 - 2017",Kunjungan,Pariwisata,kunjungan wisatawan mancanegara,"BPS WebAPI list/model/var keyword search, domain 0000"
+272,Rata-Rata Pengeluaran Wisatawan Mancanegara per Kunjungan Menurut Kebangsaan,US $,Pariwisata,kebangsaan; pengeluaran wisatawan,"BPS WebAPI list/model/var keyword search, domain 0000"
+356,Rata-Rata Lama Tinggal Wisatawan Mancanegara Menurut Kebangsaan,Hari,Pariwisata,kebangsaan,"BPS WebAPI list/model/var keyword search, domain 0000"
+1150,"Jumlah Kunjungan Wisatawan Mancanegara per bulan ke Indonesia Menurut Pintu Masuk, 2008 - sekarang",Kunjungan,Pariwisata,kunjungan wisatawan mancanegara,"BPS WebAPI list/model/var keyword search, domain 0000"
+1470,Jumlah Kunjungan Wisatawan Mancanegara per bulan Menurut Paspor yang Dipegang ,Kunjungan,Pariwisata,kunjungan wisatawan mancanegara; paspor,"BPS WebAPI list/model/var keyword search, domain 0000"
+2195,Jumlah Perjalanan Wisatawan Nasional,Perjalanan,Pariwisata,wisatawan nasional,"BPS WebAPI list/model/var keyword search, domain 0000"
+2380,Nilai Ekspor Nonmigas Bulanan Menurut Negara Tujuan,Ribu US$,Ekspor-Impor,negara tujuan,"BPS WebAPI list/model/var keyword search, domain 0000"
+2382,Nilai Ekspor Migas Bulanan Menurut Negara Tujuan,Ribu US$,Ekspor-Impor,negara tujuan,"BPS WebAPI list/model/var keyword search, domain 0000"

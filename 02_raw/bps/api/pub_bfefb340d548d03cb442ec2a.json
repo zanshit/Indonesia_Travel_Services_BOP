@@ -1,0 +1,33 @@
+{
+    "status": "OK",
+    "request": {
+        "domain": "http:\/\/www.archive.bps.go.id",
+        "model": "publication",
+        "lang": "ind",
+        "id": "bfefb340d548d03cb442ec2a",
+        "time_access": "2026-10-15 22:11:37"
+    },
+    "data-availability": "available",
+    "data": {
+        "pub_id": "bfefb340d548d03cb442ec2a",
+        "title": "Statistik Wisatawan Nasional 2020",
+        "id_subject_csa": [
+            561
+        ],
+        "subject_csa": null,
+        "kat_no": "8401021",
+        "pub_no": "06300.2121",
+        "issn": "978-602-438-504-0",
+        "abstract": "Publikasi ini memuat hasil pendataan penduduk Indonesia yang melakukan perjalanan ke luar negeri (wisatawan nasional\/outbound), meliputi jumlah perjalanan, profil demografi, pola perjalanan, dan pola pengeluaran wisatawan nasional.<br>",
+        "sch_date": null,
+        "rl_date": "2021-12-29",
+        "updt_date": null,
+        "periode": "Tahunan",
+        "bahasa": "Indonesia dan Inggris",
+        "revisi": 0,
+        "cover": "https:\/\/webapi.bps.go.id\/cover.php?f=\/V\/zGBFYkI6BrfJNM1mFq1ZudGZFdW9vTkdTVnJRVDl5VFhvSjlOVmZlVUhBUW9xTEJJVWdyQ3o3eVZzZVVvZUlWc0xGdUo2Q0VLZUZYaDg2aXpIVFdIQ201RW41ZHNuQUtqMXpaRGdmV0dSKzQ5MmNBQWFqSkhDV01iaDVmT29YZ2lDQ05vYkdPVFppRU9M",
+        "pdf": "https:\/\/webapi.bps.go.id\/download.php?f=cHOabOX+soO2tt7psY+m4URnUnRueDYzUU9mUkprNXI1aXM2Uk5nZ0c2OXZONXVQbzFHa2ZaNU1RSUU3QUF6QVlGL3BycTVJMFZFZ2hnYkhBcWxlTkUyb216M3czWWd2TUhkenIzZm1BSWV3T1JRcitvbmhDL3BGaGdvbHcvOVI1UFRHUS9pTFpCMDc2OTYwWEZVYm1WWVp2VFp3b2JacmpTU0RhbTM0dXlzbXJUZkhac3hBTTM4QnA2WnU3MnU3UDVweUdiL25YRS9EOU9DNWtsSUJIOENHeEd0V0xRN1M5bDltQUhqMVJ2a1RBZU95dG1pV1FrK0hoWE0xa0tWU0M5bkd3dkV5aWNSbVA2UXo=",
+        "size": "7.55 MB",
+        "related": []
+    }
+}

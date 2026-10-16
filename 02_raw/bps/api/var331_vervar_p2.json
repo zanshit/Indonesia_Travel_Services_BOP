@@ -1,0 +1,85 @@
+{
+    "status": "OK",
+    "data-availability": "available",
+    "data": [
+        {
+            "page": 2,
+            "pages": 4,
+            "per_page": 10,
+            "count": 10,
+            "total": 39
+        },
+        [
+            {
+                "kode_ver_id": 11,
+                "vervar": "Bangladesh",
+                "item_ver_id": 2059,
+                "group_ver_id": 119,
+                "name_group_ver_id": "Negara Tempat Tinggal [Penerimaan dari Wisman]"
+            },
+            {
+                "kode_ver_id": 12,
+                "vervar": "Srilanka",
+                "item_ver_id": 2060,
+                "group_ver_id": 119,
+                "name_group_ver_id": "Negara Tempat Tinggal [Penerimaan dari Wisman]"
+            },
+            {
+                "kode_ver_id": 13,
+                "vervar": "Taiwan",
+                "item_ver_id": 2061,
+                "group_ver_id": 119,
+                "name_group_ver_id": "Negara Tempat Tinggal [Penerimaan dari Wisman]"
+            },
+            {
+                "kode_ver_id": 14,
+                "vervar": "Cina",
+                "item_ver_id": 2062,
+                "group_ver_id": 119,
+                "name_group_ver_id": "Negara Tempat Tinggal [Penerimaan dari Wisman]"
+            },
+            {
+                "kode_ver_id": 15,
+                "vervar": "Arab Saudi",
+                "item_ver_id": 2063,
+                "group_ver_id": 119,
+                "name_group_ver_id": "Negara Tempat Tinggal [Penerimaan dari Wisman]"
+            },
+            {
+                "kode_ver_id": 16,
+                "vervar": "Austria",
+                "item_ver_id": 2064,
+                "group_ver_id": 119,
+                "name_group_ver_id": "Negara Tempat Tinggal [Penerimaan dari Wisman]"
+            },
+            {
+                "kode_ver_id": 17,
+                "vervar": "Belgia",
+                "item_ver_id": 2065,
+                "group_ver_id": 119,
+                "name_group_ver_id": "Negara Tempat Tinggal [Penerimaan dari Wisman]"
+            },
+            {
+                "kode_ver_id": 18,
+                "vervar": "Denmark",
+                "item_ver_id": 2066,
+                "group_ver_id": 119,
+                "name_group_ver_id": "Negara Tempat Tinggal [Penerimaan dari Wisman]"
+            },
+            {
+                "kode_ver_id": 19,
+                "vervar": "Perancis",
+                "item_ver_id": 2067,
+                "group_ver_id": 119,
+                "name_group_ver_id": "Negara Tempat Tinggal [Penerimaan dari Wisman]"
+            },
+            {
+                "kode_ver_id": 20,
+                "vervar": "Jerman",
+                "item_ver_id": 2068,
+                "group_ver_id": 119,
+                "name_group_ver_id": "Negara Tempat Tinggal [Penerimaan dari Wisman]"
+            }
+        ]
+    ]
+}
