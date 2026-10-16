@@ -22,7 +22,8 @@ from openpyxl.chart.label import DataLabelList  # noqa: E402
 from openpyxl.styles import Alignment, Border, Font, PatternFill, Side  # noqa: E402
 from openpyxl.utils import get_column_letter  # noqa: E402
 
-from travel_data import (EX, FX, LINKS, ROOT, YEAR, batis_year, bps_credit, bps_debit,  # noqa: E402
+from sources import INVENTORY, SRC  # noqa: E402
+from travel_data import (EX, FX, ROOT, YEAR, batis_year, bps_credit, bps_debit,  # noqa: E402
                          destination_side, load_abs, load_batis, load_eurostat, load_oecd_tis, nama, pivot_cdb)
 
 OUT = ROOT / "output" / "Neraca_Jasa_Perjalanan_Indonesia_per_Negara_v3.xlsx"
@@ -31,12 +32,7 @@ FONT = "Arial"
 NUM = '#,##0.0;(#,##0.0);"–"'
 NUM0 = '#,##0;(#,##0);"–"'
 PCT = '0%;-0%;"–"'
-LINKS = dict(LINKS)
-LINKS["ABS Tabel 7"] = ("https://www.abs.gov.au/statistics/economy/international-trade/"
-                        "international-trade-supplementary-information-calendar-year/2025/536805500407.xlsx")
-LINKS["ABS Tabel 8"] = ("https://www.abs.gov.au/statistics/economy/international-trade/"
-                        "international-trade-supplementary-information-calendar-year/2025/536805500408.xlsx")
-LINKS["PES"] = "https://api2.kemenparekraf.go.id/storage/app/resources/PES%202014rev.pdf"
+LINK_CHECK = ROOT / "04_qa" / "link_check.csv"
 
 H_KREDIT = "Kredit Indonesia\n(belanja warga negara ini di Indonesia)"
 H_DEBIT = "Debit Indonesia\n(belanja penduduk Indonesia di negara ini)"
@@ -168,6 +164,36 @@ def link(cell, url, text):
     cell.value = text
     cell.hyperlink = url
     cell.font = Font(name=FONT, size=9, color=ACCENT, underline="single")
+
+
+def link_status():
+    """url -> (verdict, date) from 04_qa/link_check.csv (written by scripts/check_links.py)."""
+    if not LINK_CHECK.exists():
+        return {}
+    d = pd.read_csv(LINK_CHECK)
+    return {r.url: (r.verdict, r.checked_on) for r in d.itertuples()}
+
+
+def src_block(ws, row, keys, col=1):
+    """Source block: per source a label row, then 'Halaman data' (browse page / download menu) and 'Unduh langsung'
+    (direct file download) rows. Returns the next free row."""
+    shown = set()
+    for key in keys:
+        s = SRC[key]
+        c = ws.cell(row=row, column=col, value=f"Sumber: {s['label']}")
+        c.font = Font(name=FONT, size=9, bold=True, color="404040")
+        row += 1
+        for kind, items in (("Halaman data", s["browse"]), ("Unduh langsung", s["unduh"])):
+            for i, (text, url) in enumerate(items):
+                ws.cell(row=row, column=col, value=kind if i == 0 else None).font = Font(name=FONT, size=9,
+                                                                                         color="595959")
+                link(ws.cell(row=row, column=col + 1), url, text)
+                row += 1
+        if s.get("catatan") and s["catatan"] not in shown:
+            note(ws, row, s["catatan"], col=col + 1)
+            shown.add(s["catatan"])
+            row += 1
+    return row
 
 
 def note(ws, row, text, col=1):
@@ -354,7 +380,7 @@ def main():
     ]
     for i, t in enumerate(why):
         note(ws, 5 + i, t)
-    link(ws.cell(row=8, column=1), LINKS["PES"], "PES: survei untuk menghitung neraca perjalanan (Kemenparekraf)")
+    note(ws, 8, "PES = Passenger Exit Survey, survei untuk menghitung neraca perjalanan (Kemenpar). Link di bawah tabel.")
     prov_legend(ws)
     first = header(ws, 10, 1, ["Negara", H_KREDIT, H_DEBIT, H_NERACA, "Catatan"], [22, 16, 16, 14, 46], height=48,
                    prov=[None, "SELF-CALCULATED: kunjungan × pengeluaran per kunjungan (input GIVEN BPS)",
@@ -375,9 +401,9 @@ def main():
     rows = [[r.nama, r.kredit, r.debit, r.neraca, catatan(r)] for _, r in main_tbl.iterrows()]
     end = write_rows(ws, first, 1, rows, [None, NUM, NUM, NUM, None])
     ws.freeze_panes = f"A{first}"
-    link(ws.cell(row=end + 1, column=1), LINKS["BPS kredit"], "Sumber kredit: BPS")
-    link(ws.cell(row=end + 1, column=2), LINKS["BPS debit"], "Sumber debit: BPS")
-    note(ws, end + 2, "Rincian perhitungan ada di sheet 'BPS – Perhitungan'.")
+    note(ws, end + 1, "Rincian perhitungan ada di sheet 'BPS – Perhitungan'.")
+    src_block(ws, end + 3, ["BPS_KREDIT_KUNJUNGAN", "BPS_KREDIT_PENGELUARAN", "BPS_PERJALANAN", "BPS_DEBIT_PANGSA",
+                          "BPS_DEBIT_PENGELUARAN", "PES"])
     add_charts(ws, bps, 7, 10, "Sumber: BPS")
 
     # ================================================================ 2. Perbandingan Sumber
@@ -484,8 +510,7 @@ def main():
         ws.cell(row=r + 1, column=cc).font = Font(name=FONT, size=10, bold=True)
     note(ws, r + 2, "Baris total: kunjungan dan rata-rata (USD 1.391,85) GIVEN dari BPS; kredit SELF-CALCULATED "
                     "(B × C). Baris 'negara lainnya': SELF-CALCULATED = total dikurangi negara yang dirinci.")
-    link(ws.cell(row=r + 3, column=1), LINKS["BPS kredit"], "Sumber: BPS (var 272 pengeluaran, var 1470 kunjungan)")
-    r += 6
+    r = src_block(ws, r + 4, ["BPS_KREDIT_KUNJUNGAN", "BPS_KREDIT_PENGELUARAN"]) + 1
     bold(ws, r, 1, "Debit: belanja penduduk Indonesia di luar negeri")
     ws.cell(row=r + 1, column=1, value="Total perjalanan WNI ke luar negeri (GIVEN, BPS var 2195)").font = Font(
         name=FONT, size=10)
@@ -493,8 +518,8 @@ def main():
     tot = f"$B${r + 1}"
     d0 = header(ws, r + 2, 1, ["Negara tujuan", "Pangsa perjalanan (%)", "Pengeluaran per perjalanan (USD)",
                                "Debit (USD juta)", "Basis pengeluaran"],
-                prov=[None, "GIVEN (BPS Lampiran 4)",
-                      "GIVEN (BPS Lampiran 20) — kecuali baris 'rata-rata kelompok' = SELF-ASSUMED",
+                prov=[None, "GIVEN (BPS SWN 2025, Lampiran 4)",
+                      "GIVEN (BPS SWN 2024, Lampiran 20) — kecuali baris 'rata-rata kelompok' = SELF-ASSUMED",
                       "SELF-CALCULATED: total perjalanan × B ÷ 100 × C ÷ 1.000.000",
                       "SELF-ASSUMED: negara tanpa angka sendiri dipetakan ke kelompoknya"], prov_height=52)
     ws.column_dimensions["E"].width = 30
@@ -516,7 +541,7 @@ def main():
     ws.cell(row=r, column=4).font = Font(name=FONT, size=10, bold=True)
     note(ws, r + 1, "BPS hanya menerbitkan pengeluaran per perjalanan untuk 16 negara/kelompok; negara lain memakai "
                     "rata-rata kelompoknya. Paket wisata (mis. umrah) bisa ikut memuat tiket pesawat.")
-    link(ws.cell(row=r + 2, column=1), LINKS["BPS debit"], "Sumber: BPS Statistik Wisatawan Nasional (Lampiran 4 & 20)")
+    src_block(ws, r + 3, ["BPS_PERJALANAN", "BPS_DEBIT_PANGSA", "BPS_DEBIT_PENGELUARAN"])
 
     # ================================================================ 4. Mirror – OECD TIS
     ws = wb.create_sheet("Mirror – OECD TIS")
@@ -532,7 +557,7 @@ def main():
                          "SELF-CALCULATED – MIRRORING: neraca negara pelapor × (−1)"], prov_height=52)
     end = write_rows(ws, first, 1, [[r_.nama, r_.kredit, r_.debit, r_.neraca] for _, r_ in d.iterrows()],
                      [None, NUM, NUM, NUM])
-    link(ws.cell(row=end + 1, column=1), LINKS["OECD TIS"], "Sumber: OECD International Trade in Services")
+    src_block(ws, end + 2, ["OECD_TIS"])
     add_charts(ws, d, 7, 4, "Sumber: OECD TIS")
 
     # ================================================================ 5. Mirror – Eurostat
@@ -550,7 +575,7 @@ def main():
                          "SELF-CALCULATED – MIRRORING: neraca pelapor × (−1)", conv, conv, conv], prov_height=64)
     end = write_rows(ws, first, 1, [[r_.nama, r_.kredit_eur, r_.debit_eur, r_.neraca_eur, r_.kredit, r_.debit,
                                      r_.neraca] for _, r_ in d.iterrows()], [None] + [NUM] * 6)
-    link(ws.cell(row=end + 1, column=1), LINKS["Eurostat"], "Sumber: Eurostat bop_its6_det")
+    src_block(ws, end + 2, ["EUROSTAT", "WB_KURS"])
     add_charts(ws, d, 10, 4, "Sumber: Eurostat")
 
     # ================================================================ 6. Mirror – ABS
@@ -560,14 +585,17 @@ def main():
           "Satu negara mitra, jadi tidak ada Top 5. Mata uang tabel ABS '$m' = juta dolar Australia (AUD).")
     prov_legend(ws)
     bold(ws, 4, 1, "Dari mana kredit dan debit Indonesia diambil", 10)
-    header(ws, 5, 1, ["Sisi Indonesia", "Tabel ABS", "Arti", "Link"], [26, 34, 52, 10], height=20)
+    header(ws, 5, 1, ["Sisi Indonesia", "Tabel ABS", "Arti", "Unduh langsung", "Halaman data"], [26, 34, 52, 14, 16],
+           height=20)
     rows = [["Kredit Indonesia", "Tabel 8 'Debits' (impor jasa perjalanan Australia)",
              "Belanja penduduk Australia saat berada di Indonesia", None],
             ["Debit Indonesia", "Tabel 7 'Credits' (ekspor jasa perjalanan Australia)",
              "Belanja penduduk Indonesia saat berada di Australia (termasuk biaya kuliah)", None]]
     write_rows(ws, 6, 1, rows, [None] * 4)
-    link(ws.cell(row=6, column=4), LINKS["ABS Tabel 8"], "Tabel 8")
-    link(ws.cell(row=7, column=4), LINKS["ABS Tabel 7"], "Tabel 7")
+    abs_dl = dict(SRC["ABS"]["unduh"])
+    for rr, tab in ((6, "Tabel 8 (xlsx)"), (7, "Tabel 7 (xlsx)")):
+        link(ws.cell(row=rr, column=4), abs_dl[tab], tab)
+        link(ws.cell(row=rr, column=5), SRC["ABS"]["browse"][0][1], "Halaman rilis ABS")
     t = tis[(tis.reporter == "AUS")]
     note(ws, 8, "Bukti AUD: nilai ABS sama persis dengan nilai Australia dalam mata uang nasional di OECD (mis. 2024: "
                 "10.223 dan 2.317), dan kurs tersirat ke USD 2023 = 1,5052 = kurs AUD Bank Dunia.")
@@ -595,8 +623,10 @@ def main():
     f0 = header(ws, r0 + 1, 1, ["Jenis perjalanan", "Kredit Indonesia", "Debit Indonesia", "Neraca Indonesia"],
                 height=20, prov=[None, "GIVEN – MIRRORING: Tabel 8.2 / 8.4 / 8.5", "GIVEN – MIRRORING: Tabel 7.2 / 7.4 / 7.5",
                                  "SELF-CALCULATED: kredit − debit"])
-    write_rows(ws, f0, 1, [[lab[k], sp.loc[k, "credit"], sp.loc[k, "debit"], sp.loc[k, "credit"] - sp.loc[k, "debit"]]
-                           for k in lab if k in sp.index], [None, NUM0, NUM0, NUM0])
+    f_end = write_rows(ws, f0, 1, [[lab[k], sp.loc[k, "credit"], sp.loc[k, "debit"],
+                                    sp.loc[k, "credit"] - sp.loc[k, "debit"]] for k in lab if k in sp.index],
+                       [None, NUM0, NUM0, NUM0])
+    src_block(ws, f_end + 1, ["ABS", "WB_KURS"])
     neg_years = [int(y) for y in pu.index if pu.loc[y, "credit"] - pu.loc[y, "debit"] < 0]
     ch = BarChart()
     ch.type = "col"
@@ -650,7 +680,7 @@ def main():
                      [None] + [NUM] * 7 + [None, None])
     ws.freeze_panes = f"B{first}"
     note(ws, end + 1, "Kosong di kolom 'dilaporkan negara mitra' = negara itu tidak melapor ke OECD-WTO.")
-    link(ws.cell(row=end + 2, column=1), LINKS["BaTIS"], "Sumber: OECD-WTO BaTIS")
+    src_block(ws, end + 3, ["BATIS"])
     add_charts(ws, bt_std, 12, r_leg + 1, "Sumber: BaTIS, nilai seimbang (B)")
 
     # ================================================================ 8. BaTIS – Cara Model
@@ -659,8 +689,9 @@ def main():
     title(ws, "Bagaimana OECD-WTO membuat angka BaTIS (dan mengapa untuk Indonesia semuanya hasil model)",
           "Yang menghitung: OECD dan WTO. Kami hanya mengunduh hasilnya; tabel ini meringkas dokumen metodologi mereka.")
     prov_legend(ws)
-    link(ws.cell(row=4, column=1), LINKS["BaTIS metodologi"], "Dokumen metodologi OECD-WTO (PDF, Januari 2025)")
-    header(ws, 5, 1, ["Langkah", "Yang dilakukan OECD-WTO", "Dampak untuk angka Indonesia"], [22, 55, 70], height=20)
+    top = src_block(ws, 4, ["BATIS_METODE"])
+    header(ws, top + 1, 1, ["Langkah", "Yang dilakukan OECD-WTO", "Dampak untuk angka Indonesia"], [22, 55, 70],
+           height=20)
     steps = [
         ["A. Kumpulkan", "Mengumpulkan data bilateral yang dilaporkan semua negara",
          "Indonesia hanya melapor total dunia (2005–2024, 0 baris bilateral). Negara mitra (Australia, UE, AS, Jepang, "
@@ -677,8 +708,8 @@ def main():
         ["F. Ekstrapolasi", "Tahun terbaru diekstrapolasi dari deret waktu",
          "2023–2024: sebagian besar baris Indonesia berkode IE."],
     ]
-    end = write_rows(ws, 6, 1, steps, [None, None, None])
-    for rr in range(6, end):
+    end = write_rows(ws, top + 2, 1, steps, [None, None, None])
+    for rr in range(top + 2, end):
         for cc in (2, 3):
             ws.cell(row=rr, column=cc).alignment = Alignment(wrap_text=True, vertical="top")
         ws.row_dimensions[rr].height = 45
@@ -735,16 +766,20 @@ def main():
                 f" (kurs IDR). SELF-ASSUMED: biaya tiket final 2025 (Rp33,1 juta) dipakai untuk {YEAR}.",
     }
     first = header(ws, 4, 1, ["Negara tujuan", "Nilai (mata uang lokal)", "Satuan", "Debit Indonesia (USD juta)",
-                              "Periode", "Status angka", "Catatan", "Sumber"], [16, 14, 10, 14, 12, 52, 40, 16],
+                              "Periode", "Status angka", "Catatan", "Halaman data", "Unduh langsung"],
+                   [16, 14, 10, 14, 12, 52, 40, 22, 24],
                    height=30)
     end = write_rows(ws, first, 1, [[r_.nama, r_.nilai_lokal, r_.mata_uang, r_.debit_usd, r_.periode,
-                                     status[r_.sumber], r_.catatan, None] for _, r_ in d.iterrows()],
-                     [None, NUM, None, NUM, None, None, None, None])
+                                     status[r_.sumber], r_.catatan, None, None] for _, r_ in d.iterrows()],
+                     [None, NUM, None, NUM, None, None, None, None, None])
     for i, (_, r_) in enumerate(d.iterrows()):
-        link(ws.cell(row=first + i, column=8), LINKS[r_.sumber], r_.sumber)
+        s_ = SRC[r_.sumber]
+        link(ws.cell(row=first + i, column=8), s_["browse"][0][1], s_["browse"][0][0])
+        link(ws.cell(row=first + i, column=9), s_["unduh"][0][1], s_["unduh"][0][0])
         ws.cell(row=first + i, column=6).alignment = Alignment(wrap_text=True, vertical="top")
         ws.row_dimensions[first + i].height = 40
-    add_charts(ws, pd.DataFrame({"nama": d.nama, "debit": d.debit_usd}), 1, end + 2, "Sumber: negara tujuan",
+    src_end = src_block(ws, end + 2, list(dict.fromkeys(d.sumber)) + ["WB_KURS"])
+    add_charts(ws, pd.DataFrame({"nama": d.nama, "debit": d.debit_usd}), 1, src_end + 1, "Sumber: negara tujuan",
                flows=("debit",))
 
     # ================================================================ 10. Tren
@@ -809,12 +844,15 @@ def main():
              msum.loc[y, "debit"], msum.loc[y, "debit"] / bi.loc[y, "debit"]] for y in range(2018, YEAR + 1)]
     r = write_rows(ws, first, 1, rows, [None, NUM, NUM, NUM, NUM, NUM, NUM, PCT, NUM, PCT])
     note(ws, r, "Mirror hanya mencakup negara pelapor, jadi porsinya di bawah 100%.")
-    link(ws.cell(row=r + 1, column=1), LINKS["BI"], "Sumber: BI SEKI Tabel V.3")
+    src_block(ws, r + 2, ["BI", "BATIS", "OECD_TIS", "EUROSTAT"])
 
     # ================================================================ 12. Sumber
     ws = wb.create_sheet("Sumber")
     style_ws(ws)
-    title(ws, "Daftar sumber yang dicek", "Klik 'Buka' untuk melihat sumbernya. Bukti lengkap ada di folder 01_discovery.")
+    title(ws, "Daftar sumber yang dicek",
+          "Halaman data = halaman untuk browse data / menu unduh. Unduh langsung = klik langsung mengunduh file. "
+          "Kolom 'Cek link' = hasil membuka setiap link (detail di sheet 'Cek Link'). Bukti lengkap: folder 01_discovery.")
+    chk = link_status()
     inv = pd.read_csv(ROOT / "01_discovery" / "source_inventory.csv")
     kelas = [("FULL BALANCE (MODELLED)", "Kredit + debit (hasil model)"), ("FULL BALANCE", "Kredit + debit"),
              ("ONE SIDE", "Satu sisi saja"), ("COUNT ONLY", "Jumlah orang (bukan nilai)"),
@@ -824,12 +862,62 @@ def main():
 
     def k(x):
         return next((b_ for a_, b_ in kelas if str(x).startswith(a_)), x)
-    header(ws, 4, 1, ["Sumber", "Penerbit", "Isi data", "Status", "Link"], [48, 30, 26, 44, 8], height=20)
-    write_rows(ws, 5, 1, [[r_.source, r_.publisher, k(r_.balance_class), r_.status, None] for _, r_ in inv.iterrows()],
-               [None] * 5)
-    for i, (_, r_) in enumerate(inv.iterrows()):
-        link(ws.cell(row=5 + i, column=5), r_.link, "Buka")
-    link(ws.cell(row=6 + len(inv), column=1), LINKS["World Bank kurs"], "Kurs: Bank Dunia (rata-rata tahunan)")
+    header(ws, 4, 1, ["Sumber", "Penerbit", "Isi data", "Status", "Halaman data", "Unduh langsung", "Cek link"],
+           [48, 30, 26, 44, 30, 30, 34], height=20)
+
+    def cek(urls):
+        v = [chk.get(u) for u in urls]
+        if not v or any(x is None for x in v):
+            return "Belum dicek"
+        bad = [x[0] for x in v if not x[0].startswith("OK")]
+        if bad:
+            return "; ".join(bad)
+        anti = any("anti-bot" in x[0] for x in v)
+        return f"OK ({v[0][1]})" + ("; halaman BPS: buka di browser biasa" if anti else "")
+    r = 5
+    inv_rows = [(r_.source, r_.publisher, k(r_.balance_class), r_.status, INVENTORY[r_.source_id])
+                for _, r_ in inv.iterrows()] + [("Kurs Bank Dunia (rata-rata tahunan)", "World Bank", "Kurs", "Dipakai",
+                                                 "WB_KURS")]
+    for src_, pub_, isi_, st_, key in inv_rows:
+        s_ = SRC[key]
+        b_, u_ = s_["browse"], s_["unduh"]
+        write_rows(ws, r, 1, [[src_, pub_, isi_, st_, None, None, cek([x[1] for x in b_ + u_])]], [None] * 7)
+        for j in range(max(len(b_), len(u_), 1)):
+            if j < len(b_):
+                link(ws.cell(row=r + j, column=5), b_[j][1], b_[j][0])
+            if j < len(u_):
+                link(ws.cell(row=r + j, column=6), u_[j][1], u_[j][0])
+            elif j == 0:
+                note(ws, r, "– (tidak ada file unduhan langsung)", col=6)
+        if s_.get("catatan"):
+            note(ws, r + max(len(b_), len(u_), 1), s_["catatan"], col=5)
+            r += 1
+        r += max(len(b_), len(u_), 1)
+
+    # ================================================================ 13. Cek Link
+    chk = link_status()
+    seen = {}
+    for w in wb.worksheets:
+        for row_ in w.iter_rows():
+            for c in row_:
+                if c.hyperlink and c.hyperlink.target:
+                    seen.setdefault(c.hyperlink.target, []).append(f"{w.title}!{c.coordinate}")
+    ws = wb.create_sheet("Cek Link")
+    style_ws(ws)
+    title(ws, "Hasil cek semua link di workbook ini",
+          "Setiap link dibuka otomatis (scripts/check_links.py): permintaan biasa dulu, lalu browser Chromium. "
+          "bps.go.id memakai verifikasi anti-bot (Cloudflare) sehingga tidak bisa diuji otomatis; di browser biasa terbuka "
+          "normal. Link unduhan BPS (webapi.bps.go.id) bisa diuji dan berhasil.")
+    first = header(ws, 4, 1, ["Link", "Hasil cek", "Tanggal cek", "Dipakai di"], [70, 40, 12, 40], height=20)
+    r = first
+    for url in sorted(seen):
+        v, dte = chk.get(url, ("Belum dicek", None))
+        write_rows(ws, r, 1, [[None, v, dte, ", ".join(seen[url][:4]) + (" …" if len(seen[url]) > 4 else "")]],
+                   [None] * 4)
+        link(ws.cell(row=r, column=1), url, url if len(url) < 110 else url[:107] + "…")
+        if not v.startswith("OK"):
+            ws.cell(row=r, column=2).font = Font(name=FONT, size=10, bold=True, color="C00000")
+        r += 1
 
     wb.calculation.fullCalcOnLoad = True
     OUT.parent.mkdir(exist_ok=True)

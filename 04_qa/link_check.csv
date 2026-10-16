@@ -1,0 +1,60 @@
+url,http_status,verdict,checked_with,content,title,checked_on
+https://api.imf.org/external/sdmx/2.1/dataflow/IMF.STA/BOP/latest?references=datastructure,200,OK,plain,application/vnd.sdmx.structure+xml;version=2.1,,2026-10-16
+https://api.kemenpar.go.id/storage/app/resources/NPI.pdf,200,OK,plain,application/pdf,,2026-10-16
+https://api.kemenpar.go.id/storage/app/resources/PES%202014rev.pdf,200,OK,plain,application/pdf,,2026-10-16
+https://api.worldbank.org/v2/en/indicator/PA.NUS.FCRF?downloadformat=excel,200,OK,plain,application/vnd.ms-excel,,2026-10-16
+https://api.worldbank.org/v2/en/indicator/ST.INT.RCPT.CD?downloadformat=excel,200,OK,plain,application/vnd.ms-excel,,2026-10-16
+https://catalog.ihsn.org/catalog?sk=podes,200,OK,plain,html,Data Catalog,2026-10-16
+https://catalog.ihsn.org/catalog?sk=sakernas,200,OK,plain,html,Data Catalog,2026-10-16
+https://catalog.ihsn.org/catalog?sk=susenas,200,OK,plain,html,Data Catalog,2026-10-16
+https://comtradeapi.un.org/public/v1/preview/S/A/EB?reporterCode=360&period=2022,200,OK,plain,application/json; charset=utf-8,,2026-10-16
+https://comtradeplus.un.org/,200,OK,plain,html,UN Comtrade,2026-10-16
+https://data-explorer.oecd.org/vis?df[ds]=dsDisseminateFinalDMZ&df[id]=DSD_BOP%40DF_TIS&df[ag]=OECD.SDD.TPS,200,OK,chromium,html,OECD Data Explorer • International trade in services || More about the OECD Data Explorer | Platform and data status  English ​ Back to the search results  Refine your data selection:   Time period  17  Reference are,2026-10-16
+https://data.aseanstats.org/,200,OK,plain,html,ASEANstats Dashboard | ASEANStatsDataPortal,2026-10-16
+https://data.imf.org/,200,OK,chromium,html,Data Home || Skip to main menu Skip to main content ABOUT RESEARCH COUNTRIES CAPACITY DEVELOPMENT NEWS VIDEOS DATA PUBLICATIONS ENGLISH IMF DATA SIGN IN HELP  ACCESS TO ECON,2026-10-16
+https://data.tourism.gov.my/,200,OK,plain,html,Malaysia Tourism Statistics,2026-10-16
+https://data.tourism.gov.my/frontend/pdf/Malaysia_Tourist_Profile_2024%20v2.pdf,200,OK,plain,application/pdf,,2026-10-16
+https://data.worldbank.org/indicator/PA.NUS.FCRF,200,OK,plain,html,"Official exchange rate (LCU per US$, period average) | Data",2026-10-16
+https://data.worldbank.org/indicator/ST.INT.RCPT.CD?locations=ID,200,OK,plain,html,"International tourism, receipts (current US$) - Indonesia | Data",2026-10-16
+https://data.wto.org/en/dataset/batis,200,OK,chromium,html,Balanced Trade in Services (BaTIS) Dataset - Dataset - WTO Data Portal || Skip to main content BETA version WTO Data Gateway to Trade Data ENGLISH | FRANÇAIS | ESPAÑOL HOME CATALOGUE DATA APPLICATIONS Balanced Trade in Services (BaTIS,2026-10-16
+https://data.wto.org/en/dataset/tismos,200,OK,plain,html,Trade in Services by Mode of Supply Dataset (TiSMoS) - Dataset - WTO Data Portal,2026-10-16
+https://ec.europa.eu/eurostat/api/dissemination/sdmx/2.1/data/bop_its6_det/A.MIO_EUR.SD.CRE+DEB+BAL.ID.?format=SDMX-CSV&startPeriod=2010,200,OK,plain,application/vnd.sdmx.data+csv;version=1.0.0,,2026-10-16
+https://ec.europa.eu/eurostat/databrowser/view/bop_its6_det/default/table?lang=en,200,OK,chromium,html,[bop_its6_det] International trade in services (since 2010) (BPM6) || Skip to Content An official website of the European Union How do you know?  This site uses cookies. Visit our cookies policy page or click the link in any foote,2026-10-16
+https://isomer-user-content.by.gov.sg/1/7eff2b91-b8c6-4dac-a4c2-db5a19771868/YIR%202024_Annex%20A.pdf,200,OK,plain,application/pdf,,2026-10-16
+https://kemenag.go.id/,200,OK,plain,html,Kementerian Agama Republik Indonesia,2026-10-16
+https://kemenpar.go.id/publikasi-passenger-exit-survey,200,OK,plain,html,Publikasi Passenger Exit Survey,2026-10-16
+https://kemenpar.go.id/statistik-devisa-pariwisata,200,OK,plain,html,Statistik Devisa Pariwisata,2026-10-16
+https://kemenpar.go.id/statistik-jasa-perjalanan,200,OK,plain,html,Statistik Jasa Perjalanan,2026-10-16
+https://news.detik.com/berita/d-8182587/ongkos-pesawat-haji-2026-rp-33-1-juta-komisi-viii-dpr-minta-turun-rp-1-juta,200,OK,plain,html,"Ongkos Pesawat Haji 2026 Rp 33,1 Juta, Komisi VIII DPR Minta Turun Rp 1 Juta",2026-10-16
+"https://sdmx.oecd.org/public/rest/data/OECD.SDD.TPS,DSD_BATIS@DF_BATIS,1.0/IDN..X+M.S.SD.A.USD_EXC.B?startPeriod=2019&format=csvfilewithlabels",200,OK,plain,application/vnd.sdmx.data+csv; version=2; labels=name; charset=utf-8,,2026-10-16
+"https://sdmx.oecd.org/public/rest/data/OECD.SDD.TPS,DSD_BOP@DF_TIS,1.0/.IDN.SD...A.USD_EXC.?startPeriod=2019&format=csvfilewithlabels",200,OK,plain,application/vnd.sdmx.data+csv; charset=utf-8; labels=name; version=2,,2026-10-16
+https://unctadstat.unctad.org/datacentre/,200,OK,plain,html,UNCTADstat Data Centre,2026-10-16
+https://webapi.bps.go.id/download.php?f=/brduwku1DSgOYdICEs25HN5Um1sSHNKQUZKUVByUW43TEdGSmpLcU1pWjQrWkVyODM1ZW1SWHJ1YWM3elJ0VmpMSXQ0K3AxaXdMY0ZDUElzdDVGZVUwWUFRYnl5ZUxlVFc4Nnh5c3NZY3lsRkk1dHd0N3M2Z0hhRmRWNEp5QzZQQ0h4bVpsNmFCMEZNTEE1T1ZDSGhqR3oySDFPUWU2NWNzUEFpQ0dIRmtvT0tUa3N3RnB0eG9iSWZ0dUIwVi9HaTJoRGc1cWtwRnRLeS9DZER2SytoV0FYanhKYkNVYzI5OUVOWE4vV05Bakk2TTR5dDkwSWlKZU9BL3NFSSszZERRYnQvQVFnSzJuTmpUQ2VKKzNaSG9RRlZxdGVVd24yY3dVSjh3PT0=,200,OK,plain,application/pdf,,2026-10-16
+https://webapi.bps.go.id/download.php?f=ExlK6XbY6OnXADZQ8UNZYkQyOWtQUFFod0Y5Q1BwZFkzSFJZelBXYkQrL2ZXTHV2ZERSemVzTzM0YVpNdXN5RlZGeWdoRGp6ZVVkOURTaG1nVE8vVG0zYlhhVTdWOGVPYzR4RVJTdGZWRElsUnlOWFl6bXgzL25QenFMTDNpQ04xUXRaYjBRTmhkZlBVMDJzYWN1b3BJbzJiaXNId0VzZUI0VUMvSWNJNy9DbkVkajNWa0NzSFBkWWthOUpXRjBpR0tRK05KNm1ZOGpDa3NqQkYrLy96d2J3SkdKZzdHb3NreDBWMC9CQU9hUFFTVWNUM2JiZUJXa3VuQkRlTGR0cnBRZ29iVHRKMGxRVUtlYUY=,200,OK,plain,application/pdf,,2026-10-16
+https://webapi.bps.go.id/download.php?f=rEB9s/sAcyKXn36czAQSWUpraWhxaURwZ2JPejYybHRIMm9aNElybWwwRUR1Q0Fxc3ZiU25GUUl5L0ptaGpMTHF1SzN1Z3NnemUySkw1MUVIdW96WFAyVS9jTFNUM1hCOS9OUWtLekhGdGJZOG4yT1BwK2F6dWFUTkNudUJWcWtrcE5LbE83ZmFiQkxDNHNCQjNMaUkyS2tQR0lUUkhkZzA1STRGVlNDWVdtS3YwSS9leTQ0ZzJ4VENlQU9xYkpXRy9wLzVJTFlzZkh2SFRBVVdjbm45L2d5YlprYWtiL0FHV2FDOXZ5SnZFUDFKdWcvcDhtMmk3aHFXdTlMbGFpZ1A1Vi9vZDdMZnliTFZScERYSjE0KytMb0ZrbnhRNHcrNi80V3pRPT0=,200,OK,plain,application/pdf,,2026-10-16
+https://webapi.bps.go.id/download.php?f=ubF8LEhfIXUT7L5EIjGv6W10OFZCdTcxVTZYeU1VZGV3YS8yc1hRU25NNHpCYTNBTU50SExGWFBuN1hFMXU0YXdxZ1VCcDV6QmFiUFBsNnQvRDl1TE1ORTh1TjgzL3k5L1NVQnovSlZGdlJ2SENRd3hlYmE2eFdzWmROT0ZmeG8rd3BPRHdDeXA0cElVK3NMMHV0OGNyZEQzSGtRTmJVWW9NbjdZZk1LUmZzRkVHbVNTVjY1ZThmMXoxWkRLdFlFQjBkN0YzQWYvRVZuZXp0aDAxS2RxaGtHWlQ0bFNYeEZOMC8rMkVuK1VyVVBNY2ZDQyt6NzBXeGZFMktNQlhVanJRd1FsM2xsdnVhRlE4bzBkSmo4cTBqWlh3OGJkUDUrU3VsY2hRPT0=,200,OK,plain,application/pdf,,2026-10-16
+https://webapi.bps.go.id/download.php?f=zsX0nmeR2GLmYyC5idnuVVVPYU1Yb1pSTktGVXJxZWwvNE5qaWpBZVEzdGREQUNEbFlKUWlhUXpqcEFMWUVHd0UzaVFibjZkY2pUNi9yQVhhM3JLa2wvcXd1V29Ia1U0Y1U4SnA5d0VWQmpNV3FkTTVvR0Q3NW1zWTlCbFZuVzhVS0pvdFdJT25uak9CWThVNjNLY2trc3NiRzJmcndSUkE5dHBvT2R4TFFodVhXdktlT2c1RE1YRHpWMS9oSVhpSlhPb2ZyWVBlR3lkMFJxYXlJOWZzWWl1V0FCUFE0YXVSdnpBZ282MHVwZmtEYlVWdllESHBqMkVNZk55eVVtWSt0bm9ibWtQQWY4M3g4TzE=,200,OK,plain,application/pdf,,2026-10-16
+https://www.abs.gov.au/statistics/economy/international-trade/international-trade-supplementary-information-calendar-year/2025/536805500407.xlsx,200,OK,plain,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet,,2026-10-16
+https://www.abs.gov.au/statistics/economy/international-trade/international-trade-supplementary-information-calendar-year/2025/536805500408.xlsx,200,OK,plain,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet,,2026-10-16
+https://www.abs.gov.au/statistics/economy/international-trade/international-trade-supplementary-information-calendar-year/latest-release,200,OK,plain,html,"International Trade: Supplementary Information, Calendar Year, 2025 | Australian Bureau of",2026-10-16
+https://www.antaranews.com/berita/4566750/dpr-pemerintah-setujui-bpih-2025-rp894-juta-jamaah-bayar-rp554-juta,200,OK,plain,html,"DPR-Pemerintah setujui BPIH 2025 Rp89,4 juta, jamaah bayar Rp55,4 juta - ANTARA News",2026-10-16
+https://www.bi.go.id/SEKI/tabel/TABEL5_29.pdf,200,OK,plain,application/pdf,,2026-10-16
+https://www.bi.go.id/SEKI/tabel/TABEL5_3.xls,200,OK,plain,application/vnd.ms-excel,,2026-10-16
+https://www.bi.go.id/id/publikasi/laporan/Default.aspx,200,OK,plain,html,Laporan,2026-10-16
+https://www.bi.go.id/id/publikasi/laporan/Documents/NPI_Tw_I_2024.pdf,200,OK,plain,application/pdf,,2026-10-16
+https://www.bi.go.id/id/statistik/ekonomi-keuangan/seki/Default.aspx,200,OK,plain,html,Statistik Ekonomi dan Keuangan Indonesia,2026-10-16
+https://www.bok.or.kr/eng/main/main.do,200,OK,plain,html,Bank of Korea,2026-10-16
+https://www.bps.go.id/id/publication/2025/03/17/8f41f59ea24192828f6c7275,403,"OK di browser (anti-bot, tidak bisa diuji otomatis)",chromium,html,Just a moment... || www.bps.go.id Performing security verification  This website uses a security service to protect against malicious bots. This page is displayed while the website,2026-10-16
+https://www.bps.go.id/id/publication/2026/04/30/7344d8c9b1935d342f2ff9e7,403,"OK di browser (anti-bot, tidak bisa diuji otomatis)",chromium,html,Just a moment... || www.bps.go.id Performing security verification  This website uses a security service to protect against malicious bots. This page is displayed while the website,2026-10-16
+https://www.bps.go.id/id/publication/2026/09/01/27b61f56c20226ca8ecfd974,403,"OK di browser (anti-bot, tidak bisa diuji otomatis)",chromium,html,Just a moment... || www.bps.go.id Performing security verification  This website uses a security service to protect against malicious bots. This page is displayed while the website,2026-10-16
+https://www.bps.go.id/id/statistics-table/2/MTQ3MCMy/jumlah-kunjungan-wisatawan-mancanegara-per-bulan-menurut-paspor-yang-dipegang.html,403,"OK di browser (anti-bot, tidak bisa diuji otomatis)",chromium,html,Just a moment... || www.bps.go.id Performing security verification  This website uses a security service to protect against malicious bots. This page is displayed while the website,2026-10-16
+https://www.bps.go.id/id/statistics-table/2/MjE5NSMy/jumlah-perjalanan-wisatawan-nasional.html,403,"OK di browser (anti-bot, tidak bisa diuji otomatis)",chromium,html,Just a moment... || www.bps.go.id Performing security verification  This website uses a security service to protect against malicious bots. This page is displayed while the website,2026-10-16
+https://www.bps.go.id/id/statistics-table/2/MjcyIzI=/rata-rata-pengeluaran-wisatawan-mancanegara-per-kunjungan-menurut-negara-tempat-tinggal.html,403,"OK di browser (anti-bot, tidak bisa diuji otomatis)",chromium,html,Just a moment... || www.bps.go.id Performing security verification  This website uses a security service to protect against malicious bots. This page is displayed while the website,2026-10-16
+https://www.detik.com/sumut/berita/d-7965581/kuota-haji-indonesia-2026-batal-dipangkas-ini-rincian-kuota-dari-tahun-ke-tahun,200,OK,plain,html,"Kuota Haji Indonesia 2026 Batal Dipangkas, Ini Rincian Kuota dari Tahun ke Tahun",2026-10-16
+https://www.mlit.go.jp/kankocho/content/002020210.pdf,200,OK,plain,application/pdf,,2026-10-16
+https://www.mlit.go.jp/kankocho/tokei_hakusyo/gaikokujinshohidoko.html,200,OK,plain,html,インバウンド消費動向調査 | 観光統計・白書 | 観光庁,2026-10-16
+https://www.mots.go.th/images/v2022_c1331820-8936-4423-84cd-65278cebf658.xlsx,200,OK,plain,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet,,2026-10-16
+https://www.mots.go.th/news/category/810,200,OK,plain,html,สรุปรายได้และค่าใช้จ่ายการท่องเที่ยวจากนักท่องเที่ยวชาวต่างชาติที่เดินทางเข้าประเทศไทย ปี ,2026-10-16
+https://www.stb.gov.sg/about-stb/media-publications/media-centre/singapore-achieves-historical-high-in-tourism-receipts-in-2024/,200,OK,plain,html,Singapore Achieves Historical High in Tourism Receipts in 2024 | Singapore Tourism Board,2026-10-16
+https://www.wto.org/english/res_e/statis_e/daily_update_e/OECD-WTO_Batis_methodology_BPM6.pdf,200,OK,plain,application/pdf,,2026-10-16
+https://www.wto.org/english/res_e/statis_e/trade_datasets_e.htm,200,OK,plain,html,WTO | Trade Statistics - Bulk download of select services datasets,2026-10-16
