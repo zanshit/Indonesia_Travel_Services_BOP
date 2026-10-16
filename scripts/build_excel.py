@@ -5,7 +5,10 @@ Eurostat, ABS), OECD-WTO BaTIS and destination-country receipts are shown only a
 
 Run:  python -I scripts/build_excel.py
 Reads 03_extract/*.csv and 02_raw/fx/wb_PA.NUS.FCRF.json (via travel_data.py);
-writes output/Neraca_Jasa_Perjalanan_Indonesia_per_Negara.xlsx and 04_qa/reconciliation.md.
+writes output/Neraca_Jasa_Perjalanan_Indonesia_per_Negara_v3.xlsx and 04_qa/reconciliation.md.
+
+Every value column carries a status label (grey row under the header), defined in the 'Legenda' sheet:
+GIVEN, GIVEN – MIRRORING, SELF-CALCULATED, SELF-CALCULATED – MIRRORING, SELF-ASSUMED.
 """
 import sys
 from pathlib import Path
@@ -81,8 +84,65 @@ def header(ws, row, col, labels, widths=None, height=42, prov=None, prov_height=
     return pr + 1
 
 
-PROV_LEGEND = ("Label abu-abu di bawah judul kolom → GIVEN: diambil apa adanya dari sumber · DIHITUNG SENDIRI: "
-               "kami hitung, caranya tertulis · ASUMSI SENDIRI: pilihan kami karena sumber tidak menyediakan angkanya.")
+PROV_LEGEND = ("Status angka (baris abu-abu di bawah judul kolom): GIVEN = diambil apa adanya dari sumber · "
+               "GIVEN – MIRRORING = laporan negara mitra, hanya sisi kredit/debit ditukar, angka tidak diubah · "
+               "SELF-CALCULATED = kami hitung, rumusnya tertulis · SELF-CALCULATED – MIRRORING = kami hitung dari data "
+               "negara mitra · SELF-ASSUMED = asumsi kami. Penjelasan lengkap: sheet 'Legenda'.")
+
+# status tags: (tag, arti, contoh di workbook)
+TAGS = [
+    ("GIVEN", "Angka diambil apa adanya dari sumber resmi. Kami tidak menghitung, mengestimasi, atau mengubahnya.",
+     "Kunjungan dan pengeluaran per kunjungan BPS; semua angka OECD-WTO BaTIS (F, N, B); total BI."),
+    ("GIVEN – MIRRORING", "Angka dilaporkan negara mitra tentang Indonesia. Nilainya tidak diubah; hanya sisinya "
+     "ditukar: impor jasa perjalanan negara mitra = kredit Indonesia, ekspor negara mitra = debit Indonesia.",
+     "Kredit/debit di sheet Mirror – OECD TIS, Mirror – Eurostat (EUR), Mirror – ABS (AUD)."),
+    ("SELF-CALCULATED", "Kami hitung sendiri dari angka GIVEN. Rumusnya ditulis di label kolom.",
+     "Kredit BPS = kunjungan × pengeluaran per kunjungan; neraca = kredit − debit; konversi kurs ke USD."),
+    ("SELF-CALCULATED – MIRRORING", "Kami hitung sendiri dari data negara mitra (mis. konversi kurs atau membalik "
+     "tanda neraca mitra menjadi neraca Indonesia).", "Neraca Indonesia = neraca negara pelapor × (−1)."),
+    ("SELF-ASSUMED", "Pilihan/asumsi kami karena sumber tidak menyediakan angkanya. Selalu disebut alasannya.",
+     "Negara tanpa angka pengeluaran sendiri memakai rata-rata kelompoknya (BPS debit)."),
+]
+
+# OECD-WTO BaTIS codes, official labels from the 'label' columns of the BaTIS CSV (02_raw/batis/)
+BATIS_CODES = [
+    ("N", "Adjustment", "Reported", "Dilaporkan langsung oleh negara (untuk Indonesia: hanya total dunia)."),
+    ("F", "Adjustment", "Adjusted and/or imputed", "Estimasi OECD-WTO untuk sisi Indonesia (diisi oleh OECD-WTO)."),
+    ("B", "Adjustment", "Balanced", "Nilai seimbang buatan OECD-WTO: rata-rata tertimbang F dan laporan mitra."),
+    ("ME", "Methodology type", "Model-based estimation",
+     "Diisi OECD-WTO dengan model gravitasi (regresi PPML). Bukan model kami."),
+    ("IE", "Methodology type", "Interpolation / extrapolation",
+     "Diisi OECD-WTO dari deret waktu tahun lain (2023–2024 Indonesia sebagian besar IE)."),
+    ("DE", "Methodology type", "Derivation", "Diturunkan OECD-WTO dari angka lain yang tersedia."),
+    ("AG", "Methodology type", "Aggregation", "Penjumlahan OECD-WTO (mis. total dunia)."),
+    ("I", "Observation status", "Value imputed by a receiving agency", "Nilai diisi OECD-WTO, bukan laporan negara."),
+    ("A", "Observation status", "Normal value", "Nilai normal (laporan negara)."),
+]
+METHOD_LABEL = {c: f"{c} = {o}" for c, k, o, _ in BATIS_CODES if k == "Methodology type"}
+
+
+def code_table(ws, row, rows, title_text, spans=((1, 1), (2, 2), (3, 4), (5, 9))):
+    """Legend table with merged cells: code | kind | official label | plain meaning. Returns next free row."""
+    bold(ws, row, 1, title_text, 10)
+    labels = ["Kode", "Jenis kode", "Label resmi OECD-WTO", "Arti sederhana"]
+    for (c1, c2), lab in zip(spans, labels):
+        c = ws.cell(row=row + 1, column=c1, value=lab)
+        c.font = Font(name=FONT, size=9, bold=True, color="FFFFFF")
+        c.fill = PatternFill("solid", fgColor=NAVY)
+        if c2 > c1:
+            ws.merge_cells(start_row=row + 1, start_column=c1, end_row=row + 1, end_column=c2)
+    thin = Side(style="hair", color=GREY)
+    for i, vals in enumerate(rows):
+        rr = row + 2 + i
+        for (c1, c2), v in zip(spans, vals):
+            c = ws.cell(row=rr, column=c1, value=v)
+            c.font = Font(name=FONT, size=9, bold=(c1 == 1))
+            c.border = Border(bottom=thin)
+            c.alignment = Alignment(wrap_text=True, vertical="top")
+            if c2 > c1:
+                ws.merge_cells(start_row=rr, start_column=c1, end_row=rr, end_column=c2)
+        ws.row_dimensions[rr].height = 24
+    return row + 2 + len(rows)
 
 
 def prov_legend(ws, row=3):
@@ -238,6 +298,44 @@ def main():
     bi = pd.read_csv(EX / "bi_travel_totals.csv")
     bi = bi[(bi["item"] == "travel") & bi.quarter.isna()].pivot_table(index="year", columns="flow_idn", values="value")
 
+    # ================================================================ 0. Legenda
+    ws = wb.create_sheet("Legenda")
+    style_ws(ws)
+    title(ws, "Legenda: dari mana setiap angka berasal",
+          "Setiap kolom angka di workbook ini punya label status di baris abu-abu tepat di bawah judul kolom.")
+    header(ws, 4, 1, ["Label status", "Artinya", "Contoh di workbook ini"], [30, 70, 70], height=20)
+    end = write_rows(ws, 5, 1, [list(t) for t in TAGS], [None] * 3)
+    for rr in range(5, end):
+        ws.cell(row=rr, column=1).font = Font(name=FONT, size=10, bold=True, color=NAVY)
+        for cc in (2, 3):
+            ws.cell(row=rr, column=cc).alignment = Alignment(wrap_text=True, vertical="top")
+        ws.row_dimensions[rr].height = 42
+    r = end + 1
+    bold(ws, r, 1, "Ringkasan per sheet", 10)
+    header(ws, r + 1, 1, ["Sheet", "Status angka", "Yang kami hitung sendiri"], height=20)
+    per_sheet = [
+        ["Neraca per Negara / BPS – Perhitungan", "Input GIVEN (BPS); hasil SELF-CALCULATED",
+         "Kredit = kunjungan × pengeluaran per kunjungan; debit = total perjalanan × pangsa negara × pengeluaran per "
+         "perjalanan; negara tanpa angka pengeluaran sendiri = SELF-ASSUMED (rata-rata kelompok)."],
+        ["Mirror – OECD TIS / Eurostat / ABS", "GIVEN – MIRRORING (nilai lokal); SELF-CALCULATED – MIRRORING",
+         "Neraca = neraca negara pelapor × (−1) atau kredit − debit; konversi EUR/AUD ke USD dengan kurs Bank Dunia."],
+        ["BaTIS Data / BaTIS – Cara Model", "GIVEN: semua kredit dan debit diambil langsung dari OECD-WTO",
+         "Tidak ada estimasi kami. Hanya neraca = kredit B − debit B (BaTIS tidak menerbitkan neraca)."],
+        ["Data Negara Tujuan", "Nilai lokal GIVEN; USD SELF-CALCULATED; haji SELF-CALCULATED + SELF-ASSUMED",
+         "Konversi ke USD; haji = kuota × (BPIH − tiket); biaya tiket 2025 dipakai untuk tahun lain."],
+        ["Tren / Rekonsiliasi / Perbandingan Sumber", "Disalin dari sheet lain; rasio dan jumlah SELF-CALCULATED",
+         "Neraca per tahun, jumlah semua mitra, rasio terhadap BI."],
+    ]
+    end = write_rows(ws, r + 2, 1, per_sheet, [None] * 3)
+    for rr in range(r + 2, end):
+        for cc in (2, 3):
+            ws.cell(row=rr, column=cc).alignment = Alignment(wrap_text=True, vertical="top")
+        ws.row_dimensions[rr].height = 42
+    code_table(ws, end + 1, [list(x) for x in BATIS_CODES],
+               "Kode OECD-WTO BaTIS (ME, IE, DE, AG, dan lain-lain): label resmi dari file BaTIS",
+               spans=((1, 1), (2, 2), (3, 3), (4, 4)))
+    ws.column_dimensions["D"].width = 70
+
     # ================================================================ 1. Neraca per Negara (BPS)
     ws = wb.create_sheet("Neraca per Negara")
     style_ws(ws)
@@ -259,9 +357,9 @@ def main():
     link(ws.cell(row=8, column=1), LINKS["PES"], "PES: survei untuk menghitung neraca perjalanan (Kemenparekraf)")
     prov_legend(ws)
     first = header(ws, 10, 1, ["Negara", H_KREDIT, H_DEBIT, H_NERACA, "Catatan"], [22, 16, 16, 14, 46], height=48,
-                   prov=[None, "DIHITUNG SENDIRI: kunjungan × pengeluaran per kunjungan (input GIVEN BPS)",
-                         "DIHITUNG SENDIRI: perjalanan × pangsa tujuan × pengeluaran per perjalanan (input GIVEN BPS)",
-                         "DIHITUNG SENDIRI: kredit − debit", "Catatan kami"], prov_height=52)
+                   prov=[None, "SELF-CALCULATED: kunjungan × pengeluaran per kunjungan (input GIVEN BPS)",
+                         "SELF-CALCULATED: perjalanan × pangsa tujuan × pengeluaran per perjalanan (input GIVEN BPS)",
+                         "SELF-CALCULATED: kredit − debit", "Catatan kami"], prov_height=52)
     main_tbl = bps.copy()
     main_tbl["_sort"] = main_tbl.neraca.fillna(-1e12)
     main_tbl = main_tbl.sort_values("_sort", ascending=False)
@@ -339,8 +437,8 @@ def main():
     bold(ws, r, 1, "Uji silang debit BPS dengan data resmi negara tujuan", 10)
     first = header(ws, r + 1, 1, ["Negara", "Debit BPS", "Data negara tujuan", "BPS / negara tujuan",
                                   "Catatan negara tujuan"], height=30,
-                   prov=[None, "Dari sheet Neraca per Negara (DIHITUNG SENDIRI)", "Dari sheet Data Negara Tujuan",
-                         "DIHITUNG SENDIRI: debit BPS ÷ data negara tujuan", None])
+                   prov=[None, "Dari sheet Neraca per Negara (SELF-CALCULATED)", "Dari sheet Data Negara Tujuan",
+                         "SELF-CALCULATED: debit BPS ÷ data negara tujuan", None])
     rows = []
     for iso, x in ds.iterrows():
         b = bps.debit.get(iso)
@@ -349,9 +447,9 @@ def main():
     r += 1
     bold(ws, r, 1, "Uji silang kredit BPS dengan laporan negara mitra (mirror OECD TIS)", 10)
     first = header(ws, r + 1, 1, ["Negara", "Kredit BPS", "Kredit menurut negara mitra", "BPS / mitra", ""],
-                   height=30, prov=[None, "Dari sheet Neraca per Negara (DIHITUNG SENDIRI)",
-                                    "Dari sheet Mirror – OECD TIS (GIVEN, mirroring)",
-                                    "DIHITUNG SENDIRI: kredit BPS ÷ kredit mitra", None])
+                   height=30, prov=[None, "Dari sheet Neraca per Negara (SELF-CALCULATED)",
+                                    "Dari sheet Mirror – OECD TIS (GIVEN – MIRRORING)",
+                                    "SELF-CALCULATED: kredit BPS ÷ kredit mitra", None])
     both = [i for i in bps.kredit.dropna().sort_values(ascending=False).index if i in tis_y.index][:8]
     rows = [[bps.loc[i, "nama"], bps.loc[i, "kredit"], tis_y.loc[i, "kredit"],
              bps.loc[i, "kredit"] / tis_y.loc[i, "kredit"], ""] for i in both]
@@ -370,7 +468,7 @@ def main():
     c0 = header(ws, 5, 1, ["Negara (kebangsaan)", "Kunjungan (orang)", "Pengeluaran per kunjungan (USD)",
                            "Kredit (USD juta)"], [26, 14, 16, 14],
                 prov=[None, "GIVEN (BPS var 1470, jumlah Jan–Des)", "GIVEN (BPS var 272)",
-                      "DIHITUNG SENDIRI: B × C ÷ 1.000.000"])
+                      "SELF-CALCULATED: B × C ÷ 1.000.000"])
     r = c0
     for _, row in cr.sort_values("kredit", ascending=False).iterrows():
         write_rows(ws, r, 1, [[row.nama, row.kunjungan, row.pengeluaran_per_kunjungan, None]], [None, NUM0, NUM, NUM])
@@ -384,8 +482,8 @@ def main():
     ws.cell(row=r + 1, column=4, value=f"=B{r + 1}*C{r + 1}/1000000").number_format = NUM
     for cc in (1, 4):
         ws.cell(row=r + 1, column=cc).font = Font(name=FONT, size=10, bold=True)
-    note(ws, r + 2, "Baris total: kunjungan dan rata-rata (USD 1.391,85) GIVEN dari BPS; kredit DIHITUNG SENDIRI "
-                    "(B × C). Baris 'negara lainnya': DIHITUNG SENDIRI = total dikurangi negara yang dirinci.")
+    note(ws, r + 2, "Baris total: kunjungan dan rata-rata (USD 1.391,85) GIVEN dari BPS; kredit SELF-CALCULATED "
+                    "(B × C). Baris 'negara lainnya': SELF-CALCULATED = total dikurangi negara yang dirinci.")
     link(ws.cell(row=r + 3, column=1), LINKS["BPS kredit"], "Sumber: BPS (var 272 pengeluaran, var 1470 kunjungan)")
     r += 6
     bold(ws, r, 1, "Debit: belanja penduduk Indonesia di luar negeri")
@@ -396,9 +494,9 @@ def main():
     d0 = header(ws, r + 2, 1, ["Negara tujuan", "Pangsa perjalanan (%)", "Pengeluaran per perjalanan (USD)",
                                "Debit (USD juta)", "Basis pengeluaran"],
                 prov=[None, "GIVEN (BPS Lampiran 4)",
-                      "GIVEN (BPS Lampiran 20) — kecuali baris 'rata-rata kelompok' = ASUMSI SENDIRI",
-                      "DIHITUNG SENDIRI: total perjalanan × B ÷ 100 × C ÷ 1.000.000",
-                      "ASUMSI SENDIRI: negara tanpa angka sendiri dipetakan ke kelompoknya"], prov_height=52)
+                      "GIVEN (BPS Lampiran 20) — kecuali baris 'rata-rata kelompok' = SELF-ASSUMED",
+                      "SELF-CALCULATED: total perjalanan × B ÷ 100 × C ÷ 1.000.000",
+                      "SELF-ASSUMED: negara tanpa angka sendiri dipetakan ke kelompoknya"], prov_height=52)
     ws.column_dimensions["E"].width = 30
     r = d0
     for _, row in de.sort_values("debit", ascending=False).iterrows():
@@ -429,9 +527,9 @@ def main():
     prov_legend(ws)
     d = tis_y.sort_values("neraca", ascending=False)
     first = header(ws, 4, 1, ["Negara pelapor", H_KREDIT, H_DEBIT, H_NERACA], [22, 16, 16, 14], height=48,
-                   prov=[None, "GIVEN · mirroring: = debit (impor) negara pelapor, nilai tidak diubah",
-                         "GIVEN · mirroring: = kredit (ekspor) negara pelapor, nilai tidak diubah",
-                         "DIHITUNG SENDIRI · mirroring: neraca negara pelapor × (−1)"], prov_height=52)
+                   prov=[None, "GIVEN – MIRRORING: = debit (impor) negara pelapor, nilai tidak diubah",
+                         "GIVEN – MIRRORING: = kredit (ekspor) negara pelapor, nilai tidak diubah",
+                         "SELF-CALCULATED – MIRRORING: neraca negara pelapor × (−1)"], prov_height=52)
     end = write_rows(ws, first, 1, [[r_.nama, r_.kredit, r_.debit, r_.neraca] for _, r_ in d.iterrows()],
                      [None, NUM, NUM, NUM])
     link(ws.cell(row=end + 1, column=1), LINKS["OECD TIS"], "Sumber: OECD International Trade in Services")
@@ -444,12 +542,12 @@ def main():
           "Sudah dibalik ke sisi Indonesia. EUR juta sesuai sumber; USD juta memakai kurs rata-rata Bank Dunia.")
     prov_legend(ws)
     d = eu_y.sort_values("neraca", ascending=False)
-    conv = f"DIHITUNG SENDIRI: EUR ÷ {FX[('EMU', YEAR)]:.4f} (kurs EUR per USD {YEAR}, Bank Dunia)"
+    conv = f"SELF-CALCULATED: EUR ÷ {FX[('EMU', YEAR)]:.4f} (kurs EUR per USD {YEAR}, Bank Dunia)"
     first = header(ws, 4, 1, ["Negara pelapor", "Kredit Indonesia (EUR juta)", "Debit Indonesia (EUR juta)",
                               "Neraca Indonesia (EUR juta)", H_KREDIT + " USD juta", H_DEBIT + " USD juta",
                               H_NERACA + " USD juta"], [20, 14, 14, 14, 16, 16, 14], height=60,
-                   prov=[None, "GIVEN · mirroring: = debit negara pelapor", "GIVEN · mirroring: = kredit negara pelapor",
-                         "DIHITUNG SENDIRI · mirroring: neraca pelapor × (−1)", conv, conv, conv], prov_height=64)
+                   prov=[None, "GIVEN – MIRRORING: = debit negara pelapor", "GIVEN – MIRRORING: = kredit negara pelapor",
+                         "SELF-CALCULATED – MIRRORING: neraca pelapor × (−1)", conv, conv, conv], prov_height=64)
     end = write_rows(ws, first, 1, [[r_.nama, r_.kredit_eur, r_.debit_eur, r_.neraca_eur, r_.kredit, r_.debit,
                                      r_.neraca] for _, r_ in d.iterrows()], [None] + [NUM] * 6)
     link(ws.cell(row=end + 1, column=1), LINKS["Eurostat"], "Sumber: Eurostat bop_its6_det")
@@ -477,13 +575,13 @@ def main():
     a_sd = a[(a["item"] == "SD") & (a.year >= 2010)]
     p = a_sd.pivot_table(index="year", columns="flow_idn", values="value", aggfunc="first")
     pu = a_sd.pivot_table(index="year", columns="flow_idn", values="value_usd", aggfunc="first")
-    conv = "DIHITUNG SENDIRI: AUD ÷ kurs AUD per USD tahun itu (Bank Dunia)"
+    conv = "SELF-CALCULATED: AUD ÷ kurs AUD per USD tahun itu (Bank Dunia)"
     a0 = header(ws, 10, 1, ["Tahun", "Kredit Indonesia (AUD juta)", "Debit Indonesia (AUD juta)",
                             "Neraca Indonesia (AUD juta)", "Kredit Indonesia (USD juta)", "Debit Indonesia (USD juta)",
                             "Neraca Indonesia (USD juta)"], [26, 14, 14, 14, 14, 14, 14], height=42,
-                prov=[None, "GIVEN · mirroring: Tabel 8.1 (impor Australia), tanda minus dihapus",
-                      "GIVEN · mirroring: Tabel 7.1 (ekspor Australia)", "DIHITUNG SENDIRI: kredit − debit",
-                      conv, conv, "DIHITUNG SENDIRI: kredit − debit"], prov_height=52)
+                prov=[None, "GIVEN – MIRRORING: Tabel 8.1 (impor Australia), tanda minus dihapus",
+                      "GIVEN – MIRRORING: Tabel 7.1 (ekspor Australia)", "SELF-CALCULATED: kredit − debit",
+                      conv, conv, "SELF-CALCULATED: kredit − debit"], prov_height=52)
     rows = [[int(y), p.loc[y, "credit"], p.loc[y, "debit"], p.loc[y, "credit"] - p.loc[y, "debit"],
              pu.loc[y, "credit"], pu.loc[y, "debit"], pu.loc[y, "credit"] - pu.loc[y, "debit"]] for y in p.index]
     end = write_rows(ws, a0, 1, rows, [None] + [NUM0] * 6)
@@ -495,8 +593,8 @@ def main():
     r0 = end + 2
     bold(ws, r0, 1, f"Rincian {yy} (AUD juta)", 10)
     f0 = header(ws, r0 + 1, 1, ["Jenis perjalanan", "Kredit Indonesia", "Debit Indonesia", "Neraca Indonesia"],
-                height=20, prov=[None, "GIVEN · mirroring: Tabel 8.2 / 8.4 / 8.5", "GIVEN · mirroring: Tabel 7.2 / 7.4 / 7.5",
-                                 "DIHITUNG SENDIRI: kredit − debit"])
+                height=20, prov=[None, "GIVEN – MIRRORING: Tabel 8.2 / 8.4 / 8.5", "GIVEN – MIRRORING: Tabel 7.2 / 7.4 / 7.5",
+                                 "SELF-CALCULATED: kredit − debit"])
     write_rows(ws, f0, 1, [[lab[k], sp.loc[k, "credit"], sp.loc[k, "debit"], sp.loc[k, "credit"] - sp.loc[k, "debit"]]
                            for k in lab if k in sp.index], [None, NUM0, NUM0, NUM0])
     neg_years = [int(y) for y in pu.index if pu.loc[y, "credit"] - pu.loc[y, "debit"] < 0]
@@ -524,31 +622,36 @@ def main():
     ws = wb.create_sheet("BaTIS Data")
     style_ws(ws)
     title(ws, f"Pembanding: OECD-WTO BaTIS, {YEAR} (USD juta)",
-          "SEMUA estimasi di sheet ini GIVEN: dihitung OECD-WTO dan diunduh apa adanya. Kami TIDAK menjalankan model "
-          "gravitasi/PPML. Satu-satunya hitungan kami: kolom Neraca (kredit B − debit B).")
+          "SEMUA angka kredit dan debit di sheet ini GIVEN: diambil langsung dari OECD-WTO BaTIS, apa adanya. Tidak "
+          "ada yang kami hitung atau estimasi sendiri; model gravitasi/PPML dijalankan OECD-WTO, bukan kami.")
     prov_legend(ws)
-    bold(ws, 4, 1, "Legenda kode OECD-WTO", 10)
-    note(ws, 5, "Jenis angka:  F = estimasi OECD-WTO untuk sisi Indonesia · N = dilaporkan langsung oleh negara · "
-                "B = nilai seimbang buatan OECD-WTO (gabungan F dan laporan mitra)")
-    note(ws, 6, "Kode metode (kolom terakhir):  ME = OECD-WTO mengisi dengan model gravitasi · IE = OECD-WTO "
-                "meng-interpolasi/ekstrapolasi dari tahun lain · AG = agregasi. Detail: sheet 'BaTIS – Cara Model'.")
+    note(ws, 4, "Satu-satunya operasi kami: kolom Neraca = kredit B − debit B (BaTIS tidak menerbitkan neraca). "
+                "Tukar sisi ekspor/impor negara mitra di kolom N = mirroring, angkanya tidak diubah.")
+    r_leg = code_table(ws, 6, [list(x) for x in BATIS_CODES],
+                       "Legenda kode OECD-WTO (label resmi diambil dari file BaTIS; cara model: sheet 'BaTIS – Cara Model')")
     d = bt[(bt.kredit_B.fillna(0) + bt.debit_B.fillna(0)) > 0].sort_values("kredit_B", ascending=False)
-    g = "GIVEN (OECD-WTO, kode {})"
-    first = header(ws, 8, 1, ["Negara", "Kredit Indonesia: estimasi OECD-WTO (F)",
+    g = "GIVEN (OECD-WTO, kode {}) — diambil langsung"
+    first = header(ws, r_leg + 1, 1, ["Negara", "Kredit Indonesia: estimasi OECD-WTO (F)",
                               "Kredit Indonesia: dilaporkan negara mitra (N)", "Kredit Indonesia: nilai seimbang (B)",
                               "Debit Indonesia: estimasi OECD-WTO (F)", "Debit Indonesia: dilaporkan negara mitra (N)",
-                              "Debit Indonesia: nilai seimbang (B)", "Neraca Indonesia (B)", "Kode metode F"],
-                   [22, 13, 13, 13, 13, 13, 13, 11, 10], height=64,
-                   prov=[None, g.format("F"), g.format("N") + " · mirroring: sisi mitra dibalik", g.format("B"),
-                         g.format("F"), g.format("N") + " · mirroring: sisi mitra dibalik", g.format("B"),
-                         "DIHITUNG SENDIRI: kredit B − debit B", "GIVEN (OECD-WTO)"], prov_height=52)
+                              "Debit Indonesia: nilai seimbang (B)", "Neraca Indonesia (B)", "Kode metode F",
+                              "Arti kode metode"],
+                   [22, 13, 13, 13, 13, 13, 13, 11, 10, 34], height=64,
+                   prov=[None, g.format("F"), "GIVEN – MIRRORING (OECD-WTO, kode N): laporan mitra, angka tidak diubah",
+                         g.format("B"), g.format("F"),
+                         "GIVEN – MIRRORING (OECD-WTO, kode N): laporan mitra, angka tidak diubah", g.format("B"),
+                         "SELF-CALCULATED: kredit B − debit B (pengurangan saja)", "GIVEN (OECD-WTO)",
+                         "Legenda (lihat tabel di atas)"], prov_height=52)
+
+    def arti(m):
+        return " · ".join(METHOD_LABEL.get(x, x) for x in str(m).split("/")) if pd.notna(m) and m else None
     end = write_rows(ws, first, 1, [[r_.nama, r_.kredit_F, r_.kredit_mitra, r_.kredit_B, r_.debit_F, r_.debit_mitra,
-                                     r_.debit_B, r_.neraca_B, r_.metode] for _, r_ in d.iterrows()],
-                     [None] + [NUM] * 7 + [None])
+                                     r_.debit_B, r_.neraca_B, r_.metode, arti(r_.metode)] for _, r_ in d.iterrows()],
+                     [None] + [NUM] * 7 + [None, None])
     ws.freeze_panes = f"B{first}"
     note(ws, end + 1, "Kosong di kolom 'dilaporkan negara mitra' = negara itu tidak melapor ke OECD-WTO.")
     link(ws.cell(row=end + 2, column=1), LINKS["BaTIS"], "Sumber: OECD-WTO BaTIS")
-    add_charts(ws, bt_std, 12, 4, "Sumber: BaTIS, nilai seimbang (B)")
+    add_charts(ws, bt_std, 12, r_leg + 1, "Sumber: BaTIS, nilai seimbang (B)")
 
     # ================================================================ 8. BaTIS – Cara Model
     ws = wb.create_sheet("BaTIS – Cara Model")
@@ -586,11 +689,9 @@ def main():
                                   ["Model gravitasi", 0.5], ["Dilaporkan tapi tidak masuk akal", 0.25]],
                    [None, "0.00"])
     r += 1
-    bold(ws, r, 1, "Arti kode di data", 10)
-    header(ws, r + 1, 1, ["Kode", "Arti"], height=20)
-    r = write_rows(ws, r + 2, 1, [["N", "Dilaporkan negara"], ["F", "Estimasi/imputasi OECD-WTO"],
-                                  ["B", "Nilai seimbang"], ["ME", "Estimasi model gravitasi"],
-                                  ["IE", "Interpolasi/ekstrapolasi"], ["AG", "Agregasi"]], [None, None])
+    r = code_table(ws, r, [list(x) for x in BATIS_CODES], "Arti kode di data (label resmi OECD-WTO)",
+                   spans=((1, 1), (2, 2), (3, 3), (4, 4)))
+    ws.column_dimensions["D"].width = 60
     b23 = batis_year(batis, 2023)
     ex = b23.loc["AUS"]
     w = (ex.kredit_B - ex.kredit_F) / (ex.kredit_mitra - ex.kredit_F) if pd.notna(ex.kredit_mitra) else None
@@ -601,7 +702,7 @@ def main():
                                   ["Laporan Australia (N)", ex.kredit_mitra, "GIVEN (OECD-WTO; asal ABS)"],
                                   ["Nilai seimbang (B)", ex.kredit_B, "GIVEN (OECD-WTO)"],
                                   ["Bobot tersirat laporan Australia", w,
-                                   "DIHITUNG SENDIRI: (B − F) ÷ (N − F), hanya untuk ilustrasi"]],
+                                   "SELF-CALCULATED: (B − F) ÷ (N − F), hanya untuk ilustrasi"]],
                    [None, NUM, None])
     ws.cell(row=r - 1, column=2).number_format = "0%"
     r += 1
@@ -625,13 +726,13 @@ def main():
     prov_legend(ws)
     d = ds.sort_values("debit_usd", ascending=False)
     status = {
-        "Tourism Malaysia": f"Nilai lokal GIVEN. USD DIHITUNG SENDIRI: RM × (1 − 2,2% tiket internasional) ÷ "
+        "Tourism Malaysia": f"Nilai lokal GIVEN. USD SELF-CALCULATED: RM × (1 − 2,2% tiket internasional) ÷ "
                             f"{FX[('MYS', YEAR)]:.4f} (kurs MYR per USD)",
-        "STB": f"Nilai lokal GIVEN. USD DIHITUNG SENDIRI: S$ ÷ {FX[('SGP', YEAR)]:.4f} (kurs SGD per USD)",
-        "JTA": f"GIVEN ¥1.109 oku (= ¥110.900 juta). USD DIHITUNG SENDIRI: ÷ {FX[('JPN', YEAR)]:.2f} (kurs JPY per USD)",
+        "STB": f"Nilai lokal GIVEN. USD SELF-CALCULATED: S$ ÷ {FX[('SGP', YEAR)]:.4f} (kurs SGD per USD)",
+        "JTA": f"GIVEN ¥1.109 oku (= ¥110.900 juta). USD SELF-CALCULATED: ÷ {FX[('JPN', YEAR)]:.2f} (kurs JPY per USD)",
         "MOTS": "GIVEN: nilai USD langsung dari publikasi MOTS (tidak dikonversi ulang)",
-        "Haji": f"DIHITUNG SENDIRI: kuota haji {YEAR} (GIVEN) × (BPIH rata-rata − biaya tiket) ÷ {FX[('IDN', YEAR)]:,.0f}"
-                f" (kurs IDR). ASUMSI SENDIRI: biaya tiket final 2025 (Rp33,1 juta) dipakai untuk {YEAR}.",
+        "Haji": f"SELF-CALCULATED: kuota haji {YEAR} (GIVEN) × (BPIH rata-rata − biaya tiket) ÷ {FX[('IDN', YEAR)]:,.0f}"
+                f" (kurs IDR). SELF-ASSUMED: biaya tiket final 2025 (Rp33,1 juta) dipakai untuk {YEAR}.",
     }
     first = header(ws, 4, 1, ["Negara tujuan", "Nilai (mata uang lokal)", "Satuan", "Debit Indonesia (USD juta)",
                               "Periode", "Status angka", "Catatan", "Sumber"], [16, 14, 10, 14, 12, 52, 40, 16],
@@ -658,7 +759,7 @@ def main():
     prov_legend(ws)
     bold(ws, 4, 1, "Mirror OECD TIS (10 negara dengan neraca terbesar)", 10)
     first = header(ws, 5, 1, ["Negara"] + years, [20] + [9] * len(years), height=20,
-                   prov="DIHITUNG SENDIRI: kredit − debit Indonesia; kredit dan debit GIVEN dari OECD TIS (mirroring)",
+                   prov="SELF-CALCULATED – MIRRORING: kredit − debit Indonesia; kredit dan debit GIVEN – MIRRORING dari OECD TIS",
                    prov_height=18)
     top_rep = tis_y.neraca.abs().sort_values(ascending=False).head(10).index
     r = write_rows(ws, first, 1, [[nama(i)] + [tis_bal.loc[i, y] if y in tis_bal.columns else None for y in years]
@@ -670,7 +771,7 @@ def main():
     r += 1
     bold(ws, r, 1, "BaTIS nilai seimbang (10 negara dengan neraca terbesar)", 10)
     first = header(ws, r + 1, 1, ["Negara"] + years, height=20,
-                   prov="DIHITUNG SENDIRI: kredit B − debit B; kredit dan debit GIVEN dari OECD-WTO BaTIS",
+                   prov="Kredit B dan debit B GIVEN (diambil langsung dari OECD-WTO BaTIS, kode ME/IE: lihat sheet Legenda); neraca = SELF-CALCULATED: kredit B − debit B saja",
                    prov_height=18)
     write_rows(ws, first, 1, [[bt_std.loc[i, "nama"]] + [bh.loc[i, y] if y in bh.columns else None for y in years]
                               for i in top_bt], [None] + [NUM0] * len(years))
@@ -682,8 +783,8 @@ def main():
           "BI SEKI Tabel V.3 = angka resmi jasa perjalanan Indonesia dengan seluruh dunia (tanpa rincian negara).")
     prov_legend(ws)
     first = header(ws, 4, 1, ["Sisi", f"BPS {YEAR}", f"BI {YEAR}", "BPS / BI"], [30, 14, 14, 12], height=20,
-                   prov=[None, "DIHITUNG SENDIRI: total di sheet BPS – Perhitungan", "GIVEN (BI SEKI Tabel V.3)",
-                         "DIHITUNG SENDIRI: BPS ÷ BI"])
+                   prov=[None, "SELF-CALCULATED: total di sheet BPS – Perhitungan", "GIVEN (BI SEKI Tabel V.3)",
+                         "SELF-CALCULATED: BPS ÷ BI"])
     r = write_rows(ws, first, 1, [["Kredit", bc, bi.loc[YEAR, "credit"], bc / bi.loc[YEAR, "credit"]],
                               ["Debit", bd, bi.loc[YEAR, "debit"], bd / bi.loc[YEAR, "debit"]],
                               ["Neraca", bc - bd, bi.loc[YEAR, "balance"], None]], [None, NUM, NUM, PCT])
@@ -700,9 +801,9 @@ def main():
                       "BaTIS debit (jumlah semua mitra)", "Mirror kredit (jumlah negara pelapor)", "Porsi dari BI",
                       "Mirror debit (jumlah negara pelapor)", "Porsi dari BI"], [30, 11, 11, 11, 14, 14, 15, 9, 15, 9],
                    prov=[None, "GIVEN (BI)", "GIVEN (BI)", "GIVEN (BI)",
-                         "DIHITUNG SENDIRI: jumlah semua mitra (GIVEN BaTIS B)", "DIHITUNG SENDIRI: jumlah semua mitra",
-                         "DIHITUNG SENDIRI: jumlah pelapor OECD TIS + Eurostat-saja (EUR→USD)", "DIHITUNG SENDIRI: ÷ BI",
-                         "DIHITUNG SENDIRI: jumlah pelapor", "DIHITUNG SENDIRI: ÷ BI"], prov_height=64)
+                         "SELF-CALCULATED: jumlah semua mitra (GIVEN BaTIS B)", "SELF-CALCULATED: jumlah semua mitra",
+                         "SELF-CALCULATED: jumlah pelapor OECD TIS + Eurostat-saja (EUR→USD)", "SELF-CALCULATED: ÷ BI",
+                         "SELF-CALCULATED: jumlah pelapor", "SELF-CALCULATED: ÷ BI"], prov_height=64)
     rows = [[y, bi.loc[y, "credit"], bi.loc[y, "debit"], bi.loc[y, "balance"], bsum.loc[y, "credit"],
              bsum.loc[y, "debit"], msum.loc[y, "credit"], msum.loc[y, "credit"] / bi.loc[y, "credit"],
              msum.loc[y, "debit"], msum.loc[y, "debit"] / bi.loc[y, "debit"]] for y in range(2018, YEAR + 1)]
